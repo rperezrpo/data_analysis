@@ -1,0 +1,76 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Son soluciones a una problemática que presenta el territorio.",
+        "O sea, que la naturaleza se puede ver beneficiada y nosotros también podemos sacar beneficio de la naturaleza."
+      ],
+      "justificacion": "Reconoce de manera general que estas soluciones relacionan los problemas territoriales con beneficios para las personas y la naturaleza. No desarrolla una definición más específica ni ofrece ejemplos que permitan distinguirlas de otras iniciativas ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Es lo que se está viviendo ahora con el cambio climático.",
+        "También es por, por ejemplo, el fenómeno de El Niño, que produce mucho problema y a la vez se están provocando muchos incendios forestales, sobre todo.",
+        "Y cuando ya es el fenómeno de La Niña, entonces vienen los movimientos en masa, las inundaciones, las avenidas torrenciales."
+      ],
+      "justificacion": "Relaciona las amenazas con el cambio climático y distingue consecuencias asociadas a El Niño y La Niña, sin confundirlas con problemas ambientales genéricos. Para el nivel superior falta una reflexión sobre posibilidades comunitarias de gestionar estas amenazas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Las principales amenazas climáticas que tiene el territorio son los movimientos en masa, las avenidas torrenciales y los incendios forestales.",
+        "También es por, por ejemplo, el fenómeno de El Niño, que produce mucho problema y a la vez se están provocando muchos incendios forestales, sobre todo.",
+        "Y cuando ya es el fenómeno de La Niña, entonces vienen los movimientos en masa, las inundaciones, las avenidas torrenciales."
+      ],
+      "justificacion": "Identifica tres amenazas principales del territorio y las complementa con relaciones entre fenómenos climáticos y su ocurrencia. No describe sectores críticos, acontecimientos locales recordados ni encadenamientos precisos entre amenazas que permitan alcanzar el nivel superior."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 3,
+      "evidencia": [
+        "Cuando yo miro que se va a producir un movimiento en masa, uno mira más que todo la tierra: si está agrietada, o si le están saliendo nacimientos de agua, ¿cierto?",
+        "O si hay un árbol que está a punto de caerse, que también puede producir un movimiento en masa."
+      ],
+      "justificacion": "Reconoce tres indicios relevantes: agrietamiento del suelo, aparición de agua y árboles próximos a caer. No explica suficientemente los mecanismos que relacionan estas señales con la inestabilidad del terreno, necesarios para el nivel superior."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Las principales amenazas climáticas que tiene el territorio son los movimientos en masa, las avenidas torrenciales y los incendios forestales.",
+        "Tendría que mirar, por ejemplo, plantas que sean del mismo territorio, ¿entiendes?",
+        "Eso, plantas endémicas. Y que produzcan, más que todo, raíz para aferrar la tierra."
+      ],
+      "justificacion": "En el contexto de los movimientos en masa que reconoce en su territorio, propone plantas locales cuyas raíces permitan sujetar el suelo. Esta vinculación constituye una aplicación territorial de la vegetación, pero no explica al menos tres funciones ni sus aplicaciones o limitaciones para alcanzar el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Las guaduas ayudan a las quebradas y eso, ¿cierto?",
+        "Y también ayudan si uno necesita, por ejemplo, hacer eras o un parque lineal o algo así. Se pueden utilizar para eso."
+      ],
+      "justificacion": "Expresa por cuenta propia beneficios de la guadua y propone aplicaciones concretas en eras y parques lineales. No reconoce límites de uso, mantenimiento, durabilidad o requisitos técnicos que permitan ubicar esta capacidad en el nivel superior."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 3,
+      "evidencia": [
+        "Ayuda a combatir el cambio climático, por ejemplo, si se hace una buena jornada de aseo, y por la estructura que se vaya a realizar, ¿cierto?"
+      ],
+      "justificacion": "Relaciona la participación comunitaria con acciones y resultados materiales, como una jornada de aseo y la realización de una estructura, más allá de la concientización. No desarrolla una propuesta concreta de autogestión que explique cómo estas acciones resolverían una problemática climática local."
+    }
+  ]
+}

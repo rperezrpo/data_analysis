@@ -1,0 +1,83 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Son soluciones a una problemática que presenta el territorio.",
+    "la naturaleza se puede ver beneficiada y nosotros también podemos sacar beneficio de la naturaleza"
+   ],
+   "justificacion": "Da una definición básica que parte del propio nombre: soluciones a problemas del territorio que benefician a la naturaleza y a las personas. No da ejemplos concretos de SbN ni muestra que pueda distinguirlas de otros proyectos ambientales, que es lo que pide el nivel 3."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "Es lo que se está viviendo ahora con el cambio climático.",
+    "el fenómeno de El Niño, que produce mucho problema y a la vez se están provocando muchos incendios forestales",
+    "cuando ya es el fenómeno de La Niña, entonces vienen los movimientos en masa, las inundaciones, las avenidas torrenciales"
+   ],
+   "justificacion": "Relaciona la amenaza con el cambio climático y con fenómenos de largo plazo (El Niño y La Niña), y explica sus consecuencias (incendios, movimientos en masa, inundaciones, avenidas torrenciales). Para el nivel 5 le falta reflexionar sobre cómo la comunidad puede prevenir o reducir la amenaza, o recordar eventos del pasado."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "Las principales amenazas climáticas que tiene el territorio son los movimientos en masa, las avenidas torrenciales y los incendios forestales.",
+    "el fenómeno de El Niño, que produce mucho problema y a la vez se están provocando muchos incendios forestales",
+    "cuando ya es el fenómeno de La Niña, entonces vienen los movimientos en masa, las inundaciones, las avenidas torrenciales"
+   ],
+   "justificacion": "Nombra tres de las cuatro amenazas principales y las vincula con sus causas climáticas: El Niño con incendios y La Niña con movimientos en masa y avenidas torrenciales. Para el nivel 5 le faltan casos concretos, sectores críticos, eventos recordados o cambios que haya visto con el tiempo."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "uno mira más que todo la tierra: si está agrietada, o si le están saliendo nacimientos de agua, ¿cierto?",
+    "O si hay un árbol que está a punto de caerse, que también puede producir un movimiento en masa."
+   ],
+   "justificacion": "Menciona tres señales tempranas, todas clave: grietas, afloramientos de agua (humedad) y árboles a punto de caerse. No explica la relación entre cada señal y el deslizamiento (por ejemplo, que las grietas indican que el suelo ya se mueve), que es lo que pide el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Tendría que mirar, por ejemplo, plantas que sean del mismo territorio, ¿entiendes?",
+    "plantas endémicas. Y que produzcan, más que todo, raíz para aferrar la tierra."
+   ],
+   "justificacion": "Menciona una función concreta de la vegetación, amarrar la tierra con las raíces, y aclara que deben ser especies del territorio. No construye un argumento que relacione esa función con una problemática local específica, como lo pide el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "Las guaduas ayudan a las quebradas y eso, ¿cierto?",
+    "también ayudan si uno necesita, por ejemplo, hacer eras o un parque lineal o algo así. Se pueden utilizar para eso."
+   ],
+   "justificacion": "El ejemplo de la guadua lo dio el entrevistador. La persona menciona algunos usos (eras, parque lineal) y un beneficio para las quebradas, aunque este último se refiere más a la planta viva que al material. No desarrolla ventajas propias del biomaterial ni ofrece aplicaciones pensadas para su contexto con la profundidad del nivel 4."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Ayuda a combatir el cambio climático, por ejemplo, si se hace una buena jornada de aseo, y por la estructura que se vaya a realizar, ¿cierto?"
+   ],
+   "justificacion": "Ve la participación como algo que produce resultados tangibles (la estructura que se va a construir), no solo como un espacio para concientizar. La evidencia es escasa: no habla de autogestionar soluciones a problemas climáticos con ejemplos implementables o replicables, que es lo que pide el nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0803856
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "type": "object",
+ "properties": {
+  "capacidades": {
+   "type": "array",
+   "minItems": 7,
+   "maxItems": 7,
+   "items": {
+    "type": "object",
+    "properties": {
+     "n": {
+      "type": "integer"
+     },
+     "slug": {
+      "type": "string"
+     },
+     "nivel": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+     },
+     "evidencia": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "justificacion": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "n",
+     "slug",
+     "nivel",
+     "evidencia",
+     "justificacion"
+    ]
+   }
+  }
+ },
+ "required": [
+  "capacidades"
+ ]
+}

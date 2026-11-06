@@ -1,0 +1,98 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 5,
+   "evidencia": [
+    "La vereda El Uvito se vio abocada a buscar otro tipo de soluciones que no fueran concreto y cemento, porque está en una zona de alto riesgo",
+    "empezamos a trabajar con un ingeniero que tenemos en la Junta de Acción Comunal, que trabaja mucho la bioingeniería",
+    "el Distrito dice que el DAGRD y esas empresas que avalan ese tipo de obras dicen que no, que ellos no le invierten a eso",
+    "nosotros hemos trabajado todo el tema de la agroecología, de los bioinsumos para los cultivos",
+    "Hay que trabajar en la protección de los nacimientos con árboles nativos",
+    "Los trinchos son un ejemplo muy bueno de eso, de aprovechar esos mismos recursos de la naturaleza como la guadua, la cañabrava, la madera, para darle solución a problemática que tenemos en la vereda"
+   ],
+   "justificacion": "La persona define las SbN como el aprovechamiento de recursos de la naturaleza para resolver problemas de la vereda y las contrapone a las obras de concreto. Da ejemplos ligados a su contexto: trinchos, protección de nacimientos con árboles nativos y agroecología. Además, cuenta experiencias propias: trabajó con un ingeniero de la Junta en bioingeniería y el Distrito le negó apoyo para ese tipo de obras. Esto coincide con el descriptor de liderazgo, aunque la definición conceptual aparece repartida a lo largo de la entrevista."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "la amenaza climática ya ha avanzado demasiado debido a la cantidad de contaminación y a todo el daño que le hemos causado a la naturaleza",
+    "Hoy vemos reflejado todo ese cambio climático en las altas temperaturas, en las bajas temperaturas y en la contaminación. También se está empezando a notar mucho la escasez de agua y la escasez de alimentos",
+    "hace cien años hubo un verano de siete meses, y eso puede volver en cualquier momento, porque es cíclico",
+    "cuando se sobrepasan los 20 milímetros por metro cuadrado tenemos que avisarle a la comunidad",
+    "Y lo otro es el tema de la parcelación de la tierra y de la conurbación de la ciudad"
+   ],
+   "justificacion": "La persona relaciona el cambio climático con fenómenos de largo plazo, como los veranos cíclicos y prolongados y los cambios de temperatura, y con sus consecuencias locales: escasez de agua y alimentos, inundaciones y movimientos de tierra. También menciona memoria histórica y prácticas de gestión, como los medidores de lluvia y los avisos a la comunidad. No llega al nivel 5 porque mezcla la contaminación con las manifestaciones del cambio climático y presenta la parcelación y la conurbación como una amenaza, en lugar de tratarlas como agravantes."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "Tenemos, primero, el riesgo muy latente de un verano muy fuerte",
+    "Lo otro son los grandes movimientos en masa que tiene la vereda El Uvito, ya que está cruzada por una falla que se llama Romeral",
+    "con las precipitaciones que hemos tenido, la tierra se ha comenzado a fracturar fácilmente. Ya no necesita que caigan grandes aguaceros torrenciales",
+    "a partir de ahí comienzan las inundaciones y los movimientos de tierra",
+    "Con la tala del bosque, esa agua se ha profundizado mucho más"
+   ],
+   "justificacion": "La persona nombra movimientos en masa, inundaciones y veranos fuertes, y los relaciona con causas y agravantes: la falla de Romeral, las lluvias que fracturan el suelo, la tala y la parcelación. Recuerda un evento histórico (un verano de siete meses hace cien años) y menciona umbrales de lluvia. Para el nivel 5 le falta precisar sectores críticos o épocas concretas y describir con más detalle cómo se encadenan las amenazas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "con las precipitaciones que hemos tenido, la tierra se ha comenzado a fracturar fácilmente. Ya no necesita que caigan grandes aguaceros torrenciales",
+    "Tenemos acá medidores de lluvia, y cuando se sobrepasan los 20 milímetros por metro cuadrado tenemos que avisarle a la comunidad que debe estar atenta, porque a partir de ahí comienzan las inundaciones y los movimientos de tierra"
+   ],
+   "justificacion": "La persona identifica el fracturamiento del suelo y la acumulación de lluvia como señales, y explica que la lluvia fractura la tierra y desencadena movimientos. Además, describe una decisión preventiva basada en una condición medida: avisar a la comunidad cuando la lluvia supera los 20 mm, que corresponde al descriptor del nivel 5. Sin embargo, solo menciona una o dos señales y no habla de otras clave, como árboles o postes inclinados, tuberías rotas o construcciones en zonas inestables. Por eso el mejor ajuste es el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "los árboles, el bosque y los rastrojos sirven de amortiguación para retener las nubes y el agua, y para evitar que las escorrentías lleguen más rápido a las quebradas",
+    "guardan el agua porque actúan como una esponja, y poco a poco van soltando el agüita para que llegue a la ciudad",
+    "Con la tala del bosque, esa agua se ha profundizado mucho más. En cambio, cuando sembramos vegetación, el agua tiende a retenerse en la sombra",
+    "Hay que trabajar en la protección de los nacimientos con árboles nativos, porque nosotros somos un territorio rico en agua"
+   ],
+   "justificacion": "La persona explica en detalle cómo la vegetación retiene agua, amortigua la escorrentía, protege el agua subterránea y da sombra. Relaciona estas funciones con su territorio: la estrella hídrica, la tala y la protección de nacimientos. Las funciones que menciona son casi todas hidrológicas y no incluye otras, como amarrar la tierra o aportar a la biodiversidad. Tampoco señala limitaciones, como que no todas las especies cumplen las mismas funciones; eso es lo que le falta para el nivel 5."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 4,
+   "evidencia": [
+    "usamos mucho todos esos biomateriales para elaborar bioinsumos para los cultivos",
+    "Los trinchos son un ejemplo muy bueno de eso, de aprovechar esos mismos recursos de la naturaleza como la guadua, la cañabrava, la madera",
+    "son elementos naturales, sin químicos, que vienen del mismo territorio y no generan daños o consecuencias",
+    "luego de algun tiempo se degrada y se vuelve a integrar a la naturaleza. Eso mismo hace que sean un poco más económicos"
+   ],
+   "justificacion": "Al principio la persona confunde los biomateriales con los bioinsumos. Después identifica la guadua, la cañabrava y la madera, y señala ventajas como el origen local, la ausencia de químicos, su bajo costo y su biodegradabilidad. También los aplica a un proyecto concreto de su vereda: los trinchos. No reconoce límites como el mantenimiento, la durabilidad o los requisitos técnicos; incluso presenta la degradación solo como algo positivo. Por eso no alcanza el nivel 5."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 5,
+   "evidencia": [
+    "Pues es una herramienta muy eficaz. El problema es que hoy en día la participación de las personas está muy bajita",
+    "Esta vez vimos que llegaron vecinos de sectores cercanos... Ellos pueden ver qué se está haciendo y pensar en replicar ese proyecto más adelante",
+    "que nos dicen que este tipo de soluciones ellos no las aprueban. Entonces si nosotros queremos aportarle al territorio con estas soluciones, lo tenemos que hacer nosotros mismos",
+    "empezamos a trabajar con un ingeniero que tenemos en la Junta de Acción Comunal"
+   ],
+   "justificacion": "La persona explica por qué la autogestión es necesaria en su contexto: el Distrito no aprueba ni financia estas soluciones, así que la comunidad debe hacerlas por su cuenta. Cuenta que hubo réplica entre veredas vecinas y que cuentan con apoyo técnico propio (un ingeniero de la Junta de Acción Comunal). También reconoce límites, como la baja participación y la falta de recursos económicos. Esto corresponde al nivel de liderazgo."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.13258469999999997
+ }
+}

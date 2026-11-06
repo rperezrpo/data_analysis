@@ -1,0 +1,80 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "Siento que es darle más aprovechamiento a lo que nos brinda la naturaleza.",
+        "Para mitigar situaciones que nos puedan poner en peligro.",
+        "Pero, por ejemplo, ese trincho que hicimos, mire que lo hicimos con algo que nos proporciona la misma naturaleza.",
+        "Por ejemplo el tema de la reforestación, que nos ayuda con el tema de calor y para mejorar la tierra. O dependiendo de lo que se siembre, se pueden sostener los terrenos. También está el tema de recoger las aguas, porque nos ayudan a prevenir inundaciones."
+      ],
+      "justificacion": "Articula el aprovechamiento de la naturaleza con la prevención de situaciones peligrosas y explica aplicaciones para reducir calor, sostener terrenos y prevenir inundaciones. Además, reconoce su participación en la construcción de un trincho como experiencia territorial de estas soluciones, alcanzando el nivel máximo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Entonces si empieza a llover mucho, sumado a toda esa agua que ya tenemos entonces se empiezan a venir terrenos, y como no tenemos un buen sistema de alcantarillado, empiezan a haber inundaciones.",
+        "Pero también, por el contrario, cuando no llueve también toca que corten el agua."
+      ],
+      "justificacion": "Reconoce fenómenos climáticos y los relaciona con deslizamientos, inundaciones y falta de agua, incluyendo un agravante de infraestructura. No explica cómo el cambio climático modifica estas amenazas ni identifica tendencias de largo plazo, por lo que no alcanza el nivel 4."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Como tenemos tanta montaña, lo que más nos puede afectar es el tema de los deslizamientos.",
+        "Entonces si empieza a llover mucho, sumado a toda esa agua que ya tenemos entonces se empiezan a venir terrenos, y como no tenemos un buen sistema de alcantarillado, empiezan a haber inundaciones.",
+        "Entonces, si llueve mucho, se remoja mucho la tierra y va a dar a la quebrada, y puede haber un taponamiento."
+      ],
+      "justificacion": "Identifica deslizamientos e inundaciones y explica sus relaciones con las lluvias, la humedad del terreno, el relieve y el alcantarillado insuficiente. También describe el posible taponamiento de la quebrada por material deslizado, pero no aporta eventos recordados o sectores críticos suficientemente precisos para el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Si vemos grietas, un árbol que se desplazó... Grietas en las mismas viviendas o en la tierra. O también socavaciones.",
+        "Entonces, si llueve mucho, se remoja mucho la tierra y va a dar a la quebrada, y puede haber un taponamiento.",
+        "Nosotros hemos aprendido que sembrando árboles, o al menos algunos tipos de árboles, se ayuda a sostener el suelo y a filtrar el agua."
+      ],
+      "justificacion": "Reconoce grietas, desplazamiento de árboles y socavaciones como señales, y complementa esa identificación explicando la relación entre saturación del terreno y movimiento de tierra, además del papel estabilizador de los árboles. No establece una decisión preventiva concreta condicionada a estas señales, necesaria para el nivel 5."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Por ejemplo el tema de la reforestación, que nos ayuda con el tema de calor y para mejorar la tierra.",
+        "Nosotros hemos aprendido que sembrando árboles, o al menos algunos tipos de árboles, se ayuda a sostener el suelo y a filtrar el agua.",
+        "Entonces si cortamos los árboles y usamos las zonas verdes para construir, entonces se vuelve más impermeable el suelo y menos va a poder servir como ese filtro. Entonces el agua que tenemos por lo menos aquí por los nacimientos ya va a correr es sobre la vía."
+      ],
+      "justificacion": "Reconoce regulación del calor, sostenimiento del suelo y filtración del agua, y desarrolla un argumento local sobre cómo la pérdida de vegetación y la construcción favorecen la escorrentía hacia la vía. Aunque también menciona polinizadores y diferencias entre árboles, no desarrolla con detalle comparable al menos tres funciones y sus aplicaciones territoriales para alcanzar el nivel 5."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 3,
+      "evidencia": [
+        "En el convite lo que hicimos fue con la guadua... Y también hay lugares donde precisamente cultivan los árboles para usarlos para eso, para construir.",
+        "Porque me parece que esos son como materiales que se asimilan más con el terreno."
+      ],
+      "justificacion": "Identifica la guadua y los árboles como fuentes de materiales de construcción y expresa como ventaja su integración con el terreno. No desarrolla aplicaciones concretas con suficiente especificidad ni explica por qué serían pertinentes en determinadas situaciones para alcanzar el nivel 4."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Invitar a la comunidad a que quiera participar es un poco complejo.",
+        "Ya en términos de repetir, sería dependiendo del tema de los recursos, pero como comunidad podríamos salir a buscar ese tema.",
+        "Siento que los que estuvimos volveríamos a hacerlo y podríamos invitar a la comunidad, contarles y hacerlos como más concientes de lo que estamos haciendo."
+      ],
+      "justificacion": "Considera viable repetir comunitariamente la construcción realizada y propone buscar recursos e incorporar a más vecinos, reconociendo dificultades de participación. Esto demuestra una posibilidad concreta de autogestión, pero no explica las ventajas específicas de la autonomía comunitaria ni cómo se complementaría con apoyos externos para alcanzar el nivel 5."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 4,
+      "evidencia": [
+        "Las Soluciones basadas en la Naturaleza son las que utilizan los recursos naturales para tratar de, digamos, recuperar o devolver un poco el daño que se ha causado.",
+        "Por ejemplo, cuando hay derrumbes se utilizan las terrazas, que las hacen con guadua, con trinchos.",
+        "También se recoge el agua para darle un uso diferente: el agua lluvia, o de pronto las aguas grises, a las que se les puede hacer tratamiento para volverlas a usar."
+      ],
+      "justificacion": "Define las SbN como el aprovechamiento de recursos naturales para reparar daños y relaciona ejemplos específicos con derrumbes y reutilización del agua. Para el nivel superior falta plantear experiencias propias o posibilidades concretas de implementación comunitaria en su territorio."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "La amenaza climática es como las posibilidades que se van generando con respecto al cambio del clima.",
+        "Cuando llueve mucho, baja mucha agua por las vías, porque no hay una buena infraestructura de drenaje.",
+        "La otra son los deslizamientos, que se presentan a veces a raíz de las aguas."
+      ],
+      "justificacion": "Relaciona las amenazas con lluvias abundantes y sus consecuencias, identificando además el drenaje insuficiente como agravante. No explica cómo cambios climáticos de largo plazo intensifican estas amenazas, por lo que no alcanza el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Sobre todo el agua que baja por las vías. Cuando llueve mucho, baja mucha agua por las vías, porque no hay una buena infraestructura de drenaje.",
+        "La otra son los deslizamientos, que se presentan a veces a raíz de las aguas. Pueden ser aguas lluvias o aguas de riego o de acueducto que de pronto estén mal manejadas."
+      ],
+      "justificacion": "Explica amenazas locales mediante relaciones causales entre lluvias, drenaje insuficiente, escorrentía por las vías y deslizamientos asociados al manejo del agua. Aunque no enumera dos de las cuatro amenazas con precisión, demuestra conocimiento de sus agravantes; faltan eventos históricos, áreas críticas o encadenamientos más detallados para el nivel superior."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 3,
+      "evidencia": [
+        "Señales… Primero, la falta de árboles. Y el resquebrajamiento del suelo.",
+        "La otra son los deslizamientos, que se presentan a veces a raíz de las aguas. Pueden ser aguas lluvias o aguas de riego o de acueducto que de pronto estén mal manejadas."
+      ],
+      "justificacion": "Identifica pérdida de árboles, resquebrajamiento del suelo y manejo inadecuado del agua como señales o prácticas relacionadas con deslizamientos. No desarrolla cómo estas condiciones evidencian movimiento o alteran la estabilidad del suelo, necesario para el nivel superior."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 3,
+      "evidencia": [
+        "Primero, ayuda a disminuir un poco la concentración del C02. También ayuda a disminuir la temperatura, a amarrar los suelos y al manejo de las aguas."
+      ],
+      "justificacion": "Menciona funciones específicas de la vegetación: reducción de CO2 y temperatura, estabilización del suelo y manejo del agua. No construye un argumento que aplique estas funciones a problemáticas concretas de su territorio, como requiere el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Supongo que son materiales que vienen de la vegetación o de la misma naturaleza.",
+        "Pero de pronto como lo de los trinchos, por ejemplo. No sé si eso estará, de algún modo, dentro de los biomateriales.",
+        "Por ejemplo, cuando hay derrumbes se utilizan las terrazas, que las hacen con guadua, con trinchos."
+      ],
+      "justificacion": "Considerando toda la entrevista, relaciona los materiales naturales con los trinchos y reconoce la guadua como material para obras utilizadas ante derrumbes. Esta aplicación concreta sustenta el nivel, aunque expresa incertidumbre conceptual; para el superior falta reconocer límites técnicos, mantenimiento o durabilidad."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Sobre todo por la concientización.",
+        "Al concientizar a las personas, estas van a ayudar a disminuir un poco la deforestación, a mantener un poco más las plantas, a cuidar el agua, a cuidar los suelos, a cuidar el ambiente y a no hacer tantas quemas.",
+        "Por eso sería bueno el convite: porque se les puede enseñar muchas cosas más de lo que se necesite."
+      ],
+      "justificacion": "Valora el convite principalmente como espacio de educación y concientización que favorece prácticas ambientales responsables. No plantea la organización comunitaria como medio para autogestionar proyectos o soluciones tangibles, necesario para el nivel superior."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Son soluciones que usan la misma la naturaleza para ayudarnos con todo este cambio que está ocurriendo.",
+        "como para ayudarnos con las épocas de sequía.",
+        "Por ejemplo [fragmento omitido para la valoración ciega] los trinchos. O la recolección de agua lluvia."
+      ],
+      "justificacion": "Define las SbN como soluciones que utilizan la naturaleza y reconoce ejemplos específicos, además de mencionar su utilidad ante las sequías. Para el nivel superior falta explicar cómo esos ejemplos atenderían problemas concretos de su territorio."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Antes sabíamos que iba a llover en tal fecha, en tal época. Ya no: eso ha cambiado muchísimo.",
+        "Y hay veces que hacen unos calores que uno no se imaginaba. Entonces sí, ha cambiado muchísimo, y eso afecta a los cultivos, a todo.",
+        "Cuando hay mucho verano dicen que la quebrada se secó, que se quitó; pues déjenla ahí."
+      ],
+      "justificacion": "Reconoce cambios en las lluvias y el calor, y los relaciona con afectaciones a cultivos y fuentes de agua. Sin embargo, su explicación de amenaza climática mezcla estos fenómenos con temblores y problemas generales de cuidado ambiental, por lo que no demuestra la diferenciación necesaria para el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Y obviamente, si usted chuza y chuza la montaña arriba, ya se tiene que venir abajo.",
+        "Como la corrieron para el otro lado, cuando llueve el agua se va represando y empieza a salir por otras partes.",
+        "Y como se unen varias quebradas por acá, puede que se desborde por aquí o por allá.",
+        "Todo eso se va juntando y va ayudando a que la montaña caiga."
+      ],
+      "justificacion": "Identifica deslizamientos y desbordamientos, explicando cómo las intervenciones en montañas y quebradas, las lluvias y los escapes de agua agravan estas amenazas. Para el nivel superior faltan casos localizados, eventos recordados o cambios temporales concretos que sustenten una caracterización más precisa del territorio."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 5,
+      "evidencia": [
+        "Se ve chorreando, que hay un agua por debajo del montoncito o por los laditos, que se ve como filtrar.",
+        "También cuando echan mucha tierra en una parte muy inestable, o construyen en una parte muy inestable, que no es adecuada.",
+        "Además, en algunas ocasiones ponen agua, acueductos veredales o artesanales, o la usan para lavar los carros y las motos, y quedan las mangueras goteando. Todo eso se va juntando y va ayudando a que la montaña caiga.",
+        "Lo que hay que hacer es dejarla quieta: si tiene una falla, dejarla quieta, considero yo."
+      ],
+      "justificacion": "Reconoce filtraciones, escapes de agua y construcciones o rellenos en terrenos inestables, y explica su relación con la caída de la montaña. Además, establece una decisión preventiva condicionada: dejar de intervenir el terreno si presenta una falla. Esto alcanza el nivel superior de la rúbrica."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "La vegetación da mucha sombra, el fresquito. A veces hace tanto calor también por la poca vegetación.",
+        "Que la mantienen humedecida, como con el tema del agua.",
+        "Hay veces que hay árboles que no son apropiados para sembrarlos en cierta parte."
+      ],
+      "justificacion": "Relaciona el calor que experimenta con la escasez de vegetación y explica su función de sombra y enfriamiento; también reconoce la conservación de humedad y la importancia de seleccionar especies apropiadas. Para el nivel superior falta desarrollar al menos tres funciones y sus aplicaciones territoriales con mayor detalle."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "¿Biomateriales? Ay no, la verdad es que no sé."
+      ],
+      "justificacion": "Expresa que desconoce los biomateriales y no ofrece en otras intervenciones una asociación propia entre materiales naturales y construcción. Para el nivel siguiente tendría que identificar al menos un biomaterial de construcción."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Si todos trabajáramos por eso mismo, lograríamos mucho, muchísimo.",
+        "Cada uno pone su granito de arena.",
+        "Yo sé que podríamos, no sé cómo se dirá, enfrentar estos cambios climáticos, apoyar más a la tierra, a la naturaleza, y que podríamos mejorar mucho más."
+      ],
+      "justificacion": "Reconoce ventajas generales del trabajo colectivo y su posible aporte frente a los cambios climáticos. No concreta una solución ambiental autogestionada ni un resultado tangible de esa organización, necesarios para el nivel siguiente."
+    }
+  ]
+}

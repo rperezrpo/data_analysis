@@ -1,0 +1,80 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Como para proteger un poquitico más lo de la naturaleza: lo del agua, el aire.",
+    "Es lo de la sembración de las plantas. Yo digo que entre más sembremos planticas y árboles, es como conservar un poquito más la naturaleza."
+   ],
+   "justificacion": "Su definición es básica: habla de proteger la naturaleza (agua, aire) y da un ejemplo sencillo, sembrar plantas y árboles. Esto corresponde al nivel de percepción. Para llegar al nivel 3 le falta una definición más específica o varios ejemplos que distingan una SbN de cualquier acción de conservación."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "de pronto como cuando llueve demasiado y hay bordos donde la tierra no está muy bien apretadita, y se desbordan."
+   ],
+   "justificacion": "Relaciona la amenaza con un fenómeno del clima (la lluvia excesiva) y con su efecto sobre el terreno, pero lo hace de forma general. Para el nivel 4 le falta mencionar el cambio climático como agravante o fenómenos de largo plazo, y distinguir la amenaza de otros problemas."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Los movimientos de masa.",
+    "Sí, los derrumbes."
+   ],
+   "justificacion": "Reconoce una sola amenaza de su territorio, los movimientos en masa o derrumbes, y no da más detalle. Para el nivel 3 debería nombrar al menos dos de las amenazas principales (por ejemplo, avenidas torrenciales, inundaciones o incendios)."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "Cuando la tierra empieza a rajarse.",
+    "O cuando llueve mucho y hay algo que baja un poquito. Uno dice: \"no, esto con otro aguacero se va a ir\"."
+   ],
+   "justificacion": "Menciona dos señales: las grietas en la tierra y los pequeños movimientos después de lluvias fuertes. También intuye que otra lluvia puede desencadenar el derrumbe. Para el nivel 3 le faltan al menos tres señales o prácticas, y no explica la relación entre cada señal y el deslizamiento."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Ayuda a afirmar un poquito más. Es lo que decimos en las clases: que si se siembran tales y tales plantas, pueden apretar un poquito el terreno."
+   ],
+   "justificacion": "Nombra una función concreta de la vegetación: estabilizar el terreno (\"apretar\" la tierra). Sin embargo, no la vincula de forma explícita con una problemática específica de su territorio dentro de un argumento completo, como pide el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Estoy como perdida.",
+    "Ah, bueno. Entonces esa sí, porque con esa podemos atajar un poquito los derrumbes... y se van a hacer en forma de capitas [terrazas], para que podamos sostener."
+   ],
+   "justificacion": "No sabía qué era un biomaterial. Solo después de que el entrevistador nombró la guadua, que no cuenta como evidencia, asoció ese material con atajar derrumbes mediante terrazas. Muestra una idea inicial de su uso, pero no nombra biomateriales por sí misma ni señala ventajas de usarlos, que es lo que exige el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Porque una persona sola no lo puede hacer: se necesitan varios para poder colocar las guaduas, para después echar la tierra, para sembrar la vegetación.",
+    "Y si ya está dando el resultado, excelente."
+   ],
+   "justificacion": "Ve la participación comunitaria como un trabajo colectivo que da resultados concretos: colocar guaduas, echar tierra y sembrar. Esto va más allá de concientizar a la gente. Para el nivel 4 le falta identificar oportunidades de autogestión en su contexto o explicar si la comunidad podría hacer otro trincho por sí sola."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0746536
+ }
+}

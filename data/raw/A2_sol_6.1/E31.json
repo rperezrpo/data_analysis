@@ -1,0 +1,82 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 4,
+      "evidencia": [
+        "Son soluciones que la misma naturaleza nos ofrece y que podemos implementar debido a todo este cambio que estamos teniendo.",
+        "Por ejemplo, en temporada de lluvia, recoger las aguas para cuando no llueva.",
+        "la misma guadua se puede sembrar para que sostenga el terreno un poquito más."
+      ],
+      "justificacion": "Relaciona el aprovechamiento de recursos naturales con respuestas concretas a la sequía y la inestabilidad del terreno. Aunque plantea aplicaciones pertinentes, no desarrolla una definición conceptual suficientemente robusta para el nivel 5."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Hay épocas de mucha sequía, entonces tenemos que aprovechar todos estos recursos",
+        "Hay épocas de calor, y eso daña los cultivos.",
+        "También está el uso que le damos a la tierra: construimos mal"
+      ],
+      "justificacion": "Reconoce fenómenos climáticos y consecuencias como el daño a los cultivos, pero mezcla las amenazas con prácticas sociales. No explica claramente cómo el cambio climático intensifica o modifica esas amenazas, lo que limita el ajuste al nivel 4."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Los deslizamientos, por la misma ubicación geográfica, montañosa y rocosa, que no cuidamos.",
+        "Con la sobrepoblación construimos en cualquier lugar.",
+        "Cualquier espacio que vemos lo llenamos de tierra y construimos, sin el debido control, sin el debido examen de la tierra.",
+        "Talamos los árboles, y los espacios que eran de cultivo ya son de construcción, ya son carreteras."
+      ],
+      "justificacion": "Aunque se concentra en los deslizamientos, demuestra profundidad al relacionarlos con las características del terreno y con intervenciones que agravan su inestabilidad. No describe encadenamientos entre amenazas ni eventos o sectores críticos concretos que sustenten el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Es como cuando el terreno se va tajando, se va corriendo, como cediendo.",
+        "Las rocas que se van como chorreando, moviendo.",
+        "No, lo de las aguas que caen todas ahí en la montañita sin hacerles canalización, ni zanjas, ni nada de eso.",
+        "pero que si no recogían esas aguas no podía durar mucho."
+      ],
+      "justificacion": "Identifica agrietamiento, desplazamientos y aguas sin canalizar, y relaciona estas últimas con la pérdida de estabilidad y duración de la intervención. No establece una decisión preventiva concreta condicionada a la evolución o evaluación de la amenaza, como requiere el nivel 5."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Hay que saber qué árboles y qué maticas se siembran, porque ayudan a amarrar la tierra, a sostenerla.",
+        "Inclusive hay unas que ayudan a absorber el agüita y a mantenerla ahí de forma más apropiada.",
+        "hay que saber qué planticas se siembran en determinado terreno."
+      ],
+      "justificacion": "Explica funciones de estabilización del suelo y manejo del agua pertinentes para los problemas de ladera descritos en su territorio, y reconoce que dependen de las especies y del terreno. No desarrolla al menos tres funciones diferenciadas con el detalle y la amplitud necesarios para el nivel 5."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 3,
+      "evidencia": [
+        "La guadua. O sea, los materiales naturales, lo que la misma naturaleza nos da",
+        "son las que ayudan a sostener el trabajo que se está haciendo, y que vienen de la misma naturaleza."
+      ],
+      "justificacion": "Identifica la guadua como biomaterial y reconoce su utilidad para sostener la intervención realizada. Sin embargo, no precisa aplicaciones constructivas o situaciones de uso suficientemente desarrolladas para el nivel 4; sembrar guadua para estabilizar el suelo no constituye por sí mismo una aplicación constructiva del material."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Entonces es una herramienta súper importante, porque la podemos tener nosotros, las comunidades.",
+        "Me parece súper que la comunidad se una, y que los chicos del ITM, con su estudio, vengan a compartir con el conocimiento de los campesinos.",
+        "Es integrar todos los conocimientos, y el resultado es que nos queda un conocimiento, un material, una herramienta para poder replicar en otras oportunidades o en otras comunidades."
+      ],
+      "justificacion": "Explica que el trabajo comunitario deja capacidades y recursos para responder a problemas de deslizamiento y replicar soluciones en otros lugares. Además, reconoce la complementariedad entre el conocimiento campesino y el académico como fundamento de esa capacidad de gestión."
+    }
+  ]
+}

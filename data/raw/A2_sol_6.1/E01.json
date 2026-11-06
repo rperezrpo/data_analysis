@@ -1,0 +1,79 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Son soluciones que podemos hacer con lo que contamos, con los medios naturales.",
+        "Sirven para evitar catástrofes, inclusive como la que ocurrió esta semana."
+      ],
+      "justificacion": "Reconoce el aprovechamiento de medios naturales y su utilidad para reducir daños y preservar recursos. No ofrece ejemplos concretos que permitan distinguir las SbN de otras intervenciones ambientales, necesarios para demostrar el nivel siguiente."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Una amenaza es algo que está ahí latente, o sea, algo que nos puede ocurrir.",
+        "Y es climática porque, debido a los cambios que están ocurriendo, podemos vernos inmersos en inundaciones, sequías, pérdida de los cultivos o incendios.",
+        "Con estos cambios climáticos vamos a estar sometidos a muchos fenómenos en los que inclusive podemos perder la vida o todas las cosas que tenemos."
+      ],
+      "justificacion": "Comprende la amenaza como una posibilidad latente y relaciona los cambios climáticos con fenómenos específicos y sus consecuencias. Aunque también menciona contaminación, identifica claramente amenazas climáticas; para el nivel superior falta desarrollar posibilidades concretas de gestión comunitaria de estas amenazas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "Precisamente en este momento, esta semana, ya hemos tenido como dos incendios.",
+        "Creo que hoy hubo uno en los límites con el corregimiento de Palmitas, en el Alto de Boquerón.",
+        "El de las quebradas siempre va a estar ahí, porque ante un aguacero torrencial La Iguaná, que hace el recorrido por todo el sector, siempre presenta inconvenientes.",
+        "Vi como dos árboles que están a punto de caerse en el sector de los Restrepo, y se ve que el terreno se ha movido bastante y se sigue moviendo."
+      ],
+      "justificacion": "Demuestra conocimiento territorial situado mediante incendios recientes, sectores específicos y observaciones de movimientos del terreno. Además, relaciona los aguaceros torrenciales con problemas recurrentes en La Iguaná; la combinación de referencias espaciales, temporales y señales observadas corresponde al nivel máximo."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Vi como dos árboles que están a punto de caerse en el sector de los Restrepo, y se ve que el terreno se ha movido bastante y se sigue moviendo.",
+        "Lo que vemos es que hay muchas mangueras y muchas cosas en la parte alta.",
+        "Por lo que he visto, ese sector tiene riesgo de seguir deslizándose."
+      ],
+      "justificacion": "Reconoce indicios de inestabilidad mediante árboles próximos a caer y movimiento visible del terreno. No demuestra tres señales o prácticas suficientemente identificadas para el nivel siguiente: menciona mangueras, pero no indica roturas, fugas ni acumulación de humedad."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Bueno, los árboles tienen la capacidad de capturar CO2 y de hacer la fotosíntesis. También dan sombra.",
+        "Además, evitan que con las lluvias el suelo corra sin algo que amortigüe ese choque tan brusco, porque las raíces van a estabilizar los terrenos.",
+        "Realmente necesitamos árboles por la elevación de la temperatura que tenemos."
+      ],
+      "justificacion": "Identifica captura de CO2, sombra y estabilización del suelo, explicando la protección frente a la lluvia y vinculando los árboles con el aumento de temperatura que experimentan. Para el nivel superior faltan ejemplos territoriales de aplicación y un desarrollo más detallado de al menos tres funciones, o de sus limitaciones."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "De pronto lo asocio con el \"bio\" de los cultivos, las algas… No sé. Todavía no tengo una idea bien concreta del tema."
+      ],
+      "justificacion": "Manifiesta no tener una idea concreta de los biomateriales y no los relaciona con la construcción. Para el nivel siguiente tendría que identificar al menos un material de construcción de origen biológico."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 3,
+      "evidencia": [
+        "Es muy difícil que un gobierno ataque todos los frentes.",
+        "Pero si la misma comunidad sale y se une para hacerle frente a una problemática que tiene, yo diría que es capaz de resolverla.",
+        "A veces no es tanto la plata, aunque se necesiten recursos, sino que todas las fuerzas se dirijan en el mismo sentido."
+      ],
+      "justificacion": "Considera que la comunidad puede organizarse para resolver sus propias problemáticas, más allá de generar conciencia, y reconoce la necesidad de recursos y coordinación. Para el nivel siguiente falta concretar una iniciativa implementable o replicable que atienda una problemática climática del territorio."
+    }
+  ]
+}

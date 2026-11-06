@@ -1,0 +1,89 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "Con las Soluciones basadas en la Naturaleza se utilizan los mismos recursos que tiene la naturaleza, y que ella nos provee a los seres humanos, para aplicarlos en algunos lugares y dar ciertas soluciones a ciertos problemas.",
+        "Con ellas se hacen trinchos y otras cosas que sirven para retener la tierra o para reducir la humedad en el lugar.",
+        "Las piedras se utilizan como medio natural para disminuir las corrientes de agua, para mermar su velocidad.",
+        "Yo ya había participado alguna vez en la construcción de unos trinchos, un poco más arriba de donde hicimos el que realizamos."
+      ],
+      "justificacion": "Define las SbN como soluciones que emplean recursos naturales y explica aplicaciones concretas para estabilizar terrenos y manejar corrientes de agua. Además, relata su participación en construcciones anteriores de trinchos y reconoce posibilidades de implementación comunitaria, alcanzando el nivel máximo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "Siempre habíamos vivido momentos en que el tiempo se volvía más frío y otros en que se volvía más caliente, pero la fuerza del calor o del frío ahora es más violenta.",
+        "Llueve mucho, entonces las quebradas crecen demasiado y generan esa problemática.",
+        "Cuando, por alguna circunstancia, algunas personas dejan mangueras rotas o tuberías dañadas filtrando agua permanentemente en un terreno, la humedad lo va saturando hasta que ocurre el deslave.",
+        "Estos convites ayudan a que nosotros mismos hagamos prevención para que no haya deslizamientos."
+      ],
+      "justificacion": "Reconoce cambios en la intensidad del clima, relaciona las lluvias con crecidas locales y diferencia prácticas humanas que agravan la inestabilidad del terreno. Supera la descripción de amenazas al plantear su prevención mediante acciones comunitarias, lo que corresponde al nivel máximo."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Bueno, aquí en mi vereda lo más fuerte son los deslizamientos. También las salidas tan fuertes de las corrientes de agua, porque generan una problemática.",
+        "Los deslizamientos amenazan el territorio, los cultivos, las viviendas y la misma vía, que es una sola.",
+        "Llueve mucho, entonces las quebradas crecen demasiado y generan esa problemática.",
+        "Los pobladores quitan los árboles y luego hacen una edificación, pero al terreno no le hacen un trabajo para que quede seguro, no lo amarran con vegetación, que es lo más importante."
+      ],
+      "justificacion": "Identifica deslizamientos y crecidas fuertes de las corrientes, explica sus consecuencias locales y vincula las amenazas con lluvias prolongadas, pérdida de vegetación y construcción sin estabilización. Para el nivel superior faltan relatos precisos de eventos, sectores críticos o encadenamientos de amenazas sustentados en la memoria territorial."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Lo que más lo muestra, y lo más grave, es la falta de arborización. Se sabe que donde no hay árboles no hay raíces que amarren el terreno.",
+        "Cuando, por alguna circunstancia, algunas personas dejan mangueras rotas o tuberías dañadas filtrando agua permanentemente en un terreno, la humedad lo va saturando hasta que ocurre el deslave.",
+        "Los pobladores quitan los árboles y luego hacen una edificación, pero al terreno no le hacen un trabajo para que quede seguro, no lo amarran con vegetación, que es lo más importante."
+      ],
+      "justificacion": "Reconoce pérdida de árboles, humedad, fugas de tuberías y edificaciones sin estabilización, explicando cómo estas condiciones favorecen los deslizamientos. No establece una decisión preventiva concreta condicionada a señales de movimiento o a una evaluación de estabilidad, necesaria para el nivel superior."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Esto porque las plantas también se encargan de reducir la humedad: mandan el agua para otro lado, la consumen ellas mismas o la canalizan a través de la raíz.",
+        "Se sabe que donde no hay árboles no hay raíces que amarren el terreno.",
+        "Si no hay vegetación, vuelvo y digo, la tierra se lava cada vez que llueve. Los vientos son más fuertes, porque no hay quien los retenga un poquito, y eso genera otra problemática. Y la temperatura, el sol, aumenta demasiado.",
+        "A través de la guadua se logra que la tierra se estabilice un poco, y luego esa estabilidad del terreno se va aumentando con plantas vivas."
+      ],
+      "justificacion": "Relaciona funciones de la vegetación con problemas locales de humedad, erosión e inestabilidad, y explica su incorporación para complementar los trinchos. También menciona regulación del viento y la temperatura, pero no desarrolla con detalle al menos tres funciones con aplicaciones territoriales ni reconoce limitaciones de las especies para alcanzar el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 5,
+      "evidencia": [
+        "Los biomateriales son elementos que provee la naturaleza, como en este caso la guadua. La guadua sirve para amarrar terrenos.",
+        "Con ella se hacen unos trinchos que se van ubicando de manera estructural, formando como una barrera, un vallado, y se amarran con hierro.",
+        "Si hay un temblor muy fuerte, es posible que la casa de madera no nos mate, o que se reduzca la posibilidad de que perdamos la vida, ¿cierto?",
+        "Ese fue uno de los errores que cometimos en el trincho de arriba: usamos la guadua sin inmunizar.",
+        "Son circunstancias vitales, porque una guadua inmunizada dura mucho tiempo, mientras que una guadua sin inmunizar se acaba muy ligero con la humedad que se da aquí en este territorio."
+      ],
+      "justificacion": "Identifica biomateriales, explica aplicaciones estructurales y reconoce ventajas ambientales y de seguridad. Además, fundamenta en una experiencia local la necesidad de inmunizar la guadua y su limitación de durabilidad frente a la humedad, cumpliendo el nivel máximo."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Estos convites ayudan a que nosotros mismos hagamos prevención para que no haya deslizamientos.",
+        "Entonces yo creo que sí podríamos hacerlo como comunidad, por aparte, sin tener un técnico, sin tener un experto.",
+        "Poner a una comunidad de acuerdo es un poco difícil, porque cada uno quiere que prime su pensamiento, su concepto.",
+        "Como digo, el trincho de arriba, donde don Luis, lo habíamos hecho nosotros sin tener experto, pero cometimos algunos errores.",
+        "Teniendo el conocimiento, yo podría ayudar a liderar el convite, la actividad que se piense hacer."
+      ],
+      "justificacion": "Reconoce que la comunidad puede ejecutar soluciones preventivas y lo sustenta en una experiencia concreta de autogestión. A la vez, explica límites de coordinación y conocimiento técnico, valora el acompañamiento profesional y plantea asumir liderazgo con formación, alcanzando el nivel máximo."
+    }
+  ]
+}

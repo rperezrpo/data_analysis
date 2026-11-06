@@ -1,0 +1,94 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Pues pienso que son soluciones sacadas de la naturaleza, ¿cierto? Para no dañar la naturaleza, y sirven para la misma naturaleza.",
+    "Son como para proteger ecosistemas, para gestionar de manera sostenible la protección…",
+    "Por ejemplo reforestación, algo como ese muro que hicimos... que no es un muro, son terrazas de guadua, muros de contención.",
+    "Cuando cambiamos las cercas vivas de Duranta por especies nativas. O por ejemplo los techos verdes"
+   ],
+   "justificacion": "Da una definición básica, algo más precisa al mencionar la protección de ecosistemas y la gestión sostenible. Además nombra varios ejemplos específicos de SbN: reforestación, terrazas de guadua, cercas vivas nativas y techos verdes. Para el nivel 4 le falta una definición completa que diga que estas soluciones sirven para mitigar riesgos o resolver problemas, y relacionar cada ejemplo con una problemática concreta de su vereda."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "ameanza climática para mi es cuando llueve demasiado y no estamos preparados.",
+    "O los huracanes, porque acá también ventea bastantico.",
+    "Cuando hay inundaciones y se crece la quebrada. O cuando hay sequía, eso también es una amenaza climática."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima (lluvias intensas, vientos, sequía) y con algunas de sus consecuencias, como la creciente de la quebrada. También deja ver la idea de preparación. Lo hace de forma general y no menciona el cambio climático ni fenómenos de largo plazo (El Niño o La Niña, aumento de la temperatura) como agravantes, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "cuando llueve demasiado y hay escorrentías, entonces puede haber deslizamientos y también inundaciones.",
+    "vivimos en una vereda que no es plana, es una montaña muy pendiente. Entonces todo lo que hay arriba escurre hacia la parte de abajo, hacia las quebradas.",
+    "También porque se talan árboles y se hacen casas al lado de las quebradas.",
+    "Antes el agua se filtraba, ¿cierto? Ahora no, ahora hay demasiado cemento ."
+   ],
+   "justificacion": "Nombra deslizamientos e inundaciones como las amenazas principales de su territorio. Arma argumentos sobre sus causas y agravantes: la pendiente, la escorrentía hacia las quebradas, la tala, las casas junto a las quebradas y el cemento que impide que el agua se filtre. Menciona un cambio en el tiempo, pero no habla de eventos concretos, sectores críticos ni épocas específicas, que es lo que pide el nivel 5."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "Que talen los árboles ayuda a que se mueva la tierra.",
+    "Otra es cuando hace mucho verano y se agrieta la tierra, ¿cierto? Y después llueve y toda esa agua por ahí se va filtrando, y va agrietando.",
+    "Cuando hay mangueras rotas, también, entonces ponemos cuidado.",
+    "el agua va haciendo humedad, ¿cierto? Y también puede haber movimientos. Porque eso empieza pequeño, pero va creciendo con la humedad, y entonces aparecen las grietas",
+    "Que no hay bastante raíz que sostenga la tierra, y entonces hay un deslizamiento."
+   ],
+   "justificacion": "Identifica varias señales y prácticas clave: tala, erosión, árboles que cambian de forma, grietas, mangueras rotas y falta de pozos sépticos. Además explica cómo cada una se relaciona con el deslizamiento: el agua se filtra por las grietas, la humedad avanza y falta raíz que sostenga la tierra. Le falta formular una decisión preventiva ligada a una condición concreta para llegar al nivel 5; «ponemos cuidado» es demasiado general."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Una forma es el oxígeno que ellos producen. Otra es con la variedad: si hay variedad es otra forma de protegernos.",
+    "Nos ayudan también con el aumento de las temperaturas. Entiendo también que ayudan a mitigar un poco los huracanes [vientos fuertes].",
+    "Ellos ahí ayudan a sostener la tierra y cuando llueve ayudan a filtrar. Evitan que el agua se vaya así de una ¿cierto?",
+    "Que no hay bastante raíz que sostenga la tierra, y entonces hay un deslizamiento."
+   ],
+   "justificacion": "Menciona muchas funciones de la vegetación: oxígeno, biodiversidad, regulación de la temperatura, protección contra el viento, sostener la tierra y filtrar o retener el agua. Relaciona las raíces con la prevención de deslizamientos y con la obra hecha en el convite, lo que corresponde al nivel 4. Para el nivel 5 le falta explicar las funciones con más detalle y dar ejemplos de su uso en el territorio, sobre todo de las funciones de adaptación, o mencionar límites del uso de la vegetación."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Bueno son materiales que son sacados de la naturaleza, como para interactuar con la naturaleza.",
+    "Ellos sirven, si uno los coloca antes de, para evitar algo. Pero también se pueden poner después, como lo que hicimos allá, para tratar un problema o algo que se dañó. Como para mitigar."
+   ],
+   "justificacion": "Da una noción general de los biomateriales y los asocia con la obra construida en el convite, que sirvió para prevenir o corregir un problema. No identifica materiales concretos como biomateriales ni menciona ventajas específicas, como disponibilidad local, menores emisiones o confort térmico, que son necesarias para el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 5,
+   "evidencia": [
+    "Nosotros somos los que sabemos, los que podemos ayudar. Si ustedes no saben qué es lo que está pasando, no pueden saber en qué parte pueden hacer algo para ayudarnos a solucionar.",
+    "los convites son muy importantes, también por el apoyo entre nosotros. No podemos hacer nada sin ustedes, ni ustedes sin nosotros.",
+    "Yo sola no sería capaz. Porque eso siempre tiene su técnica.",
+    "Puede que haya otro deslizamiento, pero puede que no tenga las mismas características. No todos los deslizamientos son iguales, entonces sí necesitaríamos algún apoyo para saber qué hacer."
+   ],
+   "justificacion": "Explica la ventaja de la comunidad: su conocimiento del territorio es indispensable para saber dónde y cómo intervenir. También reconoce límites claros: hace falta técnica y práctica, y cada deslizamiento es distinto, así que se necesita apoyo experto. Plantea la relación con los expertos como complementaria, que es justo lo que describe el nivel 5, y además muestra interés en llegar a guiar talleres en el futuro."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.11724009999999999
+ }
+}

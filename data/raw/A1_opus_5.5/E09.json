@@ -1,0 +1,88 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Podemos prevenir, porque vemos a tiempo las cosas.",
+    "Lo que nos dicen mucho es que hay que sembrar las plantas, ¿cierto? No recuerdo bien cómo se llaman... ¿nativas?."
+   ],
+   "justificacion": "La persona da una idea vaga de prevención y un ejemplo sencillo: sembrar plantas nativas. Eso corresponde a la percepción básica del nivel 2. No ofrece una definición conceptual de las SbN ni varios ejemplos específicos que las distingan de otros proyectos ambientales, como pide el nivel 3."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Pues como la naturaleza. A veces son cosas provocadas pero en sí es la naturaleza.",
+    "cuando una quebrada crece: es porque ella busca su caudal.",
+    "Y a veces sí lo buscamos nosotros, claro, porque uno construye en partes donde no se puede."
+   ],
+   "justificacion": "Asocia la amenaza con fenómenos naturales, como la creciente de la quebrada, y reconoce que construir donde no se debe la agrava. Esto corresponde a una comprensión general de nivel 3. No menciona el cambio climático ni fenómenos de largo plazo, como El Niño o el aumento de la temperatura. Además, dice que «frente a la naturaleza no hay como nada que hacer», lo que la aleja de una reflexión sobre la gestión de la amenaza."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "hay muchos puntos como quebradizos. Tenemos en la parte de arriba de la vereda, que eso ya está bastante.",
+    "También hay aguas, agüitas, que, según lo que nos ha dicho Álvaro, ellos quieren coger y organizar, pero no han podido.",
+    "cuando una quebrada crece: es porque ella busca su caudal."
+   ],
+   "justificacion": "Nombra con sus propias palabras los deslizamientos («puntos quebradizos») y las crecientes de la quebrada. También ubica sectores críticos de forma general: la parte de arriba de la vereda y unos tres puntos. Para el nivel 4 le falta un argumento completo que conecte fenómenos climáticos o señales del territorio con esas amenazas y sus causas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "Cuando uno ve que hay un agua profunda.",
+    "uno, por ejemplo, siempre pasa por el sitio y ve el agua [brotar]. Y uno dice: \"aquí hay un agua profunda\".",
+    "Porque si no hubiera nada, se desliza y esa tierra queda ahí lisa"
+   ],
+   "justificacion": "Identifica una sola señal temprana: el agua que brota o la humedad del suelo. Al hablar de vegetación sugiere que la falta de cobertura favorece el deslizamiento. No llega a tres señales o prácticas, ni explica la relación de cada una con el movimiento del terreno, como piden los niveles 3 y 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "los días de lluvia, cuando hay más agua, pienso yo. Ella la va a absorber, empieza como a chupar de ahí. Si el sitio está muy húmedo, ella también puede absorber bastante.",
+    "Porque si no hubiera nada, se desliza y esa tierra queda ahí lisa y se volvería pantanosa, escurridiza",
+    "siempre que sean árboles que tengan buena raíz, pienso yo, ayudan."
+   ],
+   "justificacion": "Explica cómo la vegetación absorbe el agua de lluvia y de los sitios húmedos y cómo sus raíces evitan que la tierra se deslice. Relaciona esas funciones con los deslizamientos y la humedad de su vereda, lo que corresponde al nivel 4. Para el nivel 5 le falta explicar al menos tres funciones que incluyan también la adaptación, como sombra, oxígeno o biodiversidad, con ejemplos de uso en el territorio."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "Ah, sí. Sí, sí, lo de arriba.",
+    "puede ayudar, como en el trabajo que hicimos: puede ayudar para que no se venga toda esa barranca, o también para jardín, para sostener también, no sé."
+   ],
+   "justificacion": "Reconoce el material usado en el convite, que nombró el entrevistador, y le atribuye utilidades: sostener la barranca y servir para jardines. Eso equivale a nombrar algunas ventajas. Su ejemplo de San Cristóbal es confuso y no queda claro que sea un proyecto con biomateriales, por lo que no alcanza a mostrar aplicaciones pertinentes con seguridad. Tampoco menciona límites como la durabilidad o el mantenimiento."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "Si no se hace así, en convite o de forma comunitaria, no se daría, pienso yo. Porque uno mismo no tiene la iniciativa",
+    "Ya pueden ver una zanja tapada, una cuneta tapada, un rastrojo… Mire que todos esos cercos nadie los arregla.",
+    "Yo pienso que la convocatoria vendría por parte de la Acción Comunal, y que hay que animar a la gente.",
+    "Que pongan una cuotica, 10.000 pesitos, 15.000; eso se recoge para pagar, porque somos muchos usuarios."
+   ],
+   "justificacion": "Ve el convite como una forma de autogestionar resultados concretos, como limpiar zanjas y cunetas o arreglar cercos. Propone cómo organizarlo: convocatoria de la Acción Comunal, los sábados, con cuotas para pagar trabajadores. También reconoce obstáculos prácticos, como el trabajo, el mercado y el transporte, y recuerda experiencias pasadas que se podrían replicar. Para el nivel 5 le falta explicar por qué la autogestión ofrece ventajas para manejar los problemas climáticos de su contexto, o cómo se complementa con apoyo técnico externo."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.09953800000000002
+ }
+}

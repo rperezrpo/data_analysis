@@ -1,0 +1,34 @@
+0 hechas, 32 pendientes
+ok  E01|R  claude-opus-5-5
+ok  E05|R  claude-opus-5-5
+ok  E03|R  claude-opus-5-5
+ok  E04|R  claude-opus-5-5
+ok  E02|R  claude-opus-5-5
+ok  E06|R  claude-opus-5-5
+ok  E07|R  claude-opus-5-5
+ok  E08|R  claude-opus-5-5
+ok  E09|R  claude-opus-5-5
+ok  E11|R  claude-opus-5-5
+ok  E10|R  claude-opus-5-5
+ok  E12|R  claude-opus-5-5
+ok  E13|R  claude-opus-5-5
+ok  E14|R  claude-opus-5-5
+ok  E15|R  claude-opus-5-5
+ok  E16|R  claude-opus-5-5
+ok  E17|R  claude-opus-5-5
+ok  E18|R  claude-opus-5-5
+ok  E19|R  claude-opus-5-5
+ok  E21|R  claude-opus-5-5
+ok  E20|R  claude-opus-5-5
+ok  E23|R  claude-opus-5-5
+ok  E24|R  claude-opus-5-5
+ok  E25|R  claude-opus-5-5
+ok  E22|R  claude-opus-5-5
+ok  E26|R  claude-opus-5-5
+ok  E27|R  claude-opus-5-5
+ok  E29|R  claude-opus-5-5
+ok  E28|R  claude-opus-5-5
+ok  E30|R  claude-opus-5-5
+ok  E32|R  claude-opus-5-5
+ok  E31|R  claude-opus-5-5
+Listo: 32/32. Faltan: ninguna. Modelo distinto: ninguno. Costo: 4.79 USD

@@ -1,0 +1,81 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Sirven para prevenir situaciones del medio ambiente, como deslizamientos o inundaciones.",
+    "Como lo que ustedes me habían comentado allá de esas cercas, como vivas, algo así."
+   ],
+   "justificacion": "La persona dice para qué sirven las SbN y las relaciona con deslizamientos e inundaciones. También menciona de pasada las cercas vivas como ejemplo sencillo. No dice que estas soluciones usan elementos de la naturaleza ni las distingue de otras obras. Para llegar al nivel 3 le falta una definición conceptual más específica o varios ejemplos concretos de SbN."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Es lo que estamos viviendo ahora con el agua: que ya no hay agua. Todo esto que afecta al ser humano."
+   ],
+   "justificacion": "Relaciona la amenaza climática con un fenómeno del clima, la escasez de agua, pero lo hace de forma general y sin precisar el concepto. No menciona el cambio climático como agravante ni fenómenos de largo plazo. Tampoco separa la amenaza climática de otros problemas ambientales. Por eso no alcanza el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "La falta de agua, los deslizamientos y la contaminación de las quebradas."
+   ],
+   "justificacion": "Nombra los deslizamientos, que son una de las cuatro amenazas principales del territorio. Los pone junto a la falta de agua y la contaminación de las quebradas, que es un problema no climático. Para el nivel 3 tendría que nombrar al menos dos de las amenazas principales (deslizamientos, avenidas torrenciales, inundaciones e incendios)."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "El piso 'tarjado' y las aguas que se ven por ahí brotando de la tierra.",
+    "Toda la vegetación le da más estabilidad a los terrenos."
+   ],
+   "justificacion": "Identifica dos señales clave: las grietas en el suelo y la humedad o el agua que brota de la tierra. Además reconoce que la vegetación le da estabilidad al terreno, lo que sugiere que perderla favorece los deslizamientos. Con esto, el mejor ajuste es el nivel 3. Para el nivel 4 le falta explicar por qué cada señal indica un posible deslizamiento."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Toda la vegetación le da más estabilidad a los terrenos.",
+    "Como lo que ustedes me habían comentado allá de esas cercas, como vivas, algo así."
+   ],
+   "justificacion": "Menciona una función concreta de la vegetación: estabilizar los terrenos. También alude a las cercas vivas. No construye un argumento que vincule esa función con un problema concreto de su territorio. Eso es lo que le falta para el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "¿Los biogestores?",
+    "¿La que utilizamos allá arriba?",
+    "Ayuda bastante a la parte ecológica. Son materiales que le ayudan al propio terreno a abastecerse y a crear como nuevos cimientos, según lo que yo vi allá con las plantas y todo lo que se sembró."
+   ],
+   "justificacion": "Al principio confunde biomateriales con biodigestores. Solo reconoce la guadua después de que el entrevistador la menciona. Habla de un beneficio ecológico vago y lo confunde con lo que se sembró. No nombra ventajas concretas de los biomateriales en la construcción, que es lo que pide el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "Es como dice el dicho: la unión hace la fuerza.",
+    "una unión que se hace en beneficio de toda la comunidad."
+   ],
+   "justificacion": "Ve ventajas generales del trabajo comunitario y las expresa como unión y beneficio colectivo. No presenta la participación como una forma de autogestionar soluciones concretas. Tampoco menciona resultados tangibles, que es lo que le falta para el nivel 3."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0714772
+ }
+}

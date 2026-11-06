@@ -1,0 +1,82 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Para que mitigar o prevenir esas amenazas climáticas.",
+    "O sea, buscar la manera de evitar situaciones que nos lleven a eso"
+   ],
+   "justificacion": "Reconoce para qué sirven las SbN (mitigar o prevenir amenazas), pero su definición no menciona el uso de la naturaleza y sirve para cualquier solución. No da ejemplos de SbN cuando se le pregunta. Le falta una definición más específica que incluya los elementos naturales y ejemplos que la distingan de otros proyectos para llegar al nivel 3."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Siento que esas amenazas climáticas se dan más por culpa del hombre.",
+    "Los deslizamientos. Los taponamientos de las quebradas."
+   ],
+   "justificacion": "Asocia la amenaza climática sobre todo con la acción humana y nombra eventos (deslizamientos, taponamientos), pero no la relaciona con fenómenos del clima como lluvias, sequías o calor. Tampoco la diferencia del riesgo. Para el nivel 3 tendría que vincular la amenaza con fenómenos climáticos."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Los deslizamientos. Los taponamientos de las quebradas.",
+    "evitamos que se vayan a la quebrada o que taponen las alcantarillas"
+   ],
+   "justificacion": "Nombra dos amenazas de su vereda: los deslizamientos y los taponamientos de quebradas, que se relacionan con avenidas torrenciales o inundaciones. Menciona que los residuos pueden taponar quebradas, pero no construye un argumento que una fenómenos climáticos o señales del territorio con las amenazas. Tampoco da casos, sectores ni épocas concretas, como pide el nivel 4."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "Poner en puntos estratégicos campanas, o algo que haga un buen ruido cerca de las personas, para que cuando se sienta algún movimiento eso suene.",
+    "Las plantas y los árboles ayudan a sostener los suelos"
+   ],
+   "justificacion": "Propone una práctica comunitaria sencilla de alerta temprana (campanas que suenen cuando haya movimiento) y relaciona la vegetación con sostener el suelo. Eso muestra que percibe la amenaza. Sin embargo, no menciona señales clave como grietas, árboles o postes inclinados, humedad o tuberías rotas, que se necesitan para el nivel 3."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Con el tema del calor, los árboles proporcionan sombra. Las plantas ayudan también con el agua y hacen una limpieza del aire.",
+    "Las plantas y los árboles ayudan a sostener los suelos, dependiendo también del tipo de especie."
+   ],
+   "justificacion": "Menciona varias funciones concretas: sombra frente al calor, agua, limpieza del aire y sostén del suelo. Relaciona esta última con los deslizamientos, que ella misma identificó como amenaza de su vereda, y señala que la función depende de la especie. No llega al nivel 5 porque no explica en detalle cada función ni da ejemplos de cómo se usan o podrían usarse en su territorio; además, la relación con los deslizamientos la sugirió primero el entrevistador."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "¿Biomateriales? No no sé",
+    "eso es lo que siempre se utilizaba antes. En una parte donde hay deslizamientos, se podría hacer como muros de contención con eso, ¿no?"
+   ],
+   "justificacion": "No conoce el término. Fue el entrevistador quien nombró los materiales, pero ella los reconoce como materiales tradicionales y propone un uso concreto: muros de contención donde hay deslizamientos. Lo dice de forma tentativa. Le falta nombrar ventajas claras (disponibilidad, menores emisiones, etc.) y desarrollar aplicaciones con más seguridad para el nivel 4."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Con el simple hecho de recoger residuos que no hacen parte de la naturaleza evitamos que se vayan a la quebrada o que taponen las alcantarillas.",
+    "En esos procesos se puede incluir a las personas, generarles conciencia."
+   ],
+   "justificacion": "Ve la participación comunitaria como una forma de actuar sobre un problema local con un resultado concreto (recoger residuos para que no taponen quebradas y alcantarillas), además de concientizar. Le falta proponer soluciones climáticas autogestionables y concretas, como obras de convite que se puedan replicar, o explicar si serían viables, para llegar al nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0854921
+ }
+}

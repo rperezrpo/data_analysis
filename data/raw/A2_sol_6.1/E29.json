@@ -1,0 +1,75 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Son muy útiles y muy prácticas para la mitigación de un riesgo, también como decoración, y para fortalecer la unión entre la comunidad.",
+        "Por ejemplo, lo que hicimos con el material de la guadua es súper, porque le da resistencia al terreno. Ya está previniendo ese movimiento en masa."
+      ],
+      "justificacion": "Relaciona las SbN con la mitigación del riesgo y aporta una aplicación concreta de la guadua para prevenir movimientos en masa. Aunque reconoce una experiencia contextualizada, falta una definición conceptual más completa que explique cómo estas soluciones aprovechan la naturaleza para resolver problemas ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Por ejemplo, ahora que estamos en el tiempo de El Niño hay muchos incendios forestales, pero cuando estamos en el tiempo de La Niña es al contrario: demasiadas inundaciones.",
+        "Entonces es algo real, que estamos viviendo cada día y cada vez de forma más profunda, más extensa."
+      ],
+      "justificacion": "Relaciona fenómenos climáticos de mayor duración con incendios e inundaciones y reconoce una intensificación de sus efectos. Para el nivel superior falta desarrollar cómo la comunidad puede gestionar estas amenazas, diferenciando con mayor claridad los fenómenos de sus agravantes y del riesgo."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Las principales amenazas climáticas son (1) los incendios forestales, (2) los movimientos en masa y (3) las avenidas torrenciales.",
+        "Por ejemplo, que el terreno tenga muchas aguas acumuladas, aguas subterráneas.",
+        "También, por ejemplo, cuando pasan muchos camiones porque es una vía principal, como la que hay por acá, la vía antigua al mar. El peso de los camiones hace que el terreno vaya cediendo."
+      ],
+      "justificacion": "Identifica tres amenazas principales y explica condiciones que favorecen los movimientos del terreno, incluyendo acumulación de agua y cargas del tránsito en una vía local. Para el nivel superior falta describir con mayor precisión el encadenamiento de amenazas y aportar eventos recordados o cambios observados en sectores críticos."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Por ejemplo, que el terreno tenga muchas aguas acumuladas, aguas subterráneas. Que uno vea que hay muchos nacimientos que salen de la misma montañita o algo así.",
+        "El peso de los camiones hace que el terreno vaya cediendo."
+      ],
+      "justificacion": "Reconoce la acumulación de agua como señal y el tránsito pesado como factor que puede hacer ceder el terreno, explicando el efecto de este último. Sin embargo, presenta un repertorio limitado: no demuestra la variedad de señales tempranas y prácticas clave correspondiente al nivel siguiente."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 3,
+      "evidencia": [
+        "La vegetación es muy importante porque ayuda a que haya más oxígeno y a que haya más biodiversidad.",
+        "Si hay más biodiversidad, va a haber más polinizadores, y ellos van a replicar las semillas en otros entornos."
+      ],
+      "justificacion": "Menciona funciones concretas de la vegetación relacionadas con el oxígeno, la biodiversidad y la reproducción de las plantas. No vincula estas funciones con problemáticas específicas de su territorio ni explica aplicaciones locales para resolverlas, necesarias para el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "¿Los biomateriales? ¿Como el compost? ¿O como la guadua?",
+        "Por ejemplo, lo que hicimos con el material de la guadua es súper, porque le da resistencia al terreno. Ya está previniendo ese movimiento en masa. Es muy útil."
+      ],
+      "justificacion": "Identifica la guadua y explica su aplicación en una intervención realizada para dar resistencia al terreno y prevenir movimientos en masa. No reconoce límites de uso, mantenimiento, durabilidad o requisitos técnicos que permitan alcanzar el nivel superior."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Por ejemplo, organizando un convite para una jornada de limpieza de la quebrada, aprovechando que estamos en tiempo seco, para hacerle un mantenimiento.",
+        "Y también replicando todo esto que aprendemos a la comunidad: hacer una sensibilización entre los vecinos, entre las personas con las que nos encontramos en el día a día."
+      ],
+      "justificacion": "Propone una acción comunitaria concreta e implementable de mantenimiento de la quebrada, considerando el tiempo seco, y la complementa con difusión de aprendizajes. Para el nivel superior falta explicar las ventajas de la autonomía comunitaria para gestionar problemas climáticos y sus límites o necesidades de apoyo."
+    }
+  ]
+}

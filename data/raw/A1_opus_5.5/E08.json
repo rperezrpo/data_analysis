@@ -1,0 +1,81 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Son para sembrar, para buscar la sombra, para el agua y todas esas cositas."
+   ],
+   "justificacion": "Da ejemplos sencillos (sembrar, sombra, agua), que muestran una idea general de usar la naturaleza. Esto corresponde a percepción. No da una definición conceptual ni ejemplos específicos que distingan una SbN de otros proyectos ambientales, que serían necesarios para el nivel 3."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "¿No son como esos incendios? La gente que daña lo que uno siembra."
+   ],
+   "justificacion": "Asocia la amenaza climática con los incendios, pero la mezcla con el daño que causan las personas. No la relaciona con fenómenos del clima como lluvias, sequías o calor. Para el nivel 3 tendría que vincular la amenaza con esos fenómenos climáticos, aunque fuera de forma general."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Pues amenazas, en este momento, gracias a Dios, no.",
+    "Lo del agua que baja de ahí arriba, ese sobrante de agua que hay allá.",
+    "Donde está mi casa era una parte arriesgada, que se podía ir a la carretera."
+   ],
+   "justificacion": "Al principio dice que no hay amenazas, pero luego reconoce de manera superficial el agua que baja en la parte alta y un bordo que se podía derrumbar. No nombra con claridad dos amenazas principales del territorio, como deslizamientos, avenidas torrenciales, inundaciones o incendios, que exige el nivel 3."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "cuando se empieza a tarrajear [agrietar] la tierra, cuando empieza a bajar toda esa agua, uno dice: \"esta se está entrando y va a haber un deslizamiento para allá abajo\"",
+    "sabiendo que estamos sembrando para que de pronto no se vaya a bajar ese bordo"
+   ],
+   "justificacion": "Identifica señales clave (grietas y acumulación de agua) y, de forma implícita, la pérdida de vegetación como factor de riesgo. Insinúa que el agua se entra en la tierra, pero no explica con claridad la relación entre cada señal y el deslizamiento. Tampoco desarrolla otras señales, como se pide para el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Donde está mi casa era una parte arriesgada, que se podía ir a la carretera.",
+    "Se sembraron en ese bordo y con las raíces se sostuvo totalmente toda esa tierra.",
+    "sabiendo que estamos sembrando para que de pronto no se vaya a bajar ese bordo"
+   ],
+   "justificacion": "Relaciona un problema concreto de su terreno (un bordo inestable junto a la carretera) con la función de las raíces para amarrar la tierra, y da especies concretas. Esto es un argumento completo de nivel 4. No explica en detalle al menos tres funciones de mitigación y adaptación con ejemplos, como pide el nivel 5."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "A mí me parece que los biomateriales deben servir para sostener la tierra. Por ejemplo, mire, las raíces de los árboles."
+   ],
+   "justificacion": "Confunde los biomateriales con la vegetación viva y sus raíces. No identifica ningún material de construcción, como guadua, madera o tierra. Para el nivel 2 tendría que nombrar al menos un biomaterial de construcción."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "Pues lo importante es que hubiera unión entre todos y que no fuéramos tan egoístas",
+    "Uno debe hablar seriamente: ir y decir \"vamos a hablar, vea, esto no se puede hacer\"."
+   ],
+   "justificacion": "Percibe ventajas generales de la unión y del diálogo entre vecinos, y da un ejemplo de conflicto por la tierra que ensucia el agua. Sin embargo, no plantea la participación comunitaria como una forma de autogestionar soluciones con resultados concretos, que es lo que exige el nivel 3."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0746499
+ }
+}

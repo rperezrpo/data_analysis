@@ -1,0 +1,82 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Son soluciones amigables con la naturaleza, ¿cierto?, que impactan el medio ambiente.",
+        "Y sirven, como la palabra lo dice, para dar soluciones a problemas que tengamos en la comunidad.",
+        "Pues, por ejemplo, donde hay deforestación, reforestar ayuda porque sostiene la tierra."
+      ],
+      "justificacion": "Presenta una comprensión general de las SbN como soluciones ambientales para problemas comunitarios y menciona la reforestación como una intervención que aprovecha la naturaleza. No desarrolla una definición conceptual específica ni varios ejemplos que permitan distinguir las SbN de otros proyectos ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Pero la amenaza climática es, por ejemplo para nosotros, cuando no estamos preparados para enfrentar largas temporadas de lluvia, ¿cierto?, o también temporadas de sol.",
+        "Cuando llueve demasiado hay mucha escorrentía y puede haber deslizamientos.",
+        "Para mí, la contaminación también es una amenaza."
+      ],
+      "justificacion": "Relaciona las amenazas con temporadas de lluvia y sol, y reconoce consecuencias de las lluvias intensas. Sin embargo, mezcla el concepto con la contaminación y no explica cómo el cambio climático agrava estos fenómenos, por lo que no alcanza el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Cuando llueve demasiado hay mucha escorrentía y puede haber deslizamientos.",
+        "Además, acá hay un acueducto veredal que se tapona cuando llueve mucho.",
+        "Esto porque también puede haber deslizamientos donde se coge el agua, en la bocatoma. Entonces sí, ha pasado que se tapa, se obstruye y se pierde el agua.",
+        "Y también, cuando hace mucho verano, la sequía. Esa también es una amenaza."
+      ],
+      "justificacion": "Aunque desarrolla principalmente los deslizamientos, explica una cadena local de lluvias, escorrentías, movimientos de tierra y afectación del abastecimiento de agua. Identifica la bocatoma como punto vulnerable y recuerda obstrucciones ocurridas, pero no profundiza en episodios concretos, cambios temporales o un panorama más amplio de amenazas para alcanzar el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 3,
+      "evidencia": [
+        "Una es cuando la tierra empieza, como la palabra lo dice, a deslizarse: empieza como a fraccionarse y a deslizarse.",
+        "Y los deslizamientos ya se ven cuando llueve mucho, porque el agua se lleva toda esa tierra que está como flojita.",
+        "Pues, por ejemplo, donde hay deforestación, reforestar ayuda porque sostiene la tierra."
+      ],
+      "justificacion": "Reconoce el fraccionamiento y movimiento del terreno, la tierra suelta y la pérdida de vegetación como elementos asociados con la inestabilidad. Ofrece una explicación básica del arrastre por lluvia y del sostén vegetal, pero no desarrolla claramente cómo las señales tempranas permiten interpretar un deslizamiento potencial."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Pues, por ejemplo, donde hay deforestación, reforestar ayuda porque sostiene la tierra.",
+        "Y también sabemos que los árboles dan oxígeno.",
+        "Además, va a llegar más biodiversidad, ¿cierto?, la diversidad de pajaritos, de aves."
+      ],
+      "justificacion": "Identifica funciones de estabilización del suelo, aporte de oxígeno y soporte de biodiversidad. Relaciona la reforestación con la pérdida de sostén de la tierra, pertinente a los deslizamientos descritos en su territorio; para el nivel 5 faltan explicaciones detalladas y aplicaciones territoriales de las otras funciones, o una reflexión sobre sus limitaciones."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 2,
+      "evidencia": [
+        "Pues, creo saber que de pronto los biomateriales son materiales que se sacan de la misma naturaleza, ¿cierto?",
+        "De pronto la guadua. Esa es como uno.",
+        "Pues, la misma vegetación, pienso yo: los árboles y todo eso."
+      ],
+      "justificacion": "Reconoce el origen natural de los biomateriales e identifica la guadua como ejemplo. No menciona ventajas de utilizarlos ni explica aplicaciones constructivas, por lo que no alcanza el nivel 3."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 3,
+      "evidencia": [
+        "Realizamos y compartimos estrategias, y hacemos los convites para ir por toda la vereda y mirar los puntos que estén, ¿cómo se dice?, sufriendo más, los puntos que estén más vulnerables.",
+        "Entonces daríamos una solución, digo yo, o hablaríamos entre todos a ver qué solución se podría dar.",
+        "Y hay gente que sabe mucho, que ha vivido toda la vida aquí en la vereda y conoce esos puntos estratégicos."
+      ],
+      "justificacion": "Concibe la participación como una forma de organizar recorridos, reconocer puntos vulnerables y aprovechar conocimientos locales para buscar soluciones. Supera la valoración general de la unión, pero no concreta una intervención climática implementable o un proyecto replicable que permita asignar el nivel 4."
+    }
+  ]
+}

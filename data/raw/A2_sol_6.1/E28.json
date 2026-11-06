@@ -1,0 +1,73 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Para que mitigar o prevenir esas amenazas climáticas.",
+        "Las plantas y los árboles ayudan a sostener los suelos, dependiendo también del tipo de especie."
+      ],
+      "justificacion": "Reconoce la finalidad preventiva de estas soluciones y, considerando toda la entrevista, identifica un mecanismo natural básico para sostener el suelo. No desarrolla una definición conceptual específica ni ejemplos suficientemente diferenciados para alcanzar el nivel superior."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Siento que esas amenazas climáticas se dan más por culpa del hombre.",
+        "Los deslizamientos. Los taponamientos de las quebradas."
+      ],
+      "justificacion": "Asocia las amenazas con intervenciones humanas y problemas del territorio, pero no explica su relación con lluvias, sequías u otros fenómenos climáticos. Aunque menciona el calor al hablar de vegetación, no establece una relación entre fenómenos del clima y las amenazas identificadas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Los deslizamientos. Los taponamientos de las quebradas."
+      ],
+      "justificacion": "Identifica una amenaza principal del territorio y un posible agravante relacionado con las quebradas. No menciona una segunda amenaza principal ni explica que los taponamientos puedan producir inundaciones o avenidas torrenciales."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Poner en puntos estratégicos campanas, o algo que haga un buen ruido cerca de las personas, para que cuando se sienta algún movimiento eso suene."
+      ],
+      "justificacion": "Propone una práctica sencilla para advertir movimientos del terreno mediante una señal sonora. No identifica tres señales o prácticas distintas, incluidas al menos dos señales clave, como exige el nivel superior."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Con el tema del calor, los árboles proporcionan sombra.",
+        "Las plantas ayudan también con el agua y hacen una limpieza del aire.",
+        "Las plantas y los árboles ayudan a sostener los suelos, dependiendo también del tipo de especie."
+      ],
+      "justificacion": "Reconoce varias funciones concretas y relaciona el sostenimiento del suelo con los deslizamientos identificados en su territorio. También advierte que la función depende de la especie, pero no desarrolla con detalle tres funciones y sus aplicaciones territoriales para alcanzar el nivel 5."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Igual yo creo que eso es lo que siempre se utilizaba antes.",
+        "En una parte donde hay deslizamientos, se podría hacer como muros de contención con eso, ¿no?"
+      ],
+      "justificacion": "Aunque no reconoce inicialmente el término, propone una aplicación propia de los materiales consultados: construir contenciones en lugares con deslizamientos. Esto demuestra conocimiento de una situación pertinente de uso, pero no reconoce límites de durabilidad, mantenimiento o requisitos técnicos."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Con el simple hecho de recoger residuos que no hacen parte de la naturaleza evitamos que se vayan a la quebrada o que taponen las alcantarillas.",
+        "En esos procesos se puede incluir a las personas, generarles conciencia."
+      ],
+      "justificacion": "Plantea una acción comunitaria concreta e implementable y explica su resultado material: evitar residuos y taponamientos en quebradas y alcantarillas. Supera la valoración exclusivamente educativa, pero no analiza las ventajas de la autonomía comunitaria ni sus límites o necesidades de apoyo."
+    }
+  ]
+}

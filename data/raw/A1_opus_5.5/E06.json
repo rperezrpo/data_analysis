@@ -1,0 +1,91 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 4,
+   "evidencia": [
+    "Son, como usted lo dice, soluciones a problemáticas que uno puede tener, utilizando las mismas cosas que nos da la naturaleza.",
+    "estabilizar terrenos utilizando la misma materia orgánica, como los árboles y las raíces, y materiales como el bambú impermeabilizado, que nos ayudan a estabilizar el terreno",
+    "Son diferentes al concreto y al cemento, que no permiten intercambios de fluidos con el suelo."
+   ],
+   "justificacion": "Define las SbN como soluciones a problemáticas que usan lo que da la naturaleza. Da un ejemplo ligado a un problema concreto: estabilizar terrenos con raíces y bambú. Además, las distingue del concreto. Para llegar al nivel 5 le falta proyectar las SbN hacia otras problemáticas o lugares de su territorio, o mencionar experiencias propias más allá del ejercicio del taller."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "un peligro que tenemos ahí latente. Debido a todos esos cambios que estamos sufriendo, no sabemos de qué manera nos va a impactar",
+    "si vamos a sufrir de sequías o si, por el contrario, vamos a tener unas precipitaciones tan altas que nos vamos a inundar y se van a dañar los cultivos",
+    "movimientos en masa pueden estar generados tanto por sequías extremas como por lluvias prolongadas",
+    "muchos incendios. No sé si han sido provocados o no, pero sí han sido episodios repetidos, debido a la alta temperatura"
+   ],
+   "justificacion": "Entiende la amenaza como un peligro latente agravado por los cambios del clima. Menciona sequías extremas, lluvias prolongadas y alta temperatura, y las conecta con consecuencias como inundaciones, cultivos dañados, movimientos en masa e incendios. También distingue la causa climática de la posible causa humana de los incendios. No reflexiona sobre cómo la comunidad podría prevenir o reducir la amenaza, que es lo que pide el nivel 5."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "La vereda sufre también de mucha erosión, ¿cierto? Y esos movimientos en masa pueden estar generados tanto por sequías extremas como por lluvias prolongadas.",
+    "En estos días también hemos sufrido muchos incendios... debido a la alta temperatura.",
+    "el territorio está cruzado por la quebrada La Iguaná y, la verdad, se ve muy deteriorada, muy afectada."
+   ],
+   "justificacion": "Nombra amenazas propias de la vereda: movimientos en masa, incendios e inundaciones. Las vincula con sus causas climáticas: sequías, lluvias prolongadas y alta temperatura. Menciona la quebrada La Iguaná y episodios recientes, pero no describe cómo se encadenan las amenazas ni da eventos, sectores críticos o épocas concretas, que es lo que exige el nivel 5."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "tener mangueras que cruzan los terrenos y que tienen algún tipo de fuga. Eso va socavando y socavando el terreno.",
+    "Otra práctica es quitar la vegetación, o sea, dejar el terreno limpio. Eso también nos da cuenta de que ese suelo está expuesto y de que muy posiblemente va a empezar a ceder."
+   ],
+   "justificacion": "Identifica dos prácticas clave que favorecen los deslizamientos: mangueras con fugas y retiro de la vegetación. Explica brevemente cómo cada una debilita el suelo. Sin embargo, solo nombra dos señales, no menciona señales físicas en el terreno como grietas o árboles inclinados y sus explicaciones son breves. Con eso no alcanza el nivel 4 completo."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "donde hay vegetación la sensación térmica es mucho más bajita. En el lugar que tiene vegetación no va a haber esas islas de calor",
+    "la vegetación le va a ayudar a la tierra a que, con sus raíces, se vuelva firme",
+    "una tierra que tiene ahí muchos microorganismos, que tiene vida",
+    "me metí a coger la hojarasca y allá se sentía una frescura impresionante"
+   ],
+   "justificacion": "Menciona tres funciones: regulación térmica, firmeza del suelo por las raíces y vida del suelo. Relaciona las raíces con la estabilización del terreno en la vereda y cuenta una experiencia propia de frescura bajo la vegetación. Para el nivel 5 le falta explicar en detalle cómo se usarían estas funciones en su territorio, tanto para la mitigación como para la adaptación, o señalar límites, como que no todas las especies cumplen las mismas funciones."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "materiales como el bambú impermeabilizado, que nos ayudan a estabilizar el terreno. Son materiales que van a tener características más resistentes y que, por decirlo de alguna manera, son más amigables con el ambiente.",
+    "No es que me acuerde mucho de los biomateriales. Sé que está el bambú.",
+    "Sí me acordaba de las hojas de palma, pero lo que no me acuerdo es el uso."
+   ],
+   "justificacion": "Identifica el bambú y las hojas de palma, y menciona ventajas: resistencia, menor impacto ambiental y diferencia frente al concreto. Admite que no recuerda los usos. La única aplicación que menciona es la del ejercicio realizado, sin otros proyectos o situaciones donde convendría usarlos, así que no llega al nivel 4. Tampoco habla de los límites de los biomateriales."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 5,
+   "evidencia": [
+    "Si se logra organizar una comunidad en pro de un objetivo... con un compromiso organizado y una buena logística, se pueden lograr muchas cosas.",
+    "No podemos esperar siempre que sea el Estado o los entes los que vengan a corregir las cosas de los territorios. La misma comunidad lo puede hacer, dentro de las capacidades que tiene y con la ayuda de organizaciones que lideren el proceso.",
+    "hay miembros de la comunidad a los que veo con mucha experticia, que no le temen al trabajo pesado ni a remover la tierra",
+    "de pronto con la ayuda de la parte técnica, pero la comunidad sí es capaz de replicar esos procesos."
+   ],
+   "justificacion": "Explica la ventaja de la autogestión: actuar sin esperar siempre al Estado y aprovechar a las personas de la comunidad con experiencia en el trabajo con la tierra. También reconoce sus límites: la comunidad actúa dentro de sus capacidades y necesita apoyo técnico y de organizaciones. Además, ve viable replicar el trincho. Esto corresponde al nivel máximo."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1258891
+ }
+}

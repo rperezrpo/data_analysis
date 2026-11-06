@@ -1,0 +1,86 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "Pues pienso que son soluciones sacadas de la naturaleza, ¿cierto? Para no dañar la naturaleza, y sirven para la misma naturaleza. Son como para proteger ecosistemas",
+        "Por ejemplo reforestación, algo como ese muro que hicimos... que no es un muro, son terrazas de guadua, muros de contención.",
+        "Cuando cambiamos las cercas vivas de Duranta por especies nativas.",
+        "Ellos ahí ayudan a sostener la tierra y cuando llueve ayudan a filtrar."
+      ],
+      "justificacion": "Entiende estas soluciones como intervenciones que aprovechan la naturaleza y protegen los ecosistemas, y distingue diversos ejemplos específicos. Relaciona la intervención construida con funciones de estabilización y filtración, y relata experiencias propias con terrazas y sustitución de cercas por especies nativas. Esta articulación entre concepto, funciones y participación en aplicaciones territoriales alcanza el nivel máximo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Bueno ameanza climática para mi es cuando llueve demasiado y no estamos preparados.",
+        "Cuando hay inundaciones y se crece la quebrada. O cuando hay sequía, eso también es una amenaza climática.",
+        "Yo diría que las principales sí son cuando llueve demasiado y hay escorrentías, entonces puede haber deslizamientos y también inundaciones."
+      ],
+      "justificacion": "Relaciona claramente las amenazas con lluvias excesivas y sequías, y reconoce consecuencias como deslizamientos e inundaciones. Sin embargo, no desarrolla cómo el cambio climático modifica o intensifica esos fenómenos a largo plazo, ni distingue explícitamente amenaza y riesgo. La referencia posterior al aumento de temperaturas no alcanza a construir esa explicación."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Yo diría que las principales sí son cuando llueve demasiado y hay escorrentías, entonces puede haber deslizamientos y también inundaciones.",
+        "Esto porque vivimos en una vereda que no es plana, es una montaña muy pendiente. Entonces todo lo que hay arriba escurre hacia la parte de abajo, hacia las quebradas.",
+        "También porque se talan árboles y se hacen casas al lado de las quebradas.",
+        "Antes el agua se filtraba, ¿cierto? Ahora no, ahora hay demasiado cemento ."
+      ],
+      "justificacion": "Identifica deslizamientos e inundaciones y explica su relación con lluvias, pendientes, escorrentía, tala y ocupación del territorio. También reconoce la pérdida de infiltración por el aumento de superficies construidas. Para el nivel superior faltan casos o eventos concretos, sectores críticos o una memoria histórica más precisa de las amenazas."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Que talen los árboles ayuda a que se mueva la tierra.",
+        "Otra señal es cuando el terreno empieza a erosionarse un poquito.",
+        "Otra es cuando hace mucho verano y se agrieta la tierra, ¿cierto? Y después llueve y toda esa agua por ahí se va filtrando, y va agrietando.",
+        "el agua va haciendo humedad, ¿cierto? Y también puede haber movimientos. Porque eso empieza pequeño, pero va creciendo con la humedad, y entonces aparecen las grietas y todo eso."
+      ],
+      "justificacion": "Reconoce varias señales y prácticas relevantes, incluidas pérdida de árboles, erosión, grietas y aportes de agua que generan humedad. Explica mecanismos que conectan estas condiciones con el movimiento del terreno, especialmente la infiltración y la pérdida de soporte vegetal. No establece una decisión preventiva concreta condicionada a una señal o al estado del movimiento, necesaria para el nivel 5."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Que no hay bastante raíz que sostenga la tierra, y entonces hay un deslizamiento.",
+        "Una forma es el oxígeno que ellos producen.",
+        "Nos ayudan también con el aumento de las temperaturas.",
+        "Ellos ahí ayudan a sostener la tierra y cuando llueve ayudan a filtrar. Evitan que el agua se vaya así de una ¿cierto?"
+      ],
+      "justificacion": "Explica cómo las raíces sostienen el terreno y cómo la vegetación favorece la filtración y reduce la salida rápida del agua, vinculándolo con la intervención local. Además, menciona oxígeno y regulación de temperaturas. Para el nivel 5 falta desarrollar con detalle al menos una tercera función y su aplicación territorial, o reconocer limitaciones del uso de vegetación."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "son terrazas de guadua, muros de contención.",
+        "Bueno son materiales que son sacados de la naturaleza, como para interactuar con la naturaleza.",
+        "Ellos sirven, si uno los coloca antes de, para evitar algo. Pero también se pueden poner después, como lo que hicimos allá, para tratar un problema o algo que se dañó. Como para mitigar."
+      ],
+      "justificacion": "Identifica la guadua en una aplicación constructiva concreta y entiende que estos materiales pueden utilizarse tanto preventivamente como para tratar problemas existentes. Su explicación supera la identificación del material al reconocer situaciones pertinentes de uso. No desarrolla límites propios de los biomateriales, como mantenimiento, durabilidad o condiciones técnicas específicas de su empleo."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Nosotros somos los que sabemos, los que podemos ayudar. Si ustedes no saben qué es lo que está pasando, no pueden saber en qué parte pueden hacer algo para ayudarnos a solucionar.",
+        "No podemos hacer nada sin ustedes, ni ustedes sin nosotros.",
+        "Porque eso siempre tiene su técnica. Entonces creo que sí nos faltaría más práctica.",
+        "No todos los deslizamientos son iguales, entonces sí necesitaríamos algún apoyo para saber qué hacer."
+      ],
+      "justificacion": "Explica que el conocimiento territorial de la comunidad permite identificar dónde intervenir y que los convites articulan ese conocimiento con el apoyo externo. Reconoce límites concretos de la autonomía: falta de práctica, exigencias técnicas y diferencias entre deslizamientos. Esta comprensión de la complementariedad entre capacidades comunitarias y especializadas corresponde al nivel máximo."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 5,
+   "evidencia": [
+    "aprovecharon parte de las mismas soluciones que la naturaleza les había dado, o que ya estaban ahí, y las volvieron a retomar",
+    "unos trinchos para evitar que la tierra se viniera",
+    "recuperando los filtros naturales que la tierra tenía",
+    "la misma naturaleza les enseñaba cómo solucionar los problemas para poder vivir aquí",
+    "Qué bueno poder recuperarlo",
+    "nos ofrece unas Soluciones basadas en la Naturaleza muy factibles para esta vereda"
+   ],
+   "justificacion": "Define las SbN como soluciones que retoman lo que la naturaleza ofrece para resolver problemas del territorio. Las ilustra con ejemplos concretos ligados a problemáticas (trinchos contra deslizamientos, manejo de aguas, filtros naturales). Además, habla de la investigación que vienen haciendo en la vereda y propone aplicar la bioingeniería en El Uvito. Así cumple las dos vías del nivel de liderazgo."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "la única prueba de que hay un cambio climático es la alta temperatura en el día y la baja temperatura en la noche",
+    "Aquí hay evidencias de un verano que duró siete meses, en 1925, en el que se secó todo",
+    "la temperatura ha aumentado en grados. Y eso es lo que prueba que hay un cambio climático",
+    "A eso se suma todo lo que el hombre ha hecho para acelerar esa problemática"
+   ],
+   "justificacion": "Distingue el cambio climático, que entiende como un aumento de la temperatura, de los veranos de siempre, y lo apoya en memoria histórica (el verano de 1925 y los relatos de los abuelos). Trata la acción humana como agravante y no como amenaza. Para llegar a 5 le falta conectar mejor el agravamiento climático con sus consecuencias en el territorio y reflexionar, en relación con la amenaza, sobre cómo la comunidad podría prevenirla o reducirla."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "el tema de la Falla de Romeral: es un movimiento en masa no recuperable",
+    "cuando hay bastante precipitación, hay mucha problemática",
+    "la tala del bosque, el desvío de las fuentes hídricas, la contaminación, las altas parcelaciones, las quemas",
+    "se nos está aumentando mucho el tema de los puntos críticos",
+    "de cómo se está arrimando la gente a las quebradas"
+   ],
+   "justificacion": "Identifica los movimientos en masa y las lluvias intensas como amenazas. También señala agravantes socioespaciales concretos (tala, desvío de fuentes, parcelaciones, quemas, viviendas cerca de las quebradas) y los relaciona con el aumento de puntos críticos. Le falta, para llegar a 5, nombrar con claridad otras amenazas (avenidas torrenciales, inundaciones, incendios) y describir eventos, sectores o épocas críticas concretos."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "Conozco las grietas que tiene y las aguas por donde han caminado normalmente",
+    "estamos teniendo especies invasoras que nos están agravando ese problema",
+    "el desvío de la quebrada, el desvío de algunos caminos y la pérdida de unas zanjas o 'chambas' que se tenían para repartir las aguas",
+    "sé que va a haber un deslizamiento en tal parte, porque estamos tocando algo que no debiéramos tocar",
+    "Al cortar esa red, estamos modificando unos hilos naturales de agua"
+   ],
+   "justificacion": "Menciona varias señales y prácticas clave: grietas, cursos de agua, desvío de quebradas, pérdida de las zanjas de drenaje y especies invasoras. Explica, aunque de forma general, cómo alterar el flujo del agua y del suelo desencadena deslizamientos. Para llegar a 5 le falta proponer una decisión preventiva concreta ligada a una condición observable."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "el suelo tiene una red viva, una red que comunica toda la naturaleza. De esa red parte todo lo que es la vegetación, el agua y la estabilidad de nuestros suelos",
+    "a cortar el suelo, a mover grandes cantidades de tierra, a hacer carreteras. Y eso ha cortado esa relación",
+    "A través de esa conectividad se evitan la erosión y la aceleración de todo este daño ambiental"
+   ],
+   "justificacion": "Relaciona la vegetación y la red viva del suelo con la regulación del agua, la estabilidad del suelo y el control de la erosión. Vincula estas funciones con problemas locales (carreteras y movimientos de tierra) y con la bioingeniería como manera de restaurarlas. Para llegar a 5 le falta desarrollar funciones de adaptación como sombra, temperatura o biodiversidad, o mencionar límites de la vegetación."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 4,
+   "evidencia": [
+    "no se le pone peso al terreno donde se va a intervenir o que se va a recuperar",
+    "Es algo natural, algo que está disponible en las fincas",
+    "Es utilizar todas esas ramas, árboles, guaduas, bambúes, troncos de plátano",
+    "es biomasa o biomaterial que se degrada con el tiempo, después de que la vegetación comienza a recuperar su estado natural"
+   ],
+   "justificacion": "Da varios ejemplos de biomateriales y explica sus ventajas: no cargan el terreno y están disponibles en las fincas. También los aplica a obras de bioingeniería para recuperar terrenos. Dice que el material se degrada, pero lo presenta como ventaja y no como límite (mantenimiento, durabilidad, requisitos técnicos), por eso no llega a 5."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "el primer problema que vamos a tener cuando empecemos a intervenir aquí con bioingeniería es el desconocimiento de la comunidad",
+    "Le estoy pidiendo también que involucre a César Correa, que maneja el tema muy bien porque vive haciendo esas obras por todo el país",
+    "esa es una técnica que cada propietario puede hacer en su finca. Qué bueno que aprendieran a hacerlo",
+    "lo podamos publicar en el grupo de WhatsApp de Balcones de El Uvito... Así la gente se da cuenta, entiende y también participa del convite"
+   ],
+   "justificacion": "Ve la bioingeniería como algo que cada propietario puede aplicar en su finca. Señala un límite concreto, el desconocimiento de la comunidad, y propone cómo superarlo con videos, el presidente de la junta y expertos. Le falta argumentar por qué la autogestión ofrece ventajas propias para enfrentar los problemas climáticos de su contexto, que es lo que se pide en el nivel 5."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1343816
+ }
+}

@@ -1,0 +1,84 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 4,
+      "evidencia": [
+        "Son soluciones que se utilizan para remediar alguna problemática utilizando los mismos recursos que da la naturaleza.",
+        "Por ejemplo, cuando hay un deslizamiento, se hace el método de terraceado, que llaman, y luego se siembran plantas.",
+        "Se busca utilizar plantas que no sean muy pesadas, y esas plantas tienen la posibilidad de amarrar el terreno.",
+        "También se utilizan las mismas piedras que traen las quebradas y los ríos para reducir la fuerza con que baja el agua."
+      ],
+      "justificacion": "Define las SbN como el uso de recursos naturales para resolver problemas y explica aplicaciones concretas frente a deslizamientos y fuerza del agua. Para el nivel superior falta vincularlas con experiencias propias o posibilidades concretas de implementación y participación en su territorio."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Precisamente por la degradación de la vegetación, de los árboles y de las plantas, hemos ido creando un calentamiento del planeta.",
+        "El calentamiento se siente, pero por ser un lugar frío no afecta tanto como en otros lugares, ¿cierto?",
+        "Cuando el terreno comienza a erosionarse y a perder la vegetación, es clara señal de que más adelante, con una lluvia muy fuerte, puede haber un deslave, un deslizamiento."
+      ],
+      "justificacion": "Reconoce el calentamiento y relaciona una lluvia fuerte con la ocurrencia de deslizamientos, superando una comprensión limitada a la contaminación. Sin embargo, mezcla amenazas con causas y problemas ambientales, y no explica claramente cómo el cambio climático agrava los fenómenos y sus consecuencias locales, necesario para el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Sobre todo los deslizamientos. Y la contaminación de las aguas, que es una cosa muy grave.",
+        "Esa es una de las situaciones que más aquejan a esta vereda.",
+        "Además está el desorden que hay con los fenómenos atmosféricos."
+      ],
+      "justificacion": "Identifica los deslizamientos como amenaza de la vereda, pero combina este reconocimiento con contaminación del agua y referencias generales a fenómenos atmosféricos. No identifica una segunda amenaza principal del territorio, por lo que no alcanza el nivel de competencia."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "La primera es cuando el terreno es arenoso y está húmedo: esa es plena señal de deslizamiento.",
+        "Cuando el terreno comienza a erosionarse y a perder la vegetación, es clara señal de que más adelante, con una lluvia muy fuerte, puede haber un deslave, un deslizamiento.",
+        "Se busca utilizar plantas que no sean muy pesadas, y esas plantas tienen la posibilidad de amarrar el terreno."
+      ],
+      "justificacion": "Reconoce humedad, erosión y pérdida de vegetación como señales, y explica su relación con los deslizamientos al vincularlas con lluvias fuertes y con la función estabilizadora de las plantas. Para el nivel superior falta establecer una decisión preventiva concreta condicionada a señales o condiciones de inestabilidad."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 5,
+      "evidencia": [
+        "Se busca utilizar plantas que no sean muy pesadas, y esas plantas tienen la posibilidad de amarrar el terreno.",
+        "Si hay un nacimiento de agua en determinado sitio y nosotros le quitamos toda la vegetación alrededor, el agua inmediatamente se sumerge, o sea, se esconde de nosotros, se va para lo profundo de la tierra.",
+        "En cambio, en vez de quitarle la vegetación, lo que podemos hacer es poblarlo con más árboles.",
+        "Pero que sean árboles nativos: árboles que ayuden a producir agua, que no dañen los cauces, que no resequen la tierra.",
+        "Las coníferas, por ejemplo, son plantas que resecan la tierra y ocasionan lo contrario.",
+        "Pero entre más vegetación haya en el planeta, el planeta es más fresco y produce más agua. Las aves y los demás animales se reproducen más, y hay más alimento, tanto para los animales como para nosotros los seres humanos."
+      ],
+      "justificacion": "Articula funciones de estabilización del terreno, protección del agua, regulación de temperatura y soporte de biodiversidad y alimento. Propone revegetar nacimientos y emplear plantas apropiadas para estabilizar terrenos, además de reconocer diferencias y limitaciones entre especies. Esto corresponde al nivel máximo de la rúbrica."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "No conozco realmente qué son los biomateriales.",
+        "Entonces me imagino que, cuando usted dice biomateriales, será la utilización de plantas."
+      ],
+      "justificacion": "Declara desconocer los biomateriales y solo propone una asociación tentativa con plantas. No identifica materiales de construcción ni sus aplicaciones, por lo que no alcanza el nivel de percepción."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Cuando uno siente propio el territorio, siente propio el lugar donde vive, uno lo cuida y lo aprecia.",
+        "La educación comunitaria es fundamental para cualquier acto social.",
+        "Y yo creo que sería fundamental que, previo a cualquier actividad de esas, se haga primero un proceso de sensibilización de la sociedad."
+      ],
+      "justificacion": "Reconoce que la participación favorece la apropiación y el cuidado territorial, y destaca la educación y sensibilización como condiciones importantes. No desarrolla la autogestión de proyectos ni resultados materiales concretos frente a problemas climáticos, necesarios para el nivel superior."
+    }
+  ]
+}

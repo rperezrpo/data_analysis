@@ -1,0 +1,83 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Son estrategias que tenemos para darle solución a una amenaza.",
+    "Si tenemos una amenaza de deslizamiento, esas soluciones son las que debemos hacer en caso de que ocurra. Usamos la madera, usamos los recursos naturales."
+   ],
+   "justificacion": "Su definición es más específica que una idea general: habla de estrategias que usan recursos naturales para responder a una amenaza y menciona el deslizamiento y la madera. Pero la idea queda en lo reactivo («en caso de que ocurra»), da un solo ejemplo poco desarrollado y no explica cómo la solución reduce el problema. Para el nivel 4 le falta una definición completa y ejemplos concretos ligados a problemas de su territorio."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Un verano extenso, una lluvia prolongada: esas son amenazas.",
+    "Para mí son amenazas cuando se extiende ese tiempo de verano y de lluvias."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima (veranos y lluvias que se alargan). No habla de sus consecuencias en el territorio, como incendios o crecientes, ni del cambio climático como agravante. Además, cuando le preguntan por las amenazas locales, nombra los lugares sin árboles, que son un factor socioambiental. Por eso no llega al nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "los lugares que están muy despoblados [de árboles], que no tienen ese soporte para tener unos terrenos estables. Esos me parece que son amenazas.",
+    "Si tenemos una amenaza de deslizamiento"
+   ],
+   "justificacion": "Percibe de forma superficial la amenaza en su territorio: habla de terrenos inestables y menciona el deslizamiento, pero confunde el agravante (la falta de árboles) con la amenaza misma. Para el nivel 3 tendría que nombrar al menos dos de las amenazas principales (deslizamientos, avenidas torrenciales, inundaciones, incendios)."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Cuando se encuentran aguas filtradas. Las aguas que se filtran por mucho tiempo provocan deslizamientos.",
+    "los lugares que están muy despoblados [de árboles], que no tienen ese soporte para tener unos terrenos estables"
+   ],
+   "justificacion": "Reconoce dos señales clave: el agua que se filtra y acumula humedad, y la falta de vegetación. Para ambas da una relación básica con el deslizamiento, lo que compensa en parte que no llegue a tres señales. Para el nivel 4 le faltan más señales y una explicación más clara de cómo cada una lleva al movimiento del suelo."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "ayuda mucho, porque los terrenos se ponen más firmes cuando tienen arborización, cuando hay vegetación.",
+    "que no tienen ese soporte para tener unos terrenos estables"
+   ],
+   "justificacion": "Menciona una función concreta: la vegetación hace que el terreno quede más firme y estable. Solo nombra esa función y no construye un argumento completo que la relacione con un problema o un lugar concreto de su vereda, como pide el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "La guadua.",
+    "Para darle solución a esos posibles riesgos que tenemos. Porque mire qué bonito quedó ese trabajo allá con los trinchos de guadua."
+   ],
+   "justificacion": "La definición de biomaterial la dio el entrevistador, así que no cuenta. Ella nombra la guadua y le reconoce una utilidad: resolver riesgos, con el trincho como ejemplo. No dice qué ventajas tiene la guadua frente a otros materiales ni propone otras aplicaciones. Por eso queda en el nivel 3 y no alcanza el 4."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "en esta vereda la participación fue excelente. Eso ayudó mucho a que los trabajos se pudieran realizar.",
+    "si no hay convite, si no está la mano, la ayuda comunitaria, no podemos llegar a esos logros. Y en esta vereda sí se logró.",
+    "Sí, la gente llega. Llega, llega."
+   ],
+   "justificacion": "Ve la participación comunitaria como lo que hace posibles resultados concretos, como las obras que se hicieron en el convite. No habla de que la comunidad pueda organizar sola nuevas soluciones o repetir las obras, ni de límites o de la ayuda externa que necesitaría. Eso sería necesario para el nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0840722
+ }
+}

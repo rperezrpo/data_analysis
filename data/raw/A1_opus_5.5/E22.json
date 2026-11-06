@@ -1,0 +1,83 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 1,
+   "evidencia": [
+    "Sí, para uno tomar conciencia de tantas cosas que hay.",
+    "Cuidar la naturaleza, los árboles, las aguas."
+   ],
+   "justificacion": "La persona dice que las SbN sirven para tomar conciencia y para cuidar la naturaleza. Eso las confunde con la conservación ambiental en general, no con usar la naturaleza para resolver un problema. Para llegar al nivel 2 tendría que dar al menos una idea básica de aprovechar los recursos naturales como solución, o un ejemplo sencillo."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "la amenaza climática es cuando hay mucho invierno, los volcanes, los incendios, los deslizamientos, los ventarrones."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima, como el invierno y los ventarrones, y con sus efectos, como incendios y deslizamientos. Lo hace de forma general y mezcla amenazas no climáticas, como los volcanes. No menciona el cambio climático como agravante ni fenómenos de largo plazo, que el nivel 4 exige."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Pues aquí, pues donde tuvimos haciendo ese trabajo, ese deslizamiento que hay ahí.",
+    "son por unas aguas profundas... cuando yo estaba pequeña, nosotros cargábamos agua de ahí, y ahí nacía un agua. Esa agua se profundizó.",
+    "Por la imprudencia de la gente que construye en partes donde no debe."
+   ],
+   "justificacion": "En su territorio nombra solo el deslizamiento como amenaza concreta. Sin embargo, lo explica con memoria del lugar (un nacimiento de agua que se profundizó) y con un agravante social (construir en terreno inadecuado). Esa causalidad local compensa en parte que nombre una sola amenaza. Para el nivel 4 necesitaría reconocer más amenazas del territorio y vincular con claridad fenómenos climáticos y amenazas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "Por la imprudencia de la gente que construye en partes donde no debe. A pesar de que el terreno no sirve para construir, construye.",
+    "son por unas aguas profundas"
+   ],
+   "justificacion": "Reconoce una práctica que favorece los deslizamientos (construir en terrenos que no sirven) y alude al agua subterránea como causa. No menciona señales clave como grietas, árboles o postes inclinados, o humedad visible. Tampoco llega a tres señales ni explica el mecanismo, como pediría el nivel 3."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 2,
+   "evidencia": [
+    "Pues lo que nos han enseñado es que nos ayuda mucho por los vientos, por el agua."
+   ],
+   "justificacion": "Sabe que la vegetación ayuda y la asocia vagamente con el viento y el agua. No dice ninguna función concreta, como retener agua, amarrar la tierra o proteger cauces. Para el nivel 3 tendría que nombrar funciones específicas."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Guadua.",
+    "Para hacer terrazas, para sostener terrenos."
+   ],
+   "justificacion": "Identifica la guadua y su uso en el trincho para sostener terrenos, aunque solo después de que el entrevistador la guiara. No nombra ventajas de los biomateriales frente a otros materiales, como la disponibilidad local o menores emisiones, que el nivel 3 exige."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Me da tristeza porque la gente no colabora, la gente no cree en nada.",
+    "Pues yo sí creo.",
+    "Que había que hacer como unas canaletas en escalitas, porque el agua baja. Un señor por aquí lo propuso, pero ¿quién le pone atención?",
+    "No nos pueden seguir perjudicando a nosotros\". Y no hacen caso."
+   ],
+   "justificacion": "Cree que la participación puede ayudar y da un ejemplo concreto de solución propuesta por la comunidad: canaletas escalonadas para manejar la escorrentía. También señala un límite: la falta de colaboración y de atención entre vecinos. No desarrolla cómo podría autogestionarse esa solución o una réplica del trincho, ni distingue qué apoyo externo haría falta. Eso sería necesario para el nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0861622
+ }
+}

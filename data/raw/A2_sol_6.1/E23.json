@@ -1,0 +1,71 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Sirven para prevenir situaciones del medio ambiente, como deslizamientos o inundaciones.",
+        "Toda la vegetación le da más estabilidad a los terrenos."
+      ],
+      "justificacion": "Reconoce una finalidad preventiva y una contribución básica de la vegetación, mostrando una comprensión inicial de estas soluciones. No desarrolla una definición que explique cómo aprovechan la naturaleza ni ejemplos suficientemente específicos para distinguirlas de otros proyectos ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Es lo que estamos viviendo ahora con el agua: que ya no hay agua. Todo esto que afecta al ser humano.",
+        "La falta de agua, los deslizamientos y la contaminación de las quebradas."
+      ],
+      "justificacion": "Asocia la amenaza con la escasez de agua y otros problemas ambientales, incluyendo la contaminación. No relaciona explícitamente esa escasez ni los deslizamientos con sequías, lluvias u otros fenómenos climáticos, lo que falta para el nivel siguiente."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Sirven para prevenir situaciones del medio ambiente, como deslizamientos o inundaciones.",
+        "Ah, acá hay muchas. La falta de agua, los deslizamientos y la contaminación de las quebradas."
+      ],
+      "justificacion": "En el conjunto de la entrevista identifica deslizamientos e inundaciones, y sitúa expresamente los primeros en su territorio. Aunque la referencia a inundaciones es general, demuestra reconocimiento de dos amenazas principales; no explica sus causas ni agravantes para alcanzar el nivel superior."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "El piso 'tarjado' y las aguas que se ven por ahí brotando de la tierra."
+      ],
+      "justificacion": "Reconoce el agrietamiento del suelo y la presencia de agua como señales de posible deslizamiento. No menciona una tercera señal o práctica ni explica los mecanismos que relacionan estas señales con el movimiento del terreno."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 3,
+      "evidencia": [
+        "Toda la vegetación le da más estabilidad a los terrenos. Como lo que ustedes me habían comentado allá de esas cercas, como vivas, algo así."
+      ],
+      "justificacion": "Identifica una función concreta de la vegetación: estabilizar el terreno, y menciona las cercas vivas como referencia. No desarrolla un argumento que vincule esa función con una problemática local concreta y explique cómo ayudaría a resolverla."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 3,
+      "evidencia": [
+        "Ayuda bastante a la parte ecológica. Son materiales que le ayudan al propio terreno a abastecerse y a crear como nuevos cimientos, según lo que yo vi allá con las plantas y todo lo que se sembró."
+      ],
+      "justificacion": "Atribuye a los materiales utilizados beneficios ecológicos y una contribución a la formación de cimientos en el terreno, superando el mero reconocimiento del material. Su explicación mezcla materiales y vegetación, sin precisar aplicaciones constructivas suficientemente claras para el nivel superior."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Es como dice el dicho: la unión hace la fuerza.",
+        "Es como ayudar, no mirando que es por el otro, sino como una unión que se hace en beneficio de toda la comunidad."
+      ],
+      "justificacion": "Reconoce la solidaridad y el beneficio colectivo como ventajas de la participación comunitaria. No identifica proyectos autogestionados ni resultados ambientales tangibles que permitan ubicar esta capacidad en el nivel siguiente."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+EVALUADORES EXTERNOS DE ESTA CORRIDA (32 transcripciones × 2 modelos = 64 llamadas)
+  A3  gpt-6-astra  -> A3_gpt_astra_6/
+  A4  gpt-6.1-sol  -> A4_gpt_sol_6.1/
+
+Reciben exactamente lo mismo que los Evaluadores Claude: mismas instrucciones, misma transcripción y mismo
+formato de respuesta. Solo cambia el modelo. Cada respuesta va en la carpeta del modelo, en la carpeta de la
+corrida, junto a las de Claude (A1_…, A2_…). La clave del desciego no está en la corrida: está en LLM_judge/claves.
+
+No uses las apps (gemini.google.com, chatgpt.com): no fijan la versión del modelo y su memoria mezcla conversaciones.
+
+OPCIÓN A: CON UN AGENTE (Codex o Antigravity en VS Code), SIN CLAVES DE API
+  1. En VS Code abre la carpeta de la corrida (resultados_<versión>), no la carpeta del estudio.
+  2. Abre una conversación nueva del agente y elige en el selector UNO de los modelos de la tabla.
+  3. Escríbele: "Lee config_externos/INSTRUCCIONES_AGENTE.md y síguelo al pie de la letra."
+  4. Repite con una conversación nueva para cada modelo.
+  El agente lanza un subagente por transcripción y guarda las respuestas en la carpeta del modelo. La versión
+  exacta del modelo no queda registrada en la respuesta: el agente la anota en <carpeta del modelo>/_registro.txt.
+
+OPCIÓN B: A MANO (una conversación por transcripción)
+  Google AI Studio (Gemini) u OpenAI Platform > Playground (GPT):
+  1. Chat nuevo con el ID exacto del modelo de la tabla.
+  2. Instrucciones de sistema: todo config_externos/sistema_evaluador.txt.
+  3. Salida estructurada / JSON schema: config_externos/schema_evaluador_gemini.json (AI Studio) o
+     config_externos/schema_evaluador_openai.json (Playground). Temperatura y razonamiento por defecto.
+  4. Mensaje: el contenido de config_externos/mensajes/<código>.txt.
+  5. Guarda la respuesta, sin editarla, como <carpeta del modelo>/<código>.json.
+  6. Chat nuevo para la siguiente transcripción. Nunca dos transcripciones en la misma conversación.
+
+CUANDO TERMINES (o para ver el avance): avísale a Claude. Corre `importar` y `estado`, valida cada respuesta
+y te dice cuáles faltan o hay que repetir.

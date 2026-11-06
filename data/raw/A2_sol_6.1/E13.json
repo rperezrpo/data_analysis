@@ -1,0 +1,79 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Por ejemplo, donde hay dificultades de deslizamientos o donde hay problemas de aguas que están haciendo daños en las carreteras.",
+        "Es algo que se ve más al natural, no como los muros en concreto.",
+        "Por ejemplo, aquí tenemos la guadua, que ayuda a que la tierra esté más firme y no se deslice."
+      ],
+      "justificacion": "Distingue estas soluciones de las obras de concreto y aporta un ejemplo específico de vegetación que estabiliza el terreno, relacionado con problemas de su entorno. No desarrolla una definición conceptual completa sobre el aprovechamiento de procesos naturales para resolver problemas ambientales, necesaria para el nivel superior."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "La amenaza es lo que pasa cuando hay bastante lluvia: se taponan las quebradas y hay deslizamientos.",
+        "Las aguas lluvias bajan por las vías, arrastran con toda la tierra, se meten a los cultivos y a las fincas y hacen desastres en nuestras fincas.",
+        "Las amenazas vienen de que están talando tantos árboles."
+      ],
+      "justificacion": "Relaciona la amenaza con lluvias abundantes y explica consecuencias sobre vías, cultivos y fincas, aunque mezcla la amenaza con un agravante como la tala. No menciona cambios climáticos de largo plazo ni explica cómo el cambio climático intensifica estos fenómenos."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "La amenaza es lo que pasa cuando hay bastante lluvia: se taponan las quebradas y hay deslizamientos.",
+        "Las aguas lluvias bajan por las vías, arrastran con toda la tierra, se meten a los cultivos y a las fincas y hacen desastres en nuestras fincas.",
+        "Entonces las orillas de las quebradas están quedando muy descubiertas, y así se hace más fácil que haya deslizamientos y que la tierra se vaya deslizando."
+      ],
+      "justificacion": "Reconoce deslizamientos y describe flujos de agua y tierra que invaden los predios, vinculándolos con lluvias, taponamientos y pérdida de vegetación ribereña. No desarrolla una reconstrucción precisa de eventos históricos, áreas críticas o cambios temporales que permita alcanzar el nivel superior."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Entonces las orillas de las quebradas están quedando muy descubiertas, y así se hace más fácil que haya deslizamientos y que la tierra se vaya deslizando.",
+        "Eso es lo que está pasando allá abajo, en la vía para La Cuchilla: las tuberías que hay ahí tienen como una fuga de agua."
+      ],
+      "justificacion": "Identifica la pérdida de vegetación y reconoce una fuga de tubería en un sector concreto como condiciones relevantes para los deslizamientos. Aunque explica la relación de la deforestación con la inestabilidad, no aporta una tercera señal o práctica diferenciada que permita alcanzar el nivel 3."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Es sembrando árboles, sembrando en las orillas, cuidando mucho las orillas con la vegetación.",
+        "Por ejemplo, aquí tenemos la guadua, que ayuda a que la tierra esté más firme y no se deslice. Las raíces ayudan a sostener la tierra."
+      ],
+      "justificacion": "Explica cómo las raíces estabilizan el suelo y relaciona esta función con los deslizamientos y el cuidado de las orillas en su territorio. Para el nivel superior faltan otras funciones desarrolladas con ejemplos, o una reflexión sobre las limitaciones de distintas especies."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Quedó muy bien trabajado, muy bien hecho y es mucho más fácil. Además, la misma comunidad lo puede aportar.",
+        "Los materiales que utilizaron para el taller que tuvimos allá fueron la guadua y la tierra con cemento.",
+        "Cuando hacían los huecos para pisar las guaduas y sostenerlas, ustedes les echaron la misma tierra de allá, con cemento."
+      ],
+      "justificacion": "Identifica la guadua como material constructivo y describe su aplicación y fijación en la obra realizada, cuya facilidad de ejecución comunitaria también reconoce. No examina límites del material, como mantenimiento, durabilidad o requisitos técnicos, necesarios para el nivel 5."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Sería genial que en la misma comunidad nos pusiéramos de acuerdo e hiciéramos eso.",
+        "Yo creo que la comunidad, ya sola, sería capaz de hacerlo también, porque ustedes la metieron toda y nos explicaron muy bien cómo se hacía todo.",
+        "Sería muy importante que los talleres siguieran y nos siguieran enseñando cómo hacer las cosas, para hacerlas nosotros mismos."
+      ],
+      "justificacion": "Considera viable replicar comunitariamente la construcción y fundamenta esa posibilidad en la experiencia práctica y la formación recibida. No desarrolla suficientemente las ventajas específicas de la autonomía frente a otras formas de gestión ni delimita qué apoyos técnicos o condiciones requeriría la réplica."
+    }
+  ]
+}

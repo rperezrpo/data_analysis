@@ -1,0 +1,87 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Sirven para mejorar muchas partes de nuestro entorno. Por ejemplo, donde hay dificultades de deslizamientos o donde hay problemas de aguas que están haciendo daños en las carreteras.",
+    "Es algo que se ve más al natural, no como los muros en concreto.",
+    "Además, la misma comunidad lo puede aportar."
+   ],
+   "justificacion": "Percibe las SbN como algo 'más al natural', distinto del concreto, y útil para problemas como los deslizamientos. Eso es una percepción general. No da una definición conceptual sobre aprovechar los recursos de la naturaleza ni menciona ejemplos específicos de SbN que permitan distinguirlas de otros proyectos, como pide el nivel 3."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "La amenaza es lo que pasa cuando hay bastante lluvia: se taponan las quebradas y hay deslizamientos.",
+    "Las amenazas vienen de que están talando tantos árboles.",
+    "Sí, la deforestación."
+   ],
+   "justificacion": "Relaciona la amenaza con un fenómeno del clima (las lluvias intensas) y con sus efectos. Pero lo hace de forma general y acepta la deforestación como amenaza, sin separarla como agravante social. No menciona el cambio climático ni fenómenos de largo plazo, que son lo que exige el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "cuando hay bastante lluvia: se taponan las quebradas y hay deslizamientos. Las aguas lluvias bajan por las vías, arrastran con toda la tierra, se meten a los cultivos y a las fincas",
+    "las orillas de las quebradas están quedando muy descubiertas, y así se hace más fácil que haya deslizamientos"
+   ],
+   "justificacion": "Nombra los deslizamientos y el taponamiento de quebradas con escorrentía que arrastra tierra hacia las fincas, y señala la tala de las orillas como agravante. Sin embargo, la única amenaza que nombra con claridad son los deslizamientos y mezcla la deforestación con las amenazas. Por eso los argumentos causales no alcanzan del todo el nivel 4."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "De eso no me acuerdo, Ricardo.",
+    "Eso es lo que está pasando allá abajo, en la vía para La Cuchilla: las tuberías que hay ahí tienen como una fuga de agua.",
+    "las orillas de las quebradas están quedando muy descubiertas, y así se hace más fácil que haya deslizamientos"
+   ],
+   "justificacion": "Después de que el entrevistador le recuerda las señales, reconoce una práctica (tuberías con fuga) en un lugar concreto. También vincula la tala de las orillas con los deslizamientos. No menciona por sí misma tres señales, y la de la fuga no la explica, así que no llega al nivel 3."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "entre más vegetación tengamos, menos deslizamientos y cosas así hay. Es sembrando árboles, sembrando en las orillas, cuidando mucho las orillas con la vegetación.",
+    "los árboles y las plantas ayudan a que la tierra esté más firme. Por ejemplo, aquí tenemos la guadua, que ayuda a que la tierra esté más firme y no se deslice. Las raíces ayudan a sostener la tierra."
+   ],
+   "justificacion": "Construye un argumento completo que vincula la estabilización del suelo por las raíces con los deslizamientos y la protección de las orillas en su territorio. Le falta explicar al menos tres funciones distintas (por ejemplo, retención de agua, sombra o biodiversidad) o mencionar límites de la vegetación, como exige el nivel 5."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "No, no recuerdo eso.",
+    "Los materiales que utilizaron para el taller que tuvimos allá fueron la guadua y la tierra con cemento."
+   ],
+   "justificacion": "Identifica la guadua entre los materiales usados, pero mezclada con el cemento y después de que el entrevistador se lo sugiere. No nombra beneficios propios de los biomateriales, que es lo que pide el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "Yo creo que la comunidad podría hacerlo, que podríamos hacerlo nosotros mismos. Esto porque tuvimos un taller muy bueno, con mucha explicación",
+    "Sería genial que en la misma comunidad nos pusiéramos de acuerdo e hiciéramos eso.",
+    "Necesitamos aprender a cuidarnos nosotros mismos, a cuidar nuestro terreno, nuestra vereda",
+    "para hacerlas nosotros mismos."
+   ],
+   "justificacion": "Ve la posibilidad de autogestionar la réplica de un proyecto concreto, el trincho, a partir de lo aprendido, y valora organizarse en convites. No explica por qué la autonomía comunitaria ofrece ventajas frente a otras opciones ni reflexiona sobre los límites o la necesidad de orientación técnica. Eso es lo que le falta para el nivel 5."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0993132
+ }
+}

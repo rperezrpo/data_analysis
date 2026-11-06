@@ -1,0 +1,94 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Son soluciones que la misma naturaleza nos ofrece y que podemos implementar debido a todo este cambio que estamos teniendo. Son recursos que podemos aprovechar.",
+    "Por ejemplo, en temporada de lluvia, recoger las aguas para cuando no llueva.",
+    "la misma guadua se puede sembrar para que sostenga el terreno un poquito más"
+   ],
+   "justificacion": "Da una definición básica centrada en aprovechar los recursos que ofrece la naturaleza y un ejemplo sencillo: recoger agua lluvia. Menciona la siembra de guadua para sostener el terreno, pero lo hace al hablar de biomateriales y sin presentarla como una SbN. Para el nivel 3 le falta una definición más específica o varios ejemplos que muestren que distingue las SbN de otros proyectos ambientales."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Hay épocas de calor, y eso daña los cultivos.",
+    "construimos mal, y vienen los movimientos del mar, los movimientos de la tierra por la resequedad. Eso es una amenaza.",
+    "Hay épocas de mucha sequía"
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima, como el calor, la sequía y la resequedad que mueve la tierra, pero lo hace de forma general. Además mezcla estos fenómenos con causas sociales, como construir mal. Para el nivel 4 le falta hablar del cambio climático como agravante de largo plazo y separar la amenaza de otros problemas socioambientales."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Los deslizamientos, por la misma ubicación geográfica, montañosa y rocosa, que no cuidamos.",
+    "Estamos invadiendo las quebradas; ni siquiera los retiros, la quebrada misma.",
+    "esa es la problemática más importante: la construcción y, digamos, las industrias que llegan y tiran los desechos"
+   ],
+   "justificacion": "Solo nombra una de las cuatro amenazas principales: los deslizamientos. Aunque señala agravantes como la pendiente y la construcción sin control, termina señalando como problema principal la construcción y los desechos industriales, que no son amenazas climáticas. Para el nivel 3 tendría que nombrar al menos dos amenazas, por ejemplo avenidas torrenciales, inundaciones o incendios."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Es como cuando el terreno se va tajando, se va corriendo, como cediendo.",
+    "Las rocas que se van como chorreando, moviendo.",
+    "cuando está tan seco que se va agrietando, que va haciendo como grietitas, como arañitas",
+    "lo de las aguas que caen todas ahí en la montañita sin hacerles canalización, ni zanjas",
+    "si no recogían esas aguas no podía durar mucho"
+   ],
+   "justificacion": "Menciona varias señales y prácticas: el terreno que cede, las rocas que se mueven, las grietas y las aguas sin canalizar. Entre ellas hay al menos dos señales o prácticas clave. Para el nivel 4 le falta explicar cómo cada señal se relaciona con el deslizamiento, por ejemplo que el agua sin canalizar satura y suelta el suelo."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Hay que saber qué árboles y qué maticas se siembran, porque ayudan a amarrar la tierra, a sostenerla.",
+    "hay unas que ayudan a absorber el agüita y a mantenerla ahí de forma más apropiada",
+    "hay que saber qué planticas se siembran en determinado terreno",
+    "la misma guadua se puede sembrar para que sostenga el terreno un poquito más"
+   ],
+   "justificacion": "Nombra funciones concretas, como amarrar la tierra y retener el agua. Las vincula con la estabilidad del terreno en su contexto de laderas, a través del ejemplo de la guadua. Además reconoce un límite: no toda especie sirve en cualquier terreno. Para el nivel 5 le falta explicar al menos tres funciones, incluidas las de adaptación (sombra, temperatura, biodiversidad), con ejemplos de su territorio."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "La guadua. O sea, los materiales naturales, lo que la misma naturaleza nos da",
+    "que son las que ayudan a sostener el trabajo que se está haciendo",
+    "igual se puede utilizar en otras cosas"
+   ],
+   "justificacion": "Identifica la guadua como biomaterial y lo define como un material natural. Sin embargo, no explica qué beneficios tiene, como menores emisiones, disponibilidad local o costo, frente a otros materiales. Para el nivel 3 necesitaría nombrar ventajas concretas de usar biomateriales."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Uno lo hace y adquiere mucho conocimiento, y ya puede tener esa herramienta para cuando se presente en otro momento, en otra situación, en otro lugar.",
+    "Inclusive se puede compartir con otras veredas.",
+    "es una herramienta súper importante, porque la podemos tener nosotros, las comunidades",
+    "que los chicos del ITM, con su estudio, vengan a compartir con el conocimiento de los campesinos",
+    "nos queda un conocimiento, un material, una herramienta para poder replicar en otras oportunidades o en otras comunidades"
+   ],
+   "justificacion": "Ve la participación como una manera de que la comunidad adquiera una herramienta propia que puede replicar en otras veredas y frente al riesgo de deslizamiento. También valora que se sumen el saber campesino y el saber técnico. Para el nivel 4 le faltan ejemplos concretos de soluciones que la comunidad pueda autogestionar, o una reflexión sobre qué ayuda externa haría falta."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.09820720000000001
+ }
+}

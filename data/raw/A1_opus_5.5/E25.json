@@ -1,0 +1,90 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Son soluciones amigables con la naturaleza, ¿cierto?, que impactan el medio ambiente.",
+    "sirven, como la palabra lo dice, para dar soluciones a problemas que tengamos en la comunidad.",
+    "por ejemplo, los deslizamientos que se puedan dar. También el deterioro de la biodiversidad y el deterioro del agua.",
+    "la contaminación de las quebradas."
+   ],
+   "justificacion": "Da una definición algo más que básica, que relaciona las SbN con resolver problemas de la comunidad, y nombra problemas concretos que podrían atender (deslizamientos, agua, quebradas). Sin embargo, no da ejemplos de soluciones específicas ni muestra cómo se aprovechan los recursos naturales. Para el nivel 4 le falta una definición completa y ejemplos de SbN concretas aplicadas a esos problemas."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "la amenaza climática es, por ejemplo para nosotros, cuando no estamos preparados para enfrentar largas temporadas de lluvia, ¿cierto?, o también temporadas de sol.",
+    "O cuando hay contaminación, que nosotros mismos somos los que contaminamos.",
+    "Para mí, la contaminación también es una amenaza."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima (temporadas largas de lluvia y de sol), pero la mezcla con la falta de preparación y con la contaminación, que considera una amenaza. No menciona el cambio climático como agravante ni fenómenos de largo plazo como El Niño o La Niña. Por eso no alcanza el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Cuando llueve demasiado hay mucha escorrentía y puede haber deslizamientos.",
+    "acá hay un acueducto veredal que se tapona cuando llueve mucho.",
+    "también puede haber deslizamientos donde se coge el agua, en la bocatoma. Entonces sí, ha pasado que se tapa, se obstruye y se pierde el agua.",
+    "cuando hace mucho verano, la sequía. Esa también es una amenaza."
+   ],
+   "justificacion": "Identifica los deslizamientos y la sequía, y relaciona las lluvias intensas, la escorrentía, los deslizamientos y el taponamiento de la bocatoma, con un caso que ya ocurrió. Esas relaciones causales se acercan al nivel 4, pero de las cuatro amenazas principales solo nombra claramente los deslizamientos (no habla de avenidas torrenciales, inundaciones ni incendios). Por mejor ajuste queda en 3."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "cuando la tierra empieza, como la palabra lo dice, a deslizarse: empieza como a fraccionarse y a deslizarse.",
+    "los deslizamientos ya se ven cuando llueve mucho, porque el agua se lleva toda esa tierra que está como flojita."
+   ],
+   "justificacion": "Reconoce una o dos señales sencillas: la tierra que se fracciona y la tierra floja que se lleva la lluvia. No llega a las tres señales o prácticas con dos señales clave (grietas grandes, árboles o postes inclinados, tuberías rotas, construcciones en zonas inestables) que pide el nivel 3."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "donde hay deforestación, reforestar ayuda porque sostiene la tierra.",
+    "sabemos que los árboles dan oxígeno.",
+    "va a llegar más biodiversidad, ¿cierto?, la diversidad de pajaritos, de aves."
+   ],
+   "justificacion": "Nombra funciones concretas de la vegetación: sostener la tierra, dar oxígeno y atraer biodiversidad. No las vincula con problemas específicos de su vereda (por ejemplo, con los deslizamientos o la bocatoma que mencionó antes). Para el nivel 4 le falta construir ese argumento con el territorio."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "los biomateriales son materiales que se sacan de la misma naturaleza, ¿cierto?",
+    "De pronto la guadua. Esa es como uno.",
+    "la misma vegetación, pienso yo: los árboles y todo eso."
+   ],
+   "justificacion": "Con dudas, identifica la guadua y los árboles como biomateriales y da una definición básica. No menciona ventajas ni beneficios de usarlos, como pide el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "hacemos los convites para ir por toda la vereda y mirar los puntos que estén... sufriendo más, los puntos que estén más vulnerables.",
+    "Entonces daríamos una solución, digo yo, o hablaríamos entre todos a ver qué solución se podría dar.",
+    "hay gente que sabe mucho, que ha vivido toda la vida aquí en la vereda y conoce esos puntos estratégicos."
+   ],
+   "justificacion": "Ve los convites como una forma de que la comunidad identifique puntos vulnerables y busque sus propias soluciones, y valora el conocimiento de los habitantes de toda la vida. No da ejemplos concretos de soluciones que se puedan implementar o replicar, ni habla de los límites de la autogestión o de la ayuda externa necesaria. Por eso no alcanza el nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0913633
+ }
+}

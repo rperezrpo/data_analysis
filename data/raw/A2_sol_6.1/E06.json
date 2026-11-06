@@ -1,0 +1,82 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "soluciones a problemáticas que uno puede tener, utilizando las mismas cosas que nos da la naturaleza.",
+        "Por ejemplo, lo que hicimos: estabilizar terrenos utilizando la misma materia orgánica, como los árboles y las raíces, y materiales como el bambú impermeabilizado, que nos ayudan a estabilizar el terreno.",
+        "Son diferentes al concreto y al cemento, que no permiten intercambios de fluidos con el suelo."
+      ],
+      "justificacion": "Define las SbN como respuestas a problemas mediante recursos naturales y explica su aplicación para estabilizar terrenos. Al relacionar sus ventajas con una experiencia en la que participó, demuestra una comprensión situada que corresponde al nivel máximo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "esa amenaza es ese peligro latente al que estamos expuestos por los diversos cambios que está teniendo el clima, el comportamiento climático.",
+        "Y esos movimientos en masa pueden estar generados tanto por sequías extremas como por lluvias prolongadas.",
+        "Entonces pienso que sí, de pronto con la ayuda de la parte técnica, pero la comunidad sí es capaz de replicar esos procesos."
+      ],
+      "justificacion": "Distingue la amenaza como peligro latente y relaciona los cambios climáticos con fenómenos extremos y consecuencias territoriales. Considerando toda la entrevista, también reconoce posibilidades comunitarias de gestionar la inestabilidad mediante la réplica de la intervención de estabilización, con apoyo técnico."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "La vereda sufre también de mucha erosión, ¿cierto? Y esos movimientos en masa pueden estar generados tanto por sequías extremas como por lluvias prolongadas.",
+        "En estos días también hemos sufrido muchos incendios. No sé si han sido provocados o no, pero sí han sido episodios repetidos, debido a la alta temperatura."
+      ],
+      "justificacion": "Identifica movimientos en masa e incendios en la vereda y explica sus relaciones con condiciones climáticas concretas. Aunque menciona incendios recientes y repetidos, no desarrolla una descripción precisa de sectores críticos, eventos específicos o encadenamientos de amenazas que sustente el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "tener mangueras que cruzan los terrenos y que tienen algún tipo de fuga. Eso va socavando y socavando el terreno.",
+        "De esa manera uno puede intuir que eso va a terminar en un deslizamiento en masa de ese terreno, de esa pendiente.",
+        "Otra práctica es quitar la vegetación, o sea, dejar el terreno limpio. Eso también nos da cuenta de que ese suelo está expuesto y de que muy posiblemente va a empezar a ceder."
+      ],
+      "justificacion": "Aunque desarrolla dos prácticas indicadoras, explica causalmente cómo las fugas y la pérdida de vegetación favorecen el movimiento del terreno, mostrando una profundidad propia del nivel 4. No establece una decisión preventiva concreta condicionada a señales o cambios observados, necesaria para el nivel 5."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "En el lugar que tiene vegetación no va a haber esas islas de calor; no se va a sentir ese calor tan pleno como cuando tenemos construcciones y cemento.",
+        "la vegetación le va a ayudar a la tierra a que, con sus raíces, se vuelva firme",
+        "una tierra que tiene ahí muchos microorganismos, que tiene vida.",
+        "Porque el calor que se siente allá abajo y lo que se siente acá son realidades muy diferentes, por lo que puede hacer la vegetación."
+      ],
+      "justificacion": "Explica funciones de enfriamiento, estabilización del suelo y sostenimiento de la vida del suelo, vinculándolas con experiencias locales de calor y estabilización. No desarrolla con suficiente detalle tres funciones acompañadas de aplicaciones territoriales ni aborda limitaciones de la vegetación para alcanzar el nivel 5."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 5,
+      "evidencia": [
+        "materiales como el bambú impermeabilizado, que nos ayudan a estabilizar el terreno.",
+        "Son materiales que van a tener características más resistentes y que, por decirlo de alguna manera, son más amigables con el ambiente.",
+        "También uno puede tener un techo sembrado, ¿cierto? De eso me acuerdo: que las estructuras de las casas tienen que ser fuertes, tienen que estar muy bien construidas, porque eso va a pesar."
+      ],
+      "justificacion": "Reconoce el bambú, explica ventajas ambientales y de resistencia, y describe su aplicación en la estabilización del terreno. Además, identifica una condición técnica que limita la instalación de techos sembrados: la capacidad estructural para soportar su peso, alcanzando el nivel máximo."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "No podemos esperar siempre que sea el Estado o los entes los que vengan a corregir las cosas de los territorios.",
+        "La misma comunidad lo puede hacer, dentro de las capacidades que tiene y con la ayuda de organizaciones que lideren el proceso.",
+        "hay miembros de la comunidad a los que veo con mucha experticia, que no le temen al trabajo pesado ni a remover la tierra",
+        "Entonces pienso que sí, de pronto con la ayuda de la parte técnica, pero la comunidad sí es capaz de replicar esos procesos."
+      ],
+      "justificacion": "Explica que la organización permite actuar sin depender exclusivamente del Estado y reconoce capacidades locales concretas para replicar la intervención. Complementa esa autonomía con apoyo organizativo y técnico, mostrando tanto las posibilidades como los límites de la autogestión."
+    }
+  ]
+}

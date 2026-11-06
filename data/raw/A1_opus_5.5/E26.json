@@ -1,0 +1,90 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Sirven para que aprovechemos lo que la misma naturaleza genera y no estemos agregando cosas que no son de ella.",
+    "yo para qué voy a conseguir materiales y hacer un muro de concreto cuando tengo guadua, cuando tengo otras cosas que me van a servir mucho"
+   ],
+   "justificacion": "Da una definición básica (aprovechar lo que genera la naturaleza en lugar de agregar elementos ajenos) y un ejemplo que contrasta una alternativa natural (guadua) con una obra gris (muro de concreto), lo que muestra que distingue una SbN de otras soluciones. No llega al nivel 4 porque la definición no menciona la mitigación de riesgos ni relaciona explícitamente el ejemplo con una problemática concreta del territorio."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "esa incertidumbre de qué puede pasar, de cuánto va a durar este verano",
+    "yo veo mi terreno, que cuando está tan seco empieza a abrir unas brechitas",
+    "Además del verano, ahora vienen las lluvias tan torrenciales que uno dice \"bueno, ¿cuándo van a parar?\""
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima (veranos prolongados, lluvias torrenciales) y con la incertidumbre que generan, y menciona una consecuencia (el terreno se agrieta). Sin embargo, lo hace de forma general, confunde el fenómeno con las placas tectónicas y no desarrolla el cambio climático como agravante de largo plazo ni distingue con claridad la amenaza del riesgo, como pide el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "uno dice \"Dios mío, esto se me va a desmoronar, ¿qué va a pasar?\"",
+    "Hace poquito tuvimos tanta, tanta lluvia, que yo decía \"pero ¿dónde va a caber tanta lluvia? ¿Qué hacemos con ella?\"",
+    "Y ya se convirtió en un barrio con edificios de cinco pisos."
+   ],
+   "justificacion": "Percibe la amenaza de su entorno en términos generales (verano, mucha lluvia) e insinúa el temor a que el terreno se desmorone, además de señalar la urbanización como cambio del territorio. No nombra con claridad al menos dos de las amenazas principales (deslizamientos, avenidas torrenciales, inundaciones, incendios), que es lo que exige el nivel 3."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "cuando está tan seco empieza a abrir unas brechitas, y uno dice \"Dios mío, esto se me va a desmoronar\"",
+    "Yo había hecho una brecha, como un callejón, por detrás de mi casa, porque el barranco me la mojaba mucho. Ese callejón me ayuda con la humedad.",
+    "esa construcción tan grande que están haciendo por allá arriba. Hay como un temor"
+   ],
+   "justificacion": "Identifica grietas en el terreno, la humedad del barranco y las construcciones grandes como señales o prácticas que preocupan, y cuenta una acción propia para manejar la humedad. No explica cómo se relaciona cada señal con el deslizamiento (por ejemplo, que la humedad suelta la tierra), y su preocupación por la construcción se centra en el agua de consumo, no en la estabilidad del terreno, por lo que no alcanza el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 2,
+   "evidencia": [
+    "tenemos pulmones por todas partes que nos ayudan en todo",
+    "el verde es un adorno hermoso",
+    "qué tan rico aprender a recoger el agua, a sembrar más árboles y a generar todo eso"
+   ],
+   "justificacion": "Valora la vegetación y afirma que «ayuda»; la metáfora de los «pulmones» apunta de forma vaga al aire, pero el énfasis está en lo estético y lo afectivo. No describe funciones concretas (retener agua, amarrar la tierra, regular la temperatura, etc.) frente al cambio climático, que es lo que exige el nivel 3."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "son los que genera la misma naturaleza para ayudarnos",
+    "la misma piedra, la misma arcilla, las mismas plantas",
+    "para qué voy a conseguir materiales y hacer un muro de concreto cuando tengo guadua, cuando tengo otras cosas que me van a servir mucho"
+   ],
+   "justificacion": "Nombra varios biomateriales (guadua, piedra, arcilla, plantas) y deja ver una ventaja: tenerlos a la mano como alternativa al concreto. No describe aplicaciones o proyectos concretos de construcción con ellos (su ejemplo de uso es de jardinería) ni menciona sus límites, por lo que no alcanza el nivel 4."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "me ponía muy triste la poca participación de la gente, como se ha mermado el grupo que teníamos",
+    "Pero si es \"hagamos una que va a ser en Palma Alta\" y yo soy de Palma Baja… no.",
+    "Haríamos cosas que el otro no sabe y le enseñaríamos",
+    "eso de los biodigestores: qué rico sería que hubiera esa comunidad y decir \"qué dicha, a Empresas Públicas no le vamos a pagar sino lo que alumbramos",
+    "lo estamos generando nosotros mismos\""
+   ],
+   "justificacion": "Ve la participación como un medio para enseñar y como una cadena de beneficios. Además, propone autogestionar soluciones concretas (biodigestores comunitarios para generar energía propia) y reconoce límites reales de la participación (poco compromiso, divisiones entre sectores de la vereda). Para el nivel 5 le falta argumentar por qué la autonomía comunitaria tiene ventajas para gestionar problemas climáticos y referirse a la necesidad de complementar el saber local con apoyo técnico."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.11938409999999999
+ }
+}

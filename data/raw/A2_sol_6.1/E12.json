@@ -1,0 +1,88 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "Las Soluciones basadas en la Naturaleza son las que utilizan los mismos recursos de la naturaleza. Se pueden utilizar para revertir un poco el daño ambiental.",
+        "Sí. De pronto el que hicimos, que eran los trinchos.",
+        "También los reductores de velocidad para el agua, el sembrar plantas que ayuden a descontaminar un poco el cauce del río y el reforestar",
+        "Ayudan a sostener un poco el material mientras la naturaleza va creciendo y va haciendo su trabajo."
+      ],
+      "justificacion": "Define las SbN mediante el aprovechamiento de recursos naturales para atender daños ambientales y distingue varias aplicaciones específicas. Además, vincula su experiencia construyendo trinchos con la estabilización del material y la recuperación de la vegetación, demostrando comprensión aplicada en su territorio."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Es un evento que se da debido al cambio en el ambiente, a las interacciones que ha tenido con el hombre y al daño que le hemos hecho",
+        "el aumento de la temperatura por la construcción y la deforestación",
+        "la contaminación de esas mismas quebradas",
+        "Y claro, también las altas temperaturas y la falta de plantas van resecando mucho el suelo."
+      ],
+      "justificacion": "Reconoce el aumento de temperatura como fenómeno climático y explica una consecuencia sobre el suelo. Sin embargo, mezcla amenazas con contaminación y factores humanos, sin distinguir claramente estas categorías ni desarrollar cómo el cambio climático agrava los fenómenos, por lo que no alcanza el nivel 4."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "el mal manejo de las aguas, que genera derrumbes y desplazamientos de las masas.",
+        "El mal manejo del agua va generando daños que a primera vista no se ven, pero la acumulación de agua en el suelo y en los lugares va aumentando cada vez más esos problemas.",
+        "Y claro, también las altas temperaturas y la falta de plantas van resecando mucho el suelo."
+      ],
+      "justificacion": "Aunque concentra su explicación en los deslizamientos, demuestra profundidad al relacionarlos con el manejo del agua y su acumulación en el suelo, e identifica otros agravantes ambientales locales. Esta explicación causal corresponde al nivel 4; no alcanza el 5 porque no describe eventos históricos, sectores críticos ni encadenamientos territoriales precisos."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 5,
+      "evidencia": [
+        "Donde hay deforestación hay mucha probabilidad de que se muevan las masas, porque ya los suelos no están bien sujetos.",
+        "También cuando se ven árboles que no crecen derechos, sino que se van inclinando hacia el lado de la pendiente, porque ya se han ido desplazando.",
+        "Y cuando hay marcas en la tierra, que son agrietamientos.",
+        "Cuando ya se ha estabilizado casi del todo, es bueno hacer de pronto los trinchos, pero cuando el material todavía está muy inestable, es un poco complicado hacerlo.",
+        "Por eso siempre debe estar la guía, para saber que realmente se puede hacer y para tener la seguridad."
+      ],
+      "justificacion": "Identifica deforestación, árboles inclinados, grietas y acumulación de agua, y explica su relación con la pérdida de estabilidad o el movimiento del terreno. Además, condiciona la construcción de trinchos a la estabilización del material y exige orientación para evaluar su viabilidad, mostrando decisiones preventivas propias del nivel máximo."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "La reforestación es buena porque disminuye la temperatura y le da hogar a las aves y a las mariposas.",
+        "Si se siembran frutales o plantas que tengan flores, ayudan a los polinizadores a alimentarse y a cumplir su propósito.",
+        "Además, está la generación de O2 y la captura de CO2, el sostener la tierra y el ayudar a los frutos.",
+        "Donde hay deforestación hay mucha probabilidad de que se muevan las masas, porque ya los suelos no están bien sujetos."
+      ],
+      "justificacion": "Relaciona problemas locales de temperatura e inestabilidad del suelo con funciones de la vegetación que ayudan a contrarrestarlos. Reconoce también hábitat, polinización y captura de carbono, pero no desarrolla con suficiente detalle aplicaciones territoriales de al menos tres funciones ni limitaciones de su uso para alcanzar el nivel 5."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 5,
+      "evidencia": [
+        "Los biomateriales son los que uno emplea de la naturaleza. Por ejemplo, nosotros utilizamos la guadua.",
+        "Pero antes también se construía con madera, y los techos se hacían con este material que utilizan mucho en la costa",
+        "La guadua aguanta el agua cuando le cae y le pasa; ahí no le hace tanto daño. El problema es cuando está metida en la tierra, que mantiene la humedad.",
+        "Cuando es algo muy grande, es preferible no utilizar esos materiales. Lo mismo cuando el derrumbe todavía no ha parado."
+      ],
+      "justificacion": "Reconoce biomateriales, sus aplicaciones constructivas y propiedades como rigidez y resistencia. También identifica límites concretos relacionados con humedad persistente, tamaño del derrumbe y movimiento activo, mostrando que su pertinencia depende de las condiciones del lugar."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "No tanto una ayuda para construirlo, sino una guía para saber si se puede o no se puede realizar uno de estos proyectos.",
+        "Todo eso habría que mirarlo, porque puede que la comunidad sí lo pueda hacer, pero tiene sus falencias.",
+        "A mí me gusta mucho trabajar con la comunidad, y creo que sería un gran aporte, porque uno no estaría dependiendo de alguna institución, ni buscando o esperando a que manden un experto para poder hacer eso.",
+        "Sé que llegar a un nivel de experticia es bastante difícil y lleva mucho tiempo, pero sería una gran ayuda para la comunidad tener a alguien que sea experto, que esté ahí y que tenga las ganas de estar ahí."
+      ],
+      "justificacion": "Explica que desarrollar capacidades locales permitiría actuar con mayor autonomía y sin esperar asistencia institucional. A la vez, distingue la capacidad comunitaria para construir de la evaluación técnica necesaria para decidir dónde intervenir, reconociendo límites y la importancia de una formación prolongada."
+    }
+  ]
+}

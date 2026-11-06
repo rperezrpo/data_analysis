@@ -1,0 +1,82 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "Los trinchos son un ejemplo muy bueno de eso, de aprovechar esos mismos recursos de la naturaleza como la guadua, la cañabrava, la madera, para darle solución a problemática que tenemos en la vereda.",
+        "Entonces empezamos a trabajar con un ingeniero que tenemos en la Junta de Acción Comunal, que trabaja mucho la bioingeniería, y con él empezamos a hacer una serie de experimentos.",
+        "Pues nosotros hemos trabajado todo el tema de la agroecología, de los bioinsumos para los cultivos. Hay que trabajar en la protección de los nacimientos con árboles nativos, porque nosotros somos un territorio rico en agua."
+      ],
+      "justificacion": "Explica las soluciones como el aprovechamiento de recursos naturales para resolver problemas territoriales y distingue aplicaciones concretas de bioingeniería, agroecología y protección hídrica. Al relacionarlas con experiencias propias de experimentación y necesidades de la vereda, alcanza el nivel de liderazgo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "Hoy vemos reflejado todo ese cambio climático en las altas temperaturas, en las bajas temperaturas y en la contaminación. También se está empezando a notar mucho la escasez de agua y la escasez de alimentos.",
+        "Tenemos información de que hace cien años hubo un verano de siete meses, y eso puede volver en cualquier momento, porque es cíclico.",
+        "Tenemos acá medidores de lluvia, y cuando se sobrepasan los 20 milímetros por metro cuadrado tenemos que avisarle a la comunidad que debe estar atenta, porque a partir de ahí comienzan las inundaciones y los movimientos de tierra.",
+        "Y cuando tenemos más de 15 días de verano, tenemos que avisarle a la gente que se prepare, porque el agua comienza a escasear."
+      ],
+      "justificacion": "Aunque inicialmente mezcla fenómenos climáticos con contaminación, en el conjunto de la entrevista distingue precipitaciones y veranos prolongados de sus consecuencias territoriales. Integra memoria histórica y decisiones comunitarias de alerta ante condiciones específicas, demostrando capacidad para gestionar las amenazas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "Lo otro son los grandes movimientos en masa que tiene la vereda El Uvito, ya que está cruzada por una falla que se llama Romeral. Esa es otra amenaza.",
+        "Bueno, con las precipitaciones que hemos tenido, la tierra se ha comenzado a fracturar fácilmente. Ya no necesita que caigan grandes aguaceros torrenciales.",
+        "Tenemos acá medidores de lluvia, y cuando se sobrepasan los 20 milímetros por metro cuadrado tenemos que avisarle a la comunidad que debe estar atenta, porque a partir de ahí comienzan las inundaciones y los movimientos de tierra."
+      ],
+      "justificacion": "Identifica movimientos en masa e inundaciones y los relaciona con precipitaciones, fracturas del terreno y una condición geológica localizada. Describe cambios observados en la respuesta del suelo y un umbral local de vigilancia, mostrando conocimiento contextual preciso y no solo una enumeración de amenazas."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 5,
+      "evidencia": [
+        "Bueno, con las precipitaciones que hemos tenido, la tierra se ha comenzado a fracturar fácilmente. Ya no necesita que caigan grandes aguaceros torrenciales.",
+        "Tenemos acá medidores de lluvia, y cuando se sobrepasan los 20 milímetros por metro cuadrado tenemos que avisarle a la comunidad que debe estar atenta, porque a partir de ahí comienzan las inundaciones y los movimientos de tierra."
+      ],
+      "justificacion": "Reconoce la fracturación del terreno y explica su relación con las precipitaciones y los movimientos de tierra. Más allá de identificar señales, establece una decisión preventiva concreta —avisar a la comunidad— condicionada a superar una medición de lluvia, lo que corresponde al nivel máximo."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "la naturaleza, los árboles, el bosque y los rastrojos sirven de amortiguación para retener las nubes y el agua, y para evitar que las escorrentías lleguen más rápido a las quebradas y de las quebradas a la ciudad de Medellín.",
+        "Los bosques cumplen un rol muy importante en la retención: guardan el agua porque actúan como una esponja, y poco a poco van soltando el agüita para que llegue a la ciudad.",
+        "Con la tala del bosque, esa agua se ha profundizado mucho más. En cambio, cuando sembramos vegetación, el agua tiende a retenerse en la sombra y el buen ambiente de esa naturaleza, y así el agua no se nos va."
+      ],
+      "justificacion": "Explica cómo la vegetación retiene agua, regula su liberación y reduce la rapidez de las escorrentías, vinculándolo con las quebradas, el abastecimiento de Medellín y cambios locales asociados a la tala. Para el nivel superior falta desarrollar funciones diferenciadas más allá de la regulación hídrica, o reconocer limitaciones de especies y usos."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Los trinchos son un ejemplo muy bueno de eso, de aprovechar esos mismos recursos de la naturaleza como la guadua, la cañabrava, la madera, para darle solución a problemática que tenemos en la vereda.",
+        "Por el contrario, luego de algun tiempo se degrada y se vuelve a integrar a la naturaleza.",
+        "Eso mismo hace que sean un poco más económicos que si tuviera uno que comprarlos."
+      ],
+      "justificacion": "Aunque inicialmente interpreta los biomateriales como insumos agrícolas, posteriormente identifica materiales constructivos y su aplicación en trinchos, destacando disponibilidad territorial, biodegradabilidad y economía. No alcanza el nivel superior porque no reconoce necesidades de mantenimiento, requisitos técnicos ni otras limitaciones; presenta la degradación únicamente como ventaja."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Entonces empezamos a trabajar con un ingeniero que tenemos en la Junta de Acción Comunal, que trabaja mucho la bioingeniería, y con él empezamos a hacer una serie de experimentos.",
+        "Es muy difícil pedirle a las personas que participen, son muy pocos los que se unen a estas jornadas.",
+        "Ellos pueden ver qué se está haciendo y pensar en replicar ese proyecto más adelante.",
+        "Más con esto que le digo del Distrito: que nos dicen que este tipo de soluciones ellos no las aprueban. Entonces si nosotros queremos aportarle al territorio con estas soluciones, lo tenemos que hacer nosotros mismos."
+      ],
+      "justificacion": "Considera la organización comunitaria una vía para ejecutar y replicar soluciones concretas ante la falta de respaldo institucional, apoyándose en capacidades técnicas de la Junta. También reconoce límites de participación y apoyo económico, por lo que plantea una autonomía contextualizada y no una confianza genérica en el trabajo colectivo."
+    }
+  ]
+}

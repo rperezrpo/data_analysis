@@ -1,0 +1,83 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Las Soluciones basadas en la Naturaleza sirven para poder realizar varios proyectos de los que hemos visto allá en el taller.",
+    "lo de la recolección del agua lluvia, que es tan importante. Que ojalá lo implementáramos en todas las fincas."
+   ],
+   "justificacion": "No define qué es una SbN. Solo da un ejemplo sencillo, la recolección de agua lluvia. Ese ejemplo muestra una percepción general del tema. Para el nivel 3 le falta una definición más específica o varios ejemplos que distingan una SbN de otros proyectos ambientales. Por eso no alcanza a valorarse su deseo de aplicarla en las fincas."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Esa sí no me llega en este momento.",
+    "Está la tala de árboles en las orillas de las quebradas. Están las quemas... Y están las aguas que no las recogen bien"
+   ],
+   "justificacion": "No reconoce el concepto. Cuando el entrevistador se lo explica, lo asocia con problemas socioambientales y prácticas humanas, como la tala, las quemas o el mal manejo de aguas. No lo relaciona con fenómenos del clima como lluvias intensas, sequías o calor. Para el nivel 3 tendría que vincular la amenaza con fenómenos climáticos."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Están las quemas, que muchas veces hacen por ahí. Y están las aguas que no las recogen bien, por donde deben ir.",
+    "ahí es donde aparecen los desastres, los daños, los deslizamientos. Eso se ha visto mucho."
+   ],
+   "justificacion": "Percibe de forma superficial la situación de amenaza de la vereda. Mezcla prácticas como quemas, tala y aguas mal conducidas con una sola amenaza nombrada como tal, los deslizamientos. No nombra con claridad una segunda amenaza principal, como incendios, avenidas torrenciales o inundaciones. Por eso no llega al nivel 3."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "hay muchas mangueras regadas por la carretera y por las orillas. Esas mangueras se rompen y el agua se va metiendo en la tierra, y ahí es donde aparecen los desastres",
+    "las aguas que no las recogen bien, por donde deben ir",
+    "Protege de que haya deslizamientos."
+   ],
+   "justificacion": "Identifica prácticas que favorecen los deslizamientos: mangueras rotas, aguas mal conducidas y pérdida de vegetación, esta última implícita en la tala y en la función protectora de las plantas. Explica bien el mecanismo de las mangueras: el agua se infiltra y suelta la tierra. Esa explicación solo se da para una señal. Para el nivel 4 tendría que relacionar varias señales clave, como grietas o árboles inclinados, con el deslizamiento."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Entre más árboles y vegetación tengamos sembrados, más protegido está todo el terreno, y también el aire, el ambiente.",
+    "Protege de que haya deslizamientos. Además, hay más oxígeno, mejor vegetación y mejores terrenos."
+   ],
+   "justificacion": "Menciona funciones concretas de la vegetación: proteger el terreno frente a deslizamientos y aportar oxígeno y mejor aire. Lo hace de forma general, sin un argumento completo que las vincule con problemas específicos de su territorio, por ejemplo sembrar en ciertos sitios o con ciertas especies. Por eso se queda en el nivel 3."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "Los biomateriales… Ay, no, eso sí no."
+   ],
+   "justificacion": "Sin evidencia. Dice que no sabe qué son los biomateriales y no nombra ninguno."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "El terreno donde se va a hacer ese trabajo se sostiene más y queda más protegido. Y podemos aprender, para hacerlo nosotros mismos donde tengamos algún problema en las fincas.",
+    "cuando vemos la necesidad podemos hacer lo mismo: hacer un convite para poderlo hacer.",
+    "si nos ponemos a esperar, la ayuda no llega ligero... Así, en cambio, podemos actuar rápido y hacer lo que necesitamos hacer."
+   ],
+   "justificacion": "Ve el convite como una forma de autogestionar soluciones que la comunidad podría repetir en las fincas. Menciona un resultado tangible: el terreno queda más sostenido. También explica una ventaja de la autonomía frente a esperar al Estado: poder actuar rápido. Para el nivel 5 le faltan ejemplos concretos ligados a su contexto y reconocer límites de la autogestión, como la necesidad de orientación técnica."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0808036
+ }
+}

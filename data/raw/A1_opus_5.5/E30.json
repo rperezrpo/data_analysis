@@ -1,0 +1,84 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 1,
+   "evidencia": [
+    "Basadas como en prevenir, pienso yo.",
+    "Prevenir, sí, pienso yo."
+   ],
+   "justificacion": "La persona solo asocia las SbN con la idea vaga de «prevenir». No las relaciona con el uso de la naturaleza ni con el aprovechamiento de recursos naturales, y no da ejemplos. Para llegar al nivel 2 tendría que dar al menos una definición básica, como «usar la misma naturaleza», o un ejemplo sencillo."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Una amenaza es cuando vemos que va a llover muy duro, pienso. Cuando vemos que una quebrada se va a crecer, también es una amenaza.",
+    "O cuando vemos un deslizamiento, que uno dice: \"ay, esta tierra está muy movida, si llueve, ya eso es…\"",
+    "ya como en fuego, pues, cuando le meten candela a algo, eso también es una amenaza."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima, como las lluvias fuertes y las crecidas, y con sus efectos, como los deslizamientos y el fuego, pero lo hace de forma general. No menciona el cambio climático como agravante ni fenómenos de largo plazo como veranos extensos, El Niño o La Niña, ni distingue entre amenaza y riesgo, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Cuando vemos que una quebrada se va a crecer, también es una amenaza.",
+    "Más que todo, la tierra movida, como en deslizamiento. Porque vea, para la parte de arriba, por ejemplo, está muy quebrado",
+    "Y como en la mitad de El Uvito también, como en esa parte donde Enrique. Allá sí hay mucho."
+   ],
+   "justificacion": "Nombra varias de las amenazas principales: deslizamientos, crecidas de la quebrada e incendios. Además, ubica los deslizamientos en sectores concretos de la vereda. Sin embargo, no construye argumentos que vinculen esas amenazas con sus causas o agravantes climáticos o socioespaciales, más allá de decir que el terreno está «quebrado», que es lo que exige el nivel 4."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Que está saliendo agua, por ejemplo. Que uno ve que brota agua y no sabe de dónde. También puede ser que esté quebrado.",
+    "Sí, que uno ve que la tierra ya se va abriendo, al lado, encima. Eso es como un aviso.",
+    "Uno ve eso y dice: \"si llueve, por ahí se va a penetrar el agua\". Y tiene riesgo."
+   ],
+   "justificacion": "Identifica dos señales clave, el agua que brota y las grietas en la tierra, y explica por qué las grietas son peligrosas: por ahí se filtra el agua cuando llueve. Ese razonamiento se acerca al nivel 4. Aun así, solo menciona dos señales en lugar de tres y no explica la relación de la humedad con el deslizamiento, así que el mejor ajuste es el nivel 3."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Lo que decíamos: que hay que saber qué se siembra, porque amarra. Uno mira eso, que sea algo que sí amarre."
+   ],
+   "justificacion": "Menciona una función concreta de la vegetación, amarrar la tierra, y señala que hay que elegir bien la especie. No relaciona explícitamente esa función con una problemática concreta de su territorio dentro de un argumento completo, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "Ah, para sembrar. Que la siembran, pues.",
+    "Por ejemplo, la cogen para embarar: frijol, habichuela."
+   ],
+   "justificacion": "No reconoce el término biomaterial. Asocia la caña, que fue el ejemplo que dio el entrevistador, con su uso para tutorar cultivos, no con la construcción. Para el nivel 2 tendría que identificar por su cuenta algún material natural de construcción."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "Porque ahí uno toma mejores decisiones, uno mira qué se puede hacer.",
+    "Vea, por ejemplo, este convite que va a haber: si uno fuera solo, uno no lo hace."
+   ],
+   "justificacion": "Percibe ventajas generales del trabajo comunitario: decidir mejor y lograr juntos lo que no se haría solo. Pone el convite como ejemplo, pero no describe la participación como una forma de autogestionar soluciones a problemas climáticos concretos ni menciona resultados tangibles, que es lo que exige el nivel 3."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.08393060000000001
+ }
+}

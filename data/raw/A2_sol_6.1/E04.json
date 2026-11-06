@@ -1,0 +1,72 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 1,
+      "evidencia": [
+        "Aprendimos que uno debe cuidar la naturaleza, mejor dicho."
+      ],
+      "justificacion": "La respuesta se centra en el cuidado general de la naturaleza, sin explicar qué es una SbN. No alcanza el nivel 2 porque no identifica el aprovechamiento de procesos o recursos naturales como una solución."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Las lluvias, los derrumbes.",
+        "Cuando veo que hay harta lluvia, un fuerte aguacero, un vendaval, que se caen los árboles."
+      ],
+      "justificacion": "Relaciona las amenazas con fenómenos climáticos y sus posibles efectos. Para alcanzar el nivel 4 faltaría explicar cómo el cambio climático o las tendencias prolongadas agravan estas amenazas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Por aquí había unas agüitas que salían por encima, y las aguas se están profundizando. Eso es lo que está provocando los deslizamientos aquí abajo.",
+        "Incluso nosotros teníamos unas casitas ahí, hicimos casas ahí, y eso se fue; las aguas se fueron profundizando. Las casas se derrumbaron.",
+        "Y no tirar basuras a las quebradas, porque eso se represa y entonces las partes de arriba son las que sufren."
+      ],
+      "justificacion": "Explica relaciones entre el comportamiento del agua, los deslizamientos y daños ocurridos en viviendas, además de reconocer el represamiento por basuras. Aunque aporta memoria local, falta una descripción más precisa del encadenamiento de amenazas y de las condiciones críticas para alcanzar el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Cuando veo que hay harta lluvia, un fuerte aguacero, un vendaval, que se caen los árboles.",
+        "Por aquí había unas agüitas que salían por encima, y las aguas se están profundizando. Eso es lo que está provocando los deslizamientos aquí abajo."
+      ],
+      "justificacion": "Reconoce las lluvias fuertes y cambios en el comportamiento del agua como indicios asociados a deslizamientos. No alcanza el nivel 3 porque no identifica tres señales o prácticas diferenciadas, incluidas al menos dos señales clave."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 3,
+      "evidencia": [
+        "Pues yo digo que sí, porque sostiene más el terreno."
+      ],
+      "justificacion": "Identifica una función concreta de la vegetación: sostener el terreno. Para alcanzar el nivel 4 faltaría desarrollar cómo esa función podría atender una problemática específica de su territorio."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 2,
+      "evidencia": [
+        "Para hacer terrazas."
+      ],
+      "justificacion": "Asocia los biomateriales con una aplicación constructiva sencilla, aunque el ejemplo de material lo introduce el entrevistador y no se cuenta como evidencia propia. Por mejor ajuste corresponde a un reconocimiento básico; no explica ventajas que permitan alcanzar el nivel 3."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Ay, podríamos mantener limpias las vías y las, ¿cómo se dice?, las cunetas.",
+        "Y no tirar basuras a las quebradas, porque eso se represa y entonces las partes de arriba son las que sufren."
+      ],
+      "justificacion": "Propone acciones comunitarias concretas y realizables de mantenimiento y prevención, vinculando las basuras con el represamiento de las quebradas. Para alcanzar el nivel 5 faltaría explicar las ventajas de la autogestión en su contexto y sus posibles límites o necesidades de apoyo."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Son soluciones que podemos hacer con lo que contamos, con los medios naturales.",
+    "Sirven para evitar catástrofes... No podemos evitar un sismo, pero sí que los daños sean menos significativos.",
+    "También sirven para preservar los recursos y para que tengamos mayor economía en las poblaciones."
+   ],
+   "justificacion": "Da una definición que va más allá de «usar la naturaleza»: incluye la función de reducir los daños de las catástrofes y de preservar recursos. Esto se acerca a una definición conceptual. Sin embargo, no menciona ningún ejemplo concreto de SbN ni lo relaciona con problemáticas específicas de su territorio, que es lo que exige el nivel 4."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Una amenaza es algo que está ahí latente, o sea, algo que nos puede ocurrir.",
+    "es climática porque, debido a los cambios que están ocurriendo, podemos vernos inmersos en inundaciones, sequías, pérdida de los cultivos o incendios.",
+    "He visto también otra problemática, que es la quema de llantas... también lo veo como una posible amenaza."
+   ],
+   "justificacion": "Entiende la amenaza como algo latente y la vincula con fenómenos climáticos (inundaciones, sequías, incendios) y con los cambios del clima. Así, la relación con el clima queda clara. Sin embargo, incluye la quema de llantas como amenaza, es decir, no distingue las amenazas climáticas de otros problemas socioambientales. Tampoco menciona fenómenos de largo plazo, como El Niño o los veranos prolongados, que exige el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "esta semana, ya hemos tenido como dos incendios. Creo que hoy hubo uno en los límites con el corregimiento de Palmitas, en el Alto de Boquerón.",
+    "ante un aguacero torrencial La Iguaná, que hace el recorrido por todo el sector, siempre presenta inconvenientes.",
+    "Vi como dos árboles que están a punto de caerse en el sector de los Restrepo, y se ve que el terreno se ha movido bastante"
+   ],
+   "justificacion": "Nombra incendios, crecientes de la quebrada La Iguaná y deslizamientos. Los ubica en lugares concretos (Alto de Boquerón, vía al Túnel, sector de los Restrepo) y relaciona los aguaceros torrenciales con los problemas de la quebrada. No llega al nivel 5 porque casi no explica las causas de los incendios ni cómo se encadenan las amenazas. Además, mezcla la quema de llantas con las amenazas climáticas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Vi como dos árboles que están a punto de caerse en el sector de los Restrepo",
+    "se ve que el terreno se ha movido bastante y se sigue moviendo.",
+    "Lo que vemos es que hay muchas mangueras y muchas cosas en la parte alta.",
+    "Sería muy buena una intervención precisamente ahí."
+   ],
+   "justificacion": "Identifica tres señales: árboles inclinados, terreno en movimiento y mangueras en la parte alta. Las dos primeras son señales clave. No explica por qué cada señal se relaciona con el deslizamiento (por ejemplo, que las mangueras generan humedad). Además, la propuesta de una intervención es genérica y no se basa en condiciones concretas, como exigen los niveles 4 y 5."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "los árboles tienen la capacidad de capturar CO2 y de hacer la fotosíntesis. También dan sombra.",
+    "evitan que con las lluvias el suelo corra sin algo que amortigüe ese choque tan brusco, porque las raíces van a estabilizar los terrenos.",
+    "Realmente necesitamos árboles por la elevación de la temperatura que tenemos."
+   ],
+   "justificacion": "Menciona varias funciones específicas de la vegetación: capturar CO2, dar sombra, amortiguar la lluvia y estabilizar el suelo con las raíces. Explica brevemente cómo funciona cada una. Sin embargo, no relaciona estas funciones con problemáticas concretas de su territorio (por ejemplo, el sector de los Restrepo o la quebrada La Iguaná), que es lo que exige el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "La verdad, no conozco mucho del tema.",
+    "Todavía no tengo una idea bien concreta del tema."
+   ],
+   "justificacion": "Sin evidencia. La persona dice que no conoce el tema y no menciona ningún biomaterial ni lo relaciona con la construcción. Para el nivel 2 necesitaría identificar al menos un biomaterial, como la guadua o la madera."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "Es muy difícil que un gobierno ataque todos los frentes.",
+    "si la misma comunidad sale y se une para hacerle frente a una problemática que tiene, yo diría que es capaz de resolverla.",
+    "A veces no es tanto la plata, aunque se necesiten recursos, sino que todas las fuerzas se dirijan en el mismo sentido."
+   ],
+   "justificacion": "Ve la participación comunitaria como una forma de resolver problemas propios sin depender solo del gobierno. Esto va más allá de la simple concientización y reconoce que se necesitan recursos. Sin embargo, no da ejemplos concretos que se puedan implementar en convites o procesos similares, ni menciona proyectos que se podrían replicar, que es lo que exige el nivel 4."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.2477638
+ }
+}

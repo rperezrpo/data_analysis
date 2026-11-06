@@ -1,0 +1,89 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 4,
+   "evidencia": [
+    "Son soluciones que se utilizan para remediar alguna problemática utilizando los mismos recursos que da la naturaleza",
+    "cuando hay un deslizamiento, se hace el método de terraceado, que llaman, y luego se siembran plantas... esas plantas tienen la posibilidad de amarrar el terreno",
+    "se utilizan las mismas piedras que traen las quebradas y los ríos para reducir la fuerza con que baja el agua"
+   ],
+   "justificacion": "Da una definición conceptual completa: usar recursos de la naturaleza para resolver problemas de las comunidades. La acompaña con ejemplos ligados a problemas concretos, como los deslizamientos y la fuerza del agua en las quebradas. Le falta hablar de experiencias en su territorio o de intenciones de aplicar estas soluciones allí, que es lo que pide el nivel 5."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Precisamente por la degradación de la vegetación, de los árboles y de las plantas, hemos ido creando un calentamiento del planeta",
+    "También por la utilización indiscriminada de químicos, como los aerosoles, que dañan la capa de ozono",
+    "El calentamiento se siente, pero por ser un lugar frío no afecta tanto",
+    "Además está el desorden que hay con los fenómenos atmosféricos"
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima, como el calentamiento y el desorden de los fenómenos atmosféricos, pero de forma general y mezclada con sus causas humanas y con la contaminación. No separa la amenaza del riesgo ni de otros problemas socioambientales. Tampoco explica cómo el cambio climático agrava fenómenos concretos en su territorio, lo que pediría el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Sobre todo los deslizamientos. Y la contaminación de las aguas, que es una cosa muy grave.",
+    "Esa es una de las situaciones que más aquejan a esta vereda."
+   ],
+   "justificacion": "Solo nombra una de las amenazas climáticas principales, los deslizamientos. La mezcla con un problema no climático, la contaminación del agua, al que da más peso. Para el nivel 3 tendría que nombrar al menos dos amenazas, como avenidas torrenciales, inundaciones o incendios."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "cuando el terreno es arenoso y está húmedo: esa es plena señal de deslizamiento",
+    "La segunda es la erosión del mismo terreno. Cuando el terreno comienza a erosionarse y a perder la vegetación, es clara señal de que más adelante, con una lluvia muy fuerte, puede haber un deslave"
+   ],
+   "justificacion": "Menciona tres señales: la humedad del terreno, la erosión y la pérdida de vegetación. Dos de ellas son señales clave. Apenas insinúa la relación con la lluvia fuerte y no explica cómo cada señal lleva al deslizamiento, lo que pediría el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 5,
+   "evidencia": [
+    "Si hay un nacimiento de agua en determinado sitio y nosotros le quitamos toda la vegetación alrededor, el agua inmediatamente se sumerge... Y entonces se pierde ese nacimiento de agua",
+    "Pero que sean árboles nativos: árboles que ayuden a producir agua, que no dañen los cauces, que no resequen la tierra. Las coníferas, por ejemplo, son plantas que resecan la tierra",
+    "entre más vegetación haya en el planeta, el planeta es más fresco y produce más agua. Las aves y los demás animales se reproducen más",
+    "esas plantas tienen la posibilidad de amarrar el terreno"
+   ],
+   "justificacion": "Explica en detalle varias funciones de la vegetación. Para mitigación menciona la protección de nacimientos de agua y amarrar el terreno ante deslizamientos; para adaptación, que el ambiente sea más fresco, la biodiversidad y el alimento. También señala un límite claro: no todas las especies sirven, porque las coníferas resecan la tierra. Los ejemplos ubicados en su propia vereda son pocos, pero la mención del límite compensa según el descriptor."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "No conozco realmente qué son los biomateriales.",
+    "me imagino que, cuando usted dice biomateriales, será la utilización de plantas."
+   ],
+   "justificacion": "Reconoce que no sabe qué son los biomateriales. Solo intuye que tienen que ver con plantas y no los asocia con la construcción. Para el nivel 2 tendría que identificar al menos un biomaterial de construcción, como la guadua, la tierra o la madera."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "primero hay que comprometer a las comunidades con esos convites",
+    "Cuando uno siente propio el territorio, siente propio el lugar donde vive, uno lo cuida y lo aprecia.",
+    "La educación comunitaria es fundamental para cualquier acto social.",
+    "sería fundamental que, previo a cualquier actividad de esas, se haga primero un proceso de sensibilización de la sociedad."
+   ],
+   "justificacion": "Ve los convites sobre todo como un espacio para comprometer a la gente, generar apropiación y sensibilizar a la comunidad. Su enfoque está en el cambio de actitud de las personas. Para el nivel 3 tendría que verlos como una forma de autogestionar soluciones concretas o mencionar resultados tangibles."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1021807
+ }
+}

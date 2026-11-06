@@ -1,0 +1,82 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Las Soluciones basadas en la Naturaleza son las que utilizan los recursos naturales para tratar de, digamos, recuperar o devolver un poco el daño que se ha causado.",
+    "cuando hay derrumbes se utilizan las terrazas, que las hacen con guadua, con trinchos.",
+    "También se recoge el agua para darle un uso diferente: el agua lluvia, o de pronto las aguas grises, a las que se les puede hacer tratamiento para volverlas a usar."
+   ],
+   "justificacion": "Da una definición algo más específica que la básica (usar recursos naturales para reparar daños) y varios ejemplos propios de SbN: terrazas y trinchos con guadua para derrumbes, cosecha de agua lluvia y tratamiento de aguas grises. Para el nivel 4 le falta una definición más completa, orientada a mitigar riesgos o resolver problemas ambientales, y conectar los ejemplos de forma explícita con problemas concretos de su territorio."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "La amenaza climática es como las posibilidades que se van generando con respecto al cambio del clima. No sé exactamente cómo responderla.",
+    "Cuando llueve mucho, baja mucha agua por las vías, porque no hay una buena infraestructura de drenaje."
+   ],
+   "justificacion": "Su definición del concepto es vaga e insegura, pero relaciona la amenaza con un fenómeno del clima (las lluvias intensas), aunque mezclado con agravantes sociales como la falta de drenaje. No menciona el cambio climático como agravante de largo plazo (El Niño o La Niña, veranos prolongados, aumento de la temperatura), que es lo que pide el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "Sobre todo el agua que baja por las vías. Cuando llueve mucho, baja mucha agua por las vías, porque no hay una buena infraestructura de drenaje.",
+    "La otra son los deslizamientos, que se presentan a veces a raíz de las aguas. Pueden ser aguas lluvias o aguas de riego o de acueducto que de pronto estén mal manejadas."
+   ],
+   "justificacion": "Nombra los deslizamientos y la escorrentía fuerte por las vías, y los explica con causas y agravantes: lluvias intensas, falta de drenaje y aguas de riego o de acueducto mal manejadas. Así construye una cadena causal entre el agua y los deslizamientos. Para el nivel 5 le faltan casos concretos, eventos pasados, sectores críticos o épocas específicas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Primero, la falta de árboles. Y el resquebrajamiento del suelo.",
+    "Pueden ser aguas lluvias o aguas de riego o de acueducto que de pronto estén mal manejadas."
+   ],
+   "justificacion": "Menciona dos señales clave, la falta de árboles y el agrietamiento del suelo. En otro momento de la entrevista añade una práctica que favorece los deslizamientos: las aguas de riego o de acueducto mal manejadas. No explica cómo se relaciona cada señal con el movimiento del terreno, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "ayuda a disminuir un poco la concentración del C02. También ayuda a disminuir la temperatura, a amarrar los suelos y al manejo de las aguas."
+   ],
+   "justificacion": "Nombra varias funciones concretas de la vegetación: capturar CO2, bajar la temperatura, amarrar los suelos y manejar el agua. No las relaciona con problemas de su territorio (por ejemplo, con los deslizamientos o el agua que mencionó), lo que le impide llegar al nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Supongo que son materiales que vienen de la vegetación o de la misma naturaleza.",
+    "de pronto como lo de los trinchos, por ejemplo. No sé si eso estará, de algún modo, dentro de los biomateriales."
+   ],
+   "justificacion": "Da una idea general e insegura de qué es un biomaterial y menciona, con dudas, los trinchos como posible ejemplo. No nombra ventajas ni beneficios de usarlos, que es lo que pide el nivel 3."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "Sobre todo por la concientización.",
+    "Por eso sería bueno el convite: porque se les puede enseñar muchas cosas más de lo que se necesite."
+   ],
+   "justificacion": "Ve el convite sobre todo como un espacio para concientizar y educar, y espera cambios de conducta (menos deforestación y menos quemas). No habla de la participación como una forma de autogestionar soluciones concretas o tangibles, que es lo que exige el nivel 3."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.08426679999999999
+ }
+}

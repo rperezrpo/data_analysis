@@ -1,0 +1,82 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Pues para mí es todo lo que produce la naturaleza y que pueda servir de soporte para algo mejor.",
+        "las mismas piedritas, la misma hojarasca, las raíces, los mismos árboles que se siembren y que sirvan de soporte para la tierra y para otras cosas."
+      ],
+      "justificacion": "Supera la definición genérica al identificar diversos elementos naturales y relacionarlos con el soporte del suelo. Para el nivel superior falta una definición más completa que explique explícitamente cómo estas soluciones responden a riesgos o problemas ambientales concretos."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "El clima nosotros no lo podemos evitar, pero sí podemos tener un control, un margen de prevención.",
+        "Prevenir que haya surcos por donde se vaya el agua y ruede la tierra, y arreglarlo de una vez.",
+        "Las lluvias, porque definitivamente cuando llueve es sin misericordia."
+      ],
+      "justificacion": "Reconoce las lluvias como fenómeno amenazante y relaciona el agua con el movimiento de tierra, además de plantear posibilidades preventivas. Sin embargo, mezcla amenazas con problemas ambientales y constructivos, y no explica cómo el cambio climático modifica su intensidad o duración, necesario para el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Prevenir que haya surcos por donde se vaya el agua y ruede la tierra, y arreglarlo de una vez.",
+        "el que construye debería utilizar la misma tierra que se lava con la lluvia para hacer contención",
+        "la gente de allá que participó, que fue mucha y que tiene la historia de lo que pasó con ese derrumbe",
+        "Ahorita quedé comprometida a subir y hablar con los vecinos que tienen los pozos sépticos botando el agua del baño a la montaña, y con lo del agua que sobra de la quebrada, que también baja por ahí cuando se rebosa un tanque."
+      ],
+      "justificacion": "Aunque concentra su reconocimiento en los deslizamientos, demuestra profundidad al relacionar el arrastre de tierra con las lluvias y señalar construcciones y descargas de agua como agravantes locales. Para el nivel superior falta describir con mayor precisión los encadenamientos entre amenazas y localizar áreas críticas o eventos históricos específicos."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Las zanjas en la tierra, cuando está reseca.",
+        "Tener la suficiente vegetación para que nos contenga la tierra, y tener los suficientes surquitos para que el agua camine y no se quede estancada.",
+        "los árboles que ya no se sostienen y se van arrastrando con la pérdida de fuerza del suelo.",
+        "Y lo que yo decía: que antes de rellenarlas, hay que buscarles la solución."
+      ],
+      "justificacion": "Identifica aberturas del terreno, acumulación de agua y árboles que pierden soporte, y explica relaciones entre estabilidad del suelo, vegetación y movimiento de los árboles. Su planteamiento de buscar una solución antes de rellenar es preventivo, pero no concreta una decisión condicionada por una evaluación o señal específica, como requiere el nivel superior."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Los árboles son los pulmones de la tierra.",
+        "Tener la suficiente vegetación para que nos contenga la tierra",
+        "Si siembra cebolla y la va a cosechar cada vez que esté, la tierra va a quedar floja. Entonces hay que sembrar cosas que fortalezcan la tierra.",
+        "aprovechar esos árboles que nos han recomendado y, el que tenga un pedacito, sembrar ese arbolito."
+      ],
+      "justificacion": "Relaciona la vegetación con la estabilización del suelo y propone seleccionar y sembrar especies apropiadas en los espacios disponibles de su contexto. Reconoce que no todas las siembras favorecen esa estabilidad, pero no desarrolla al menos tres funciones con suficiente detalle y aplicaciones territoriales para alcanzar el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Y hacer como lo que hicimos, tan bonito: que no usemos hierro, cemento ni nada de esas cosas, sino que sea la misma naturaleza la que se encargue de proveer los materiales.",
+        "El mismo suelo los va absorbiendo y va generando cosas nuevas."
+      ],
+      "justificacion": "Aunque incluye abonos entre sus ejemplos, también reconoce el uso constructivo de materiales naturales y lo vincula con la obra comunitaria realizada. Identifica su incorporación al suelo como ventaja, pero no reconoce límites de durabilidad, mantenimiento o requisitos técnicos que permitan alcanzar el nivel superior."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "cuando se hace un convite para ayudar al vecino, eso ayuda a que todos gestionemos, porque también me van a ayudar a mí.",
+        "Pero, por ejemplo, con lo que hicimos el fin de semana, la gente de allá que participó, que fue mucha y que tiene la historia de lo que pasó con ese derrumbe, va a tener la conciencia de que necesitamos hacer eso.",
+        "Ahorita quedé comprometida a subir y hablar con los vecinos que tienen los pozos sépticos botando el agua del baño a la montaña, y con lo del agua que sobra de la quebrada, que también baja por ahí cuando se rebosa un tanque."
+      ],
+      "justificacion": "Relaciona el convite realizado con una necesidad concreta frente a un derrumbe y asume una gestión vecinal para corregir descargas de agua sobre la montaña. Supera la valoración general de la unión comunitaria, pero no desarrolla suficientemente las capacidades, ventajas específicas y alcances de la autonomía comunitaria para sostener esas soluciones y alcanzar el nivel superior."
+    }
+  ]
+}

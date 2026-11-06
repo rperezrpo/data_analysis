@@ -1,0 +1,76 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Por ejemplo, para que haya mejor ambiente, mejor oxígeno, más tranquilidad, ¿o qué?",
+        "si uno lo mantuviera con arborización, como yo les he explicado, con árboles que amarren, porque hay mucho árbol cuya raíz amarra, tal vez se sostendría."
+      ],
+      "justificacion": "Reconoce beneficios ambientales generales y ofrece un ejemplo sencillo de uso de la naturaleza para sostener un talud. No desarrolla una definición conceptual de las SbN ni presenta varios ejemplos específicos que permitan alcanzar el nivel siguiente."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 1,
+      "evidencia": [
+        "Pero nosotros no tenemos la culpa, porque son cosas que uno no sabe cuándo van a ocurrir y cuándo no."
+      ],
+      "justificacion": "Caracteriza la amenaza como algo imprevisible, pero no explica su origen climático ni menciona fenómenos meteorológicos. Tampoco establece una asociación ambiental concreta que permita alcanzar el nivel de percepción."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "En la parte mía, gracias a mi Dios, por ahora no. Pero más arriba sí.",
+        "A mí me parece que son las humedades y el mantenimiento del bordo.",
+        "Cuando yo era más joven, conocí un bordo impresionante ahí arriba de mi casa."
+      ],
+      "justificacion": "Reconoce una amenaza localizada relacionada con la inestabilidad de un bordo y señala condiciones como la humedad. Aunque aporta referencias territoriales, no identifica al menos dos de las amenazas principales requeridas para el nivel siguiente."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "A mí me parece que son las humedades y el mantenimiento del bordo.",
+        "si uno lo mantuviera con arborización, como yo les he explicado, con árboles que amarren, porque hay mucho árbol cuya raíz amarra, tal vez se sostendría.",
+        "Y otra cosa es la humedad que hay en esas partes; eso también se arregla."
+      ],
+      "justificacion": "Identifica la humedad y relaciona la cobertura arbórea con la estabilidad del terreno. Aunque explica la función de las raíces, no menciona tres señales o prácticas distintas que sustenten el nivel de competencia."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Eso ayuda mucho, porque la raíz de los árboles afirma mucho la tierra.",
+        "Cuando yo era más joven, conocí un bordo impresionante ahí arriba de mi casa. Le sembraron pinos, le sembraron de todo, y no lo volvieron a cortar.",
+        "si uno lo mantuviera con arborización, como yo les he explicado, con árboles que amarren, porque hay mucho árbol cuya raíz amarra, tal vez se sostendría."
+      ],
+      "justificacion": "Relaciona explícitamente la función estabilizadora de las raíces con un problema local y aporta una experiencia de arborización del bordo. No explica al menos tres funciones de la vegetación ni desarrolla aplicaciones diversas para alcanzar el nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "¿Y cuáles son los biomateriales?",
+        "Para sostener. Eso es muy bueno, porque puede sostener muy bien toda la parte de las raíces de abajo."
+      ],
+      "justificacion": "Expresa desconocimiento del término y, tras la indicación del entrevistador, describe una función de soporte sin identificar ningún biomaterial. La mención de la guadua proviene del entrevistador y no permite atribuirle el reconocimiento necesario para el nivel siguiente."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Si hubiera más unión entre la gente, que colaboraran más, y no siempre los mismos.",
+        "Y que no pase que uno arregla y el otro desarregla. Antes de desarreglar, que colaboren en cuidar, ¿no?"
+      ],
+      "justificacion": "Valora la unión, la distribución de la colaboración y el cuidado de lo realizado colectivamente. No explica cómo la comunidad podría autogestionar un proyecto o una solución concreta a una problemática climática, como requiere el nivel siguiente."
+    }
+  ]
+}

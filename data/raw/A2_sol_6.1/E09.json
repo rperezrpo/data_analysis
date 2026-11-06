@@ -1,0 +1,78 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Podemos prevenir, porque vemos a tiempo las cosas.",
+        "Lo que nos dicen mucho es que hay que sembrar las plantas, ¿cierto? No recuerdo bien cómo se llaman... ¿nativas?."
+      ],
+      "justificacion": "Asocia estas soluciones con la prevención y ofrece la siembra de plantas nativas como ejemplo sencillo. No desarrolla una definición conceptual específica ni un conjunto de ejemplos que permita distinguir claramente las SbN de otras acciones ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Es lo que decimos, por ejemplo, cuando una quebrada crece: es porque ella busca su caudal.",
+        "Y a veces sí lo buscamos nosotros, claro, porque uno construye en partes donde no se puede.",
+        "Pues puede ayudar, por ejemplo, los días de lluvia, cuando hay más agua, pienso yo."
+      ],
+      "justificacion": "Reconoce fenómenos asociados al clima, como el aumento del agua durante las lluvias y las crecientes de las quebradas, e identifica la construcción inadecuada como un agravante. No explica cómo el cambio climático modifica estas amenazas ni menciona tendencias prolongadas que sustenten el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "A veces dicen \"aquí se puede construir, porque ya aquí no pasa agua\". Pero no, porque ella vuelve y recupera lo suyo, pienso yo.",
+        "Pues las amenazas son lo que hemos hablado: hay muchos puntos como quebradizos. Tenemos en la parte de arriba de la vereda, que eso ya está bastante.",
+        "Porque si no hubiera nada, se desliza y esa tierra queda ahí lisa y se volvería pantanosa, escurridiza, porque ya empieza a correr y a correr."
+      ],
+      "justificacion": "Reconoce el desbordamiento de las quebradas y los deslizamientos, ubica sectores inestables en la parte alta y relaciona las amenazas con la ocupación de antiguos pasos de agua y la falta de vegetación. No describe eventos históricos concretos ni encadenamientos territorialmente precisos suficientes para el nivel 5."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Porque uno, por ejemplo, siempre pasa por el sitio y ve el agua [brotar]. Y uno dice: \"aquí hay un agua profunda\".",
+        "Porque si no hubiera nada, se desliza y esa tierra queda ahí lisa y se volvería pantanosa, escurridiza, porque ya empieza a correr y a correr."
+      ],
+      "justificacion": "Identifica el brote de agua como una señal observable y reconoce que la ausencia de vegetación favorece el deslizamiento. Aunque aporta una explicación parcial, su repertorio de señales diferenciadas es limitado y no alcanza la amplitud descrita para el nivel 3."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Ella la va a absorber, empieza como a chupar de ahí. Si el sitio está muy húmedo, ella también puede absorber bastante.",
+        "Porque si no hubiera nada, se desliza y esa tierra queda ahí lisa y se volvería pantanosa, escurridiza, porque ya empieza a correr y a correr.",
+        "Pues siempre que sean árboles que tengan buena raíz, pienso yo, ayudan."
+      ],
+      "justificacion": "Explica cómo la vegetación absorbe agua en terrenos húmedos y cómo los árboles con buenas raíces ayudan a evitar la inestabilidad del suelo, vinculándolo con los problemas de agua y laderas descritos. Para el nivel 5 faltaría desarrollar al menos una tercera función y ampliar sus ejemplos de aplicación territorial."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Y sí, puede ayudar, como en el trabajo que hicimos: puede ayudar para que no se venga toda esa barranca, o también para jardín, para sostener también, no sé."
+      ],
+      "justificacion": "Reconoce la utilidad constructiva del material empleado en el trabajo comunitario y señala aplicaciones concretas para sostener una barranca y conformar un jardín. No aborda límites de durabilidad, mantenimiento o requisitos técnicos que permitan asignar el nivel 5."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Si no se hace así, en convite o de forma comunitaria, no se daría, pienso yo. Porque uno mismo no tiene la iniciativa, no hay ese empuje; uno solo no saldría a hacerlo. En cambio, en comunidad, sí.",
+        "Ya pueden ver una zanja tapada, una cuneta tapada, un rastrojo… Mire que todos esos cercos nadie los arregla. Ya no se hacen los convites.",
+        "Yo pienso que la convocatoria vendría por parte de la Acción Comunal, y que hay que animar a la gente.",
+        "Hubo un tiempo, no muy lejos, en que el muchacho convocaba y decía: \"bueno, si usted no puede, nos ayuda con un trabajador\". Que pongan una cuotica, 10.000 pesitos, 15.000; eso se recoge para pagar, porque somos muchos usuarios."
+      ],
+      "justificacion": "Explica que la organización comunitaria permite realizar labores de mantenimiento que no se emprenden individualmente y propone recuperar mecanismos concretos de convocatoria, trabajo y financiación. Reconoce límites de disponibilidad y costos de desplazamiento, y plantea alternativas para participar, lo que sustenta el nivel máximo."
+    }
+  ]
+}

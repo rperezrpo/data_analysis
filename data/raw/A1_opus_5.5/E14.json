@@ -1,0 +1,81 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Por ejemplo, para que haya mejor ambiente, mejor oxígeno, más tranquilidad, ¿o qué?",
+    "Por ejemplo, para los animales, para que estén en un mejor ambiente. Sirven para muchas cosas.",
+    "si uno lo mantuviera con arborización, como yo les he explicado, con árboles que amarren"
+   ],
+   "justificacion": "No da una definición de SbN; solo enumera beneficios generales del ambiente (oxígeno, animales, tranquilidad). En otro momento ofrece un ejemplo sencillo, la arborización con árboles que amarren el bordo, lo que corresponde a una percepción básica. Para llegar al nivel 3 le falta una definición más específica o varios ejemplos que distingan una SbN de otros proyectos ambientales."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Uy, esa amenaza me parece muy injusta. Pero nosotros no tenemos la culpa, porque son cosas que uno no sabe cuándo van a ocurrir y cuándo no."
+   ],
+   "justificacion": "Tiene una idea vaga de la amenaza como algo impredecible que no depende de la comunidad, pero no la relaciona con lluvias, sequías, calor ni otros fenómenos del clima. Es una percepción mínima del concepto. Para el nivel 3 tendría que vincular la amenaza con fenómenos climáticos concretos."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "En la parte mía, gracias a mi Dios, por ahora no. Pero más arriba sí. Acuérdese de lo de ahí al frente de Georgina, esos dos, que no sabemos ni cómo ni cuándo van a ocurrir."
+   ],
+   "justificacion": "Reconoce que hay sectores amenazados en su vereda y alude a un lugar concreto, al parecer por movimientos del bordo. Sin embargo, no nombra las amenazas con claridad y, cuando mucho, se refiere a una sola de forma implícita (deslizamientos). Para el nivel 3 tendría que nombrar al menos dos de las amenazas principales del territorio."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "A mí me parece que son las humedades y el mantenimiento del bordo.",
+    "con árboles que amarren, porque hay mucho árbol cuya raíz amarra, tal vez se sostendría. Y otra cosa es la humedad que hay en esas partes"
+   ],
+   "justificacion": "Identifica dos señales o prácticas clave, la humedad y la falta de vegetación en el bordo, y explica en parte cómo las raíces sostienen la tierra. Aunque no llega a las tres señales, la explicación compensa y el mejor ajuste es el nivel 3. Para el nivel 4 le falta explicar la relación de cada señal con el deslizamiento, por ejemplo cómo la humedad suelta la tierra, y mencionar más señales."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Eso ayuda mucho, porque la raíz de los árboles afirma mucho la tierra.",
+    "conocí un bordo impresionante ahí arriba de mi casa. Le sembraron pinos, le sembraron de todo, y no lo volvieron a cortar. Y ese bordo [talud/deslizamiento] no se siguió [viniendo], porque le sembraron plantas, árboles."
+   ],
+   "justificacion": "Relaciona la función de amarrar la tierra con un problema concreto de su territorio y lo respalda con un caso que vio: un bordo que se estabilizó al sembrarle árboles. Esto es un argumento completo de nivel 4. Para el nivel 5 le falta explicar en detalle al menos tres funciones con ejemplos, porque el oxígeno y los animales solo los menciona de pasada y en otra respuesta."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Ah, sí, muy bien. ¿Para qué sirven? Para sostener. Eso es muy bueno, porque puede sostener muy bien toda la parte de las raíces de abajo."
+   ],
+   "justificacion": "No sabe qué son los biomateriales y la guadua la menciona el entrevistador, no ella. Una vez se lo recuerdan, asocia el trincho con la función de sostener el terreno, sin nombrar ventajas propias de los biomateriales (disponibilidad local, emisiones, etc.). Para el nivel 3 tendría que dar ejemplos ella misma y nombrar beneficios del material."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "Pues si hubiera más unión, como hemos hablado. Si hubiera más unión entre la gente, que colaboraran más, y no siempre los mismos.",
+    "Y que no pase que uno arregla y el otro desarregla. Antes de desarreglar, que colaboren en cuidar, ¿no?",
+    "Está muy prendido, muy prendido. Muy rico."
+   ],
+   "justificacion": "Valora la unión y la colaboración en términos generales y señala un límite: siempre participan los mismos. También comenta que el trincho sigue en buen estado, pero no presenta la participación como una forma de autogestionar soluciones. Para el nivel 3 tendría que hablar de la participación comunitaria como una vía para que la comunidad gestione proyectos concretos ante sus problemas locales."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0903662
+ }
+}

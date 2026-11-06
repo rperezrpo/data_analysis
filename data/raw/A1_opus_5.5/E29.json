@@ -1,0 +1,81 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 2,
+   "evidencia": [
+    "Son muy útiles y muy prácticas para la mitigación de un riesgo, también como decoración, y para fortalecer la unión entre la comunidad."
+   ],
+   "justificacion": "La persona asocia las SbN con la mitigación del riesgo, pero no dice qué son ni que usan la naturaleza, y las mezcla con fines como la decoración y la unión comunitaria. Hay una percepción general de su utilidad, pero no da ejemplos ni una definición. Para llegar al nivel 3 necesitaría una definición más específica o ejemplos que distingan una SbN de otros proyectos ambientales."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "ahora que estamos en el tiempo de El Niño hay muchos incendios forestales, pero cuando estamos en el tiempo de La Niña es al contrario: demasiadas inundaciones",
+    "es algo real, que estamos viviendo cada día y cada vez de forma más profunda, más extensa"
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos de largo plazo (El Niño y La Niña) y con sus consecuencias en el territorio (incendios e inundaciones). También señala que se intensifica con el tiempo, lo que muestra el cambio climático como agravante. Para el nivel 5 le falta reflexionar sobre cómo la comunidad puede prevenir o reducir la amenaza, o recurrir a la memoria de eventos pasados."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "Las principales amenazas climáticas son (1) los incendios forestales, (2) los movimientos en masa y (3) las avenidas torrenciales.",
+    "ahora que estamos en el tiempo de El Niño hay muchos incendios forestales",
+    "cuando pasan muchos camiones porque es una vía principal, como la que hay por acá, la vía antigua al mar. El peso de los camiones hace que el terreno vaya cediendo."
+   ],
+   "justificacion": "Nombra tres de las cuatro amenazas principales y las conecta con causas o agravantes: El Niño con los incendios y la carga de los camiones en una vía concreta con la inestabilidad del terreno. Para el nivel 5 le falta explicar cómo se encadenan las amenazas y referirse a eventos pasados, sectores críticos o cambios observados con el tiempo."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "que el terreno tenga muchas aguas acumuladas, aguas subterráneas. Que uno vea que hay muchos nacimientos que salen de la misma montañita",
+    "El peso de los camiones hace que el terreno vaya cediendo."
+   ],
+   "justificacion": "Identifica una señal clave, la acumulación de agua y los nacimientos, y una práctica que favorece los deslizamientos: el tránsito de camiones pesados. En este último caso explica la relación con el terreno, porque el peso lo hace ceder. Es un nivel 3 algo justo: le faltan más señales clave (grietas, árboles inclinados) y explicar el vínculo entre el agua y el deslizamiento para llegar al nivel 4."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "ayuda a que haya más oxígeno y a que haya más biodiversidad. Si hay más biodiversidad, va a haber más polinizadores, y ellos van a replicar las semillas en otros entornos."
+   ],
+   "justificacion": "Menciona funciones concretas de la vegetación (oxígeno, biodiversidad y polinizadores que dispersan semillas). No las relaciona con los problemas de su territorio, como amarrar la tierra o proteger las quebradas. Para el nivel 4 necesitaría vincular estas funciones con una amenaza local."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "¿Los biomateriales? ¿Como el compost? ¿O como la guadua?",
+    "lo que hicimos con el material de la guadua es súper, porque le da resistencia al terreno. Ya está previniendo ese movimiento en masa."
+   ],
+   "justificacion": "Pone como ejemplo la guadua y le atribuye una ventaja: da resistencia al terreno y previene movimientos en masa, con base en la obra ya hecha. Solo menciona esa aplicación y duda sobre qué es un biomaterial, porque también nombra el compost. Para un nivel 4 sólido debería proponer otros proyectos o situaciones donde convenga usarlos, y para el 5 reconocer sus límites."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "organizando un convite para una jornada de limpieza de la quebrada, aprovechando que estamos en tiempo seco, para hacerle un mantenimiento.",
+    "replicando todo esto que aprendemos a la comunidad: hacer una sensibilización entre los vecinos"
+   ],
+   "justificacion": "Propone una acción concreta que la comunidad podría hacer por sí misma: un convite para limpiar la quebrada en tiempo seco. Esto apunta a problemas climáticos locales como las avenidas torrenciales, y también propone replicar lo aprendido con los vecinos. Para el nivel 5 le falta explicar por qué la autogestión es una ventaja en su contexto y reconocer sus límites, por ejemplo la necesidad de apoyo técnico."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.08485290000000001
+ }
+}

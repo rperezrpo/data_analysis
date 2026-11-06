@@ -1,0 +1,96 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 4,
+   "evidencia": [
+    "Las Soluciones basadas en la Naturaleza son las que utilizan los mismos recursos de la naturaleza. Se pueden utilizar para revertir un poco el daño ambiental.",
+    "De pronto el que hicimos, que eran los trinchos. También los reductores de velocidad para el agua, el sembrar plantas que ayuden a descontaminar un poco el cauce del río y el reforestar",
+    "Por eso son buenos, por ejemplo, los trinchos. Ayudan a sostener un poco el material mientras la naturaleza va creciendo y va haciendo su trabajo."
+   ],
+   "justificacion": "Da una definición conceptual (uso de recursos naturales para revertir daño ambiental) y varios ejemplos específicos: trinchos, reductores de velocidad del agua, plantas descontaminantes y reforestación. Relaciona los trinchos con un problema concreto, los derrumbes, y explica cómo funcionan. No llega al nivel 5 porque no plantea las SbN como algo que la comunidad podría implementar en otros problemas concretos ni cuenta experiencias propias previas con ellas."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Es un evento que se da debido al cambio en el ambiente, a las interacciones que ha tenido con el hombre y al daño que le hemos hecho, por ejemplo con la deforestación o con el daño del cauce de los ríos.",
+    "el aumento de la temperatura por la construcción y la deforestación",
+    "también las altas temperaturas y la falta de plantas van resecando mucho el suelo."
+   ],
+   "justificacion": "Relaciona la amenaza con fenómenos del clima (aumento de temperatura, manejo del agua) y nombra algunas consecuencias, como el suelo reseco. Pero la define sobre todo por sus causas humanas y pone la contaminación de las quebradas como una amenaza climática más. Para el nivel 4 le falta separar la amenaza climática de otros problemas socioambientales y hablar del cambio climático de largo plazo (El Niño/La Niña, veranos largos) como agravante."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "de pronto el mal manejo de las aguas, que genera derrumbes y desplazamientos de las masas.",
+    "la acumulación de agua en el suelo y en los lugares va aumentando cada vez más esos problemas.",
+    "la disminución del cauce de las quebradas; (3) la contaminación de esas mismas quebradas"
+   ],
+   "justificacion": "Nombra con claridad los derrumbes y explica bien su causa (mal manejo del agua y acumulación de agua en el suelo). Sin embargo, de las cuatro amenazas principales solo menciona con claridad los deslizamientos, y las mezcla con problemas como la contaminación. Se toma el nivel 3 por mejor ajuste, porque el razonamiento causal compensa en parte. Le faltan otras amenazas (avenidas torrenciales, inundaciones, incendios), sectores o eventos concretos y cómo se encadenan."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 5,
+   "evidencia": [
+    "Donde hay deforestación hay mucha probabilidad de que se muevan las masas, porque ya los suelos no están bien sujetos.",
+    "cuando se ven árboles que no crecen derechos, sino que se van inclinando hacia el lado de la pendiente, porque ya se han ido desplazando.",
+    "cuando hay marcas en la tierra, que son agrietamientos. Pueden ser horizontales o verticales, dependiendo de cómo se esté desplazando el terreno.",
+    "Lo mismo cuando el derrumbe todavía no ha parado. Cuando ya se ha estabilizado casi del todo, es bueno hacer de pronto los trinchos",
+    "una guía para saber si se puede o no se puede realizar uno de estos proyectos. Puede que las características del terreno no den"
+   ],
+   "justificacion": "Identifica tres señales clave (deforestación, árboles inclinados, grietas), además de la acumulación de agua, y explica qué relación tiene cada una con el movimiento del terreno. También toma decisiones preventivas según las condiciones: no intervenir mientras el derrumbe siga activo y pedir una evaluación del terreno antes de construir. Esto corresponde al nivel máximo."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "La reforestación es buena porque disminuye la temperatura y le da hogar a las aves y a las mariposas.",
+    "Además, está la generación de O2 y la captura de CO2, el sostener la tierra y el ayudar a los frutos.",
+    "sus mismas hojas, sus ramas o algo que cae de ellas sirve otra vez de material para convertirse en tierra",
+    "Ayudan a sostener un poco el material mientras la naturaleza va creciendo y va haciendo su trabajo.",
+    "el aumento de la temperatura por la construcción y la deforestación"
+   ],
+   "justificacion": "Menciona muchas funciones concretas: baja la temperatura, da hábitat, sirve a los polinizadores, produce O2 y captura CO2, sostiene la tierra y forma suelo. Las relaciona con problemas locales: la deforestación deja los suelos sueltos y sube la temperatura, y en el trincho la vegetación termina el trabajo. Para el nivel 5 le falta explicar en detalle cómo se usan esas funciones en su territorio o señalar límites, por ejemplo que no todas las especies cumplen las mismas funciones."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 5,
+   "evidencia": [
+    "Por ejemplo, nosotros utilizamos la guadua. Pero antes también se construía con madera, y los techos se hacían con este material",
+    "tienen buena rigidez y aguantan, digamos, el paso de…",
+    "La guadua aguanta el agua cuando le cae y le pasa; ahí no le hace tanto daño. El problema es cuando está metida en la tierra, que mantiene la humedad.",
+    "Cuando es algo muy grande, es preferible no utilizar esos materiales."
+   ],
+   "justificacion": "Nombra varios biomateriales (guadua, madera, hoja de palma) y sus ventajas (rigidez, resistencia a la intemperie), y los aplica a los trinchos. También reconoce límites: la guadua se daña enterrada en suelo húmedo, y estos materiales no conviene usarlos en derrumbes muy grandes o inestables. Así cumple el nivel máximo."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 5,
+   "evidencia": [
+    "Lo principal es la concientización. La gente aprende qué cosas hacen daño",
+    "De poderlo construir, lo puede hacer cualquiera. Pero si uno quiere ir a levantar un trincho con otras personas, tiene que saber si el terreno sirve",
+    "Por eso siempre debe estar la guía, para saber que realmente se puede hacer y para tener la seguridad.",
+    "uno no estaría dependiendo de alguna institución, ni buscando o esperando a que manden un experto para poder hacer eso.",
+    "no en cualquier parte se encuentra una persona que esté disponible o que tenga las capacidades de hacer eso. Es muy necesario por acá para la comunidad."
+   ],
+   "justificacion": "Empieza por la concientización, pero luego explica bien por qué la autonomía ayuda a su comunidad: tener capacidades locales evita depender de instituciones o esperar a que manden un experto. También señala límites claros: la comunidad puede construir el trincho, pero necesita orientación técnica para evaluar si el terreno lo permite. Corresponde al nivel máximo."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1281163
+ }
+}

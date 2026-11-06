@@ -1,0 +1,91 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Son soluciones que usan la misma la naturaleza para ayudarnos con todo este cambio que está ocurriendo.",
+    "como para ayudarnos con las épocas de sequía.",
+    "los trinchos. O la recolección de agua lluvia."
+   ],
+   "justificacion": "Da una definición algo más específica que la básica, porque vincula las SbN con el cambio climático y con la sequía. También da ejemplos propios de SbN (trinchos y recolección de agua lluvia). Para llegar al nivel 4 le falta una definición conceptual completa y relacionar los ejemplos con problemas concretos de su territorio, como los trinchos frente a los deslizamientos."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Es precisamente eso que estamos viviendo. No le prestamos importancia al clima.",
+    "lo de los temblores yo no pienso que sea una castigo de Dios... Eso es un resultado de todo lo que viene pasando: de que no cuidamos la tierra, no cuidamos las aguas.",
+    "hay veces que hacen unos calores que uno no se imaginaba."
+   ],
+   "justificacion": "Cuando explica qué es una amenaza climática, la asocia con el descuido ambiental en general e incluso con los temblores, sin definirla a partir de fenómenos del clima. En otro momento menciona cambios en las lluvias y calores inusuales, pero no los presenta como amenazas. Para el nivel 3 le falta relacionar claramente la amenaza con lluvias intensas, sequías o calor."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "si usted chuza y chuza la montaña arriba, ya se tiene que venir abajo.",
+    "quedan las mangueras goteando. Todo eso se va juntando y va ayudando a que la montaña caiga.",
+    "Como la corrieron para el otro lado, cuando llueve el agua se va represando y empieza a salir por otras partes.",
+    "como se unen varias quebradas por acá, puede que se desborde por aquí o por allá.",
+    "No estamos teniendo en cuenta las fallas geológicas que ya tiene la vereda"
+   ],
+   "justificacion": "Reconoce los deslizamientos y los desbordamientos de quebradas como amenazas de su vereda. Además explica sus agravantes con argumentos completos: los cortes en la montaña, las mangueras que gotean, la desviación y el relleno de quebradas y la construcción sobre fallas. Para el nivel 5 le faltan eventos concretos recordados, sectores críticos con nombre o épocas críticas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 5,
+   "evidencia": [
+    "Se ve chorreando, que hay un agua por debajo del montoncito o por los laditos, que se ve como filtrar.",
+    "cuando echan mucha tierra en una parte muy inestable, o construyen en una parte muy inestable",
+    "Cuando usted moja la tierra, ella se chorrea. Eso es para mí un deslizamiento",
+    "quedan las mangueras goteando. Todo eso se va juntando y va ayudando a que la montaña caiga.",
+    "Lo que hay que hacer es dejarla quieta: si tiene una falla, dejarla quieta, considero yo."
+   ],
+   "justificacion": "Nombra varias señales y prácticas clave: filtraciones de agua, rellenos y construcciones en zonas inestables o empinadas, mangueras que gotean y ocupación de quebradas. Explica cómo cada una se relaciona con el deslizamiento: el agua satura la tierra y los cortes desestabilizan la montaña. Además propone una decisión preventiva según la condición del terreno: no intervenir ni construir donde hay una falla. Esa decisión es todavía algo general, pero se ajusta al nivel 5."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "La vegetación da mucha sombra, el fresquito. A veces hace tanto calor también por la poca vegetación.",
+    "Que la mantienen humedecida, como con el tema del agua.",
+    "hay árboles que no son apropiados, que dañan más la tierra donde estén."
+   ],
+   "justificacion": "Menciona funciones concretas de la vegetación, como la sombra, la regulación de la temperatura y la retención de humedad en el suelo. También advierte que no todas las especies son apropiadas. Para el nivel 4 le falta un argumento propio que relacione esas funciones con los deslizamientos o las crecientes de su vereda; solo asiente cuando el entrevistador lo sugiere."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 1,
+   "evidencia": [
+    "¿Biomateriales? Ay no, la verdad es que no sé."
+   ],
+   "justificacion": "Sin evidencia. Dice que no sabe qué son los biomateriales y no los menciona en ningún otro momento de la entrevista."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "yo creo que mi comunidad ha sido muy participativa y me ha apoyado en muchos procesos.",
+    "Si todos trabajáramos por eso mismo, lograríamos mucho, muchísimo.",
+    "Cada uno pone su granito de arena. Yo sé que podríamos... enfrentar estos cambios climáticos, apoyar más a la tierra"
+   ],
+   "justificacion": "Ve ventajas generales en la unión y el trabajo colectivo frente al cambio climático, y reconoce que es un trabajo largo. Para el nivel 3 le falta presentar la participación como forma de autogestionar soluciones concretas o mencionar resultados tangibles de procesos comunitarios."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1299055
+ }
+}

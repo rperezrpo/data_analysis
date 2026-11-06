@@ -1,0 +1,73 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 1,
+      "evidencia": [
+        "Para prevenir desastres que se puedan volver más graves."
+      ],
+      "justificacion": "Reconoce una finalidad preventiva, pero no explica qué caracteriza a una solución basada en la naturaleza. Para alcanzar el nivel 2 falta una definición básica o un ejemplo que identifique como solución que aprovecha la naturaleza."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Más que todo, pues, como siempre, pensando en las lluvias o en... ¿cierto?",
+        "Y los incendios, cuando hay mucho verano, ¿cierto? Los incendios."
+      ],
+      "justificacion": "Relaciona las amenazas con las lluvias y el verano, y vincula este último con los incendios. Para alcanzar el nivel 4 falta explicar cómo el cambio climático o cambios prolongados en estos fenómenos agravan las amenazas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "De pronto los deslizamientos. Sí, puede ser eso lo que más se presente. Y los incendios, cuando hay mucho verano, ¿cierto? Los incendios.",
+        "Más que todo, esos lugares así, pendientes y deforestados, son los que más tienden a deslizarse.",
+        "O de pronto esas agüitas filtradas: con el tiempo va pasando la agüita filtrada y, de un momento a otro, se desprende el terreno."
+      ],
+      "justificacion": "Identifica deslizamientos e incendios y explica condiciones que los favorecen: pendientes, deforestación, filtraciones y mucho verano. Para alcanzar el nivel 5 faltan casos concretos, sectores críticos o eventos recordados que demuestren un conocimiento territorial más preciso."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "De pronto, cuando esos lugares son muy pendientes y también están muy deforestados, sin árboles.",
+        "O de pronto esas agüitas filtradas: con el tiempo va pasando la agüita filtrada y, de un momento a otro, se desprende el terreno.",
+        "Mucho, porque la vegetación ayuda, pues, a amarrar la tierra, para que no esté tan suelta y no se nos derrumbe."
+      ],
+      "justificacion": "Reconoce pendientes, deforestación y filtraciones, incluyendo dos condiciones clave, y explica cómo el agua y la pérdida de soporte vegetal favorecen el desprendimiento. Para alcanzar el nivel 5 falta una decisión preventiva concreta condicionada a las señales identificadas."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Mucho, porque la vegetación ayuda, pues, a amarrar la tierra, para que no esté tan suelta y no se nos derrumbe.",
+        "Más que todo, esos lugares así, pendientes y deforestados, son los que más tienden a deslizarse."
+      ],
+      "justificacion": "Explica la estabilización del suelo por la vegetación y la relaciona con los deslizamientos que reconoce en su contexto. Para alcanzar el nivel 5 falta desarrollar otras funciones y sus aplicaciones territoriales o limitaciones."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 2,
+      "evidencia": [
+        "En muchas ocasiones nos sirven de mucho, como ahorita, que vamos a hacer este trabajo de las guaduas."
+      ],
+      "justificacion": "Identifica la guadua como material del trabajo que realizarán, pero sus valoraciones positivas son generales. Para alcanzar el nivel 3 falta nombrar una ventaja concreta del material, más allá del beneficio de aprender técnicas."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 2,
+      "evidencia": [
+        "Es importantísimo, porque una sola persona no realiza los trabajos. Si nos unimos, podemos lograr más cosas favorables para la vereda. Entre más unión haya, mejor."
+      ],
+      "justificacion": "Reconoce que la unión permite realizar trabajos que una persona sola no podría hacer. Para alcanzar el nivel 3 falta vincular esa capacidad colectiva con una solución local o un resultado tangible específico."
+    }
+  ]
+}

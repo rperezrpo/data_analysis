@@ -1,0 +1,78 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Sirven para que aprovechemos lo que la misma naturaleza genera y no estemos agregando cosas que no son de ella.",
+        "Es decir, yo para qué voy a conseguir materiales y hacer un muro de concreto cuando tengo guadua, cuando tengo otras cosas que me van a servir mucho, pero que tengo que levantar.",
+        "eso que es como un fogón, como un túnel, que se alimenta de excrementos de…"
+      ],
+      "justificacion": "Entiende el aprovechamiento de elementos naturales y lo concreta en alternativas como la guadua para muros y el aprovechamiento de excrementos en biodigestores. No desarrolla una definición que vincule explícitamente estas soluciones con la reducción de riesgos o la resolución de problemas ambientales concretos de su territorio."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "esa incertidumbre de qué puede pasar, de cuánto va a durar este verano.",
+        "Y sí, yo veo mi terreno, que cuando está tan seco empieza a abrir unas brechitas, y uno dice \"Dios mío, esto se me va a desmoronar, ¿qué va a pasar?\".",
+        "Además del verano, ahora vienen las lluvias tan torrenciales que uno dice \"bueno, ¿cuándo van a parar?\"."
+      ],
+      "justificacion": "Relaciona las amenazas con el verano, la sequedad del terreno y las lluvias torrenciales, e identifica posibles consecuencias sobre el suelo. No explica cómo el cambio climático agrava estos fenómenos ni reconoce claramente tendencias de largo plazo, por lo que no alcanza el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Y sí, yo veo mi terreno, que cuando está tan seco empieza a abrir unas brechitas, y uno dice \"Dios mío, esto se me va a desmoronar, ¿qué va a pasar?\".",
+        "Hace poquito tuvimos tanta, tanta lluvia, que yo decía \"pero ¿dónde va a caber tanta lluvia? ¿Qué hacemos con ella?\".",
+        "Y ya se convirtió en un barrio con edificios de cinco pisos."
+      ],
+      "justificacion": "Percibe amenazas relacionadas con la sequedad y las lluvias, y expresa preocupación por un posible desmoronamiento y la transformación urbana. No identifica al menos dos de las amenazas principales de la rúbrica: las lluvias intensas no se traducen explícitamente en inundaciones o avenidas torrenciales."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Y sí, yo veo mi terreno, que cuando está tan seco empieza a abrir unas brechitas, y uno dice \"Dios mío, esto se me va a desmoronar, ¿qué va a pasar?\".",
+        "Yo había hecho una brecha, como un callejón, por detrás de mi casa, porque el barranco me la mojaba mucho. Ese callejón me ayuda con la humedad."
+      ],
+      "justificacion": "Reconoce pequeñas aberturas del terreno como una señal de posible desmoronamiento y observa humedad junto al barranco. No reúne tres señales o prácticas suficientemente identificadas, con dos señales clave, ni explica cómo la humedad u otras intervenciones favorecen un deslizamiento."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 3,
+      "evidencia": [
+        "Ay, qué dicha, porque tenemos pulmones por todas partes que nos ayudan en todo, según lo poquito que uno se acuerda de lo que estudió de ciencias naturales en la escuela.",
+        "el que siembra flores hermosas quiere que los polinizadores del vecino también polinicen las suyas"
+      ],
+      "justificacion": "La metáfora de los pulmones expresa una función relacionada con el aire, y la referencia a las flores reconoce su relación con los polinizadores. No construye un argumento que conecte estas funciones con una problemática climática concreta de su territorio."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Los biomateriales, yo digo, son los que genera la misma naturaleza para ayudarnos.",
+        "Es decir, yo para qué voy a conseguir materiales y hacer un muro de concreto cuando tengo guadua, cuando tengo otras cosas que me van a servir mucho, pero que tengo que levantar."
+      ],
+      "justificacion": "Aunque mezcla el concepto con otros aprovechamientos naturales, identifica la guadua como material constructivo y propone una aplicación concreta: sustituir un muro de concreto por recursos naturales disponibles. No reconoce límites de durabilidad, mantenimiento, estabilidad o requisitos técnicos para emplearlos."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "Claro que sí. Haríamos cosas que el otro no sabe y le enseñaríamos.",
+        "Pero si es \"hagamos una que va a ser en Palma Alta\" y yo soy de Palma Baja… no. Mire que de aquí, de Palma Baja, no voy sino yo a la parte alta, y mire que él dijo que no volvía.",
+        "Sí. Por ejemplo, eso de los biodigestores: qué rico sería que hubiera esa comunidad y decir \"qué dicha, a Empresas Públicas no le vamos a pagar sino lo que alumbramos, porque lo que estamos cocinando, lo que estamos haciendo, lo estamos generando nosotros mismos\"."
+      ],
+      "justificacion": "Explica ventajas de la autonomía comunitaria mediante la generación propia de energía con biodigestores y la transmisión de conocimientos entre vecinos. También reconoce límites concretos de la organización, como la baja participación y la resistencia a colaborar fuera del sector inmediato, lo que corresponde al nivel más alto."
+    }
+  ]
+}

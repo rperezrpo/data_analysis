@@ -1,0 +1,87 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Lo que hicimos con el bambú son los trinchos.",
+    "Y también por las maticas, porque mire que ya se siembran las maticas y ahí van a quedar.",
+    "podemos recoger las aguas lluvias y mantener y recoger lo que más podamos de agua.",
+    "en el tiempo de sequía es muy bueno, porque con las aguas lluvias podemos mantener esas agüitas. Y lo de los trinchos sirve para detener los terrenos que están flojos."
+   ],
+   "justificacion": "Menciona varios ejemplos específicos de SbN (trinchos, siembra de plantas, recolección de aguas lluvias) y los relaciona con problemas como la sequía y los terrenos flojos. No da una definición conceptual: su respuesta sobre el propósito es solo «para mejorar». Le falta una definición completa para llegar al nivel 4."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Por ejemplo, cuando están los volcanes.",
+    "lo climático es que de pronto en el tiempo de invierno, por donde pasan las aguas, está abierto... Entonces por ahí se va a seguir abriendo y puede causar más volcán."
+   ],
+   "justificacion": "Relaciona la amenaza con un fenómeno del clima (el invierno, el paso de las aguas) y con sus efectos (derrumbes, que ella llama «volcán»), pero lo hace de forma general. No habla del cambio climático como agravante ni de fenómenos de largo plazo, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Lo más problemático es el tiempo de lluvia, porque hay muchas partes donde están flojos los barrancos. Por ejemplo, aquí cerquita de la casa de nosotros",
+    "Más arriba también hay varias partes por donde pasan las aguas que ya tienen como abiertico."
+   ],
+   "justificacion": "Identifica con claridad los deslizamientos como amenaza principal, los asocia con la época de lluvias y señala sectores concretos (cerca de su casa, más arriba). Solo nombra una de las cuatro amenazas principales, pero lo hace con detalle, así que el nivel 3 es el de mejor ajuste. Para el nivel 4 tendría que nombrar más amenazas y explicar sus causas de forma más completa."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "en los tiempos de lluvia el terreno hace sus grietas y baja el agua. Después, en el tiempo de verano, cuando se seca, se abre más la grieta todavía.",
+    "apenas llueva, va a volver a haber volcán, porque la grieta se secó y se abrió más",
+    "Más que todo, uno lo identifica por las grietas."
+   ],
+   "justificacion": "Menciona señales clave (grietas y agua que baja) y explica cómo el ciclo de lluvia y sequedad agranda la grieta y anuncia un nuevo derrumbe, lo cual se acerca al nivel 4. Sin embargo, solo se refiere a esas dos señales y no recuerda las demás. El nivel 3 es el de mejor ajuste; le falta reconocer más señales y explicar cada una."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Yo creo que la vegetación es lo que más conserva el agüita.",
+    "la vegetación sí sirve para los derrumbes. Mire lo que hicimos con los trinchos: si plantamos plantas que puedan amarrar la tierra, sí nos van a servir, porque al crecer van a apretar el terreno."
+   ],
+   "justificacion": "Menciona dos funciones concretas de la vegetación (conservar el agua y amarrar la tierra) y relaciona la segunda con los derrumbes de su vereda y con los trinchos. Esto es un argumento completo de nivel 4. No llega a tres funciones explicadas con detalle ni habla de funciones de adaptación o de límites, que es lo que pide el nivel 5."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Lo que hicimos con el bambú son los trinchos.",
+    "Se me olvidó. Con la memoria que tengo, se me olvidó, Ricardo."
+   ],
+   "justificacion": "Por iniciativa propia identifica el bambú como el material de construcción de los trinchos, pero no recuerda qué son los biomateriales. Tampoco menciona ningún beneficio. Para el nivel 3 tendría que nombrar ventajas de los biomateriales."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "cuando hay derrumbes, si no hay una ayuda entre todos, no se pueden sacar. Cuando hay que hacer algo, se hace entre varios.",
+    "De pronto en lo comunitario hay gente que sí colabora y hay gente que no.",
+    "con la compañía uno se siente más seguro y va más a la fija. Pero sí, yo sé que hay gente que ya es capaz de hacerlo. Y sí hay lugares donde se pueden hacer.",
+    "si uno puede colaborar a los demás, chévere."
+   ],
+   "justificacion": "Ve oportunidades concretas de autogestión: cree que hay gente capaz de construir trinchos, que hay lugares donde hacerlos y que la comunidad responde a los derrumbes entre todos. También reconoce límites, como la colaboración desigual y el valor del acompañamiento. No explica por qué la autogestión ofrece ventajas frente al Estado (dice no saber), y eso le falta para el nivel 5."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.10111759999999999
+ }
+}

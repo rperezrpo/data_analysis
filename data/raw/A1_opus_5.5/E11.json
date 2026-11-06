@@ -1,0 +1,79 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 1,
+   "evidencia": [
+    "Para prevenir desastres que se puedan volver más graves."
+   ],
+   "justificacion": "La persona solo dice para qué sirven (prevenir desastres), pero no dice qué son ni las relaciona con usar recursos o procesos de la naturaleza. Tampoco da ejemplos. Para llegar al nivel 2 tendría que reconocer, al menos de forma básica, que estas soluciones usan la misma naturaleza o dar un ejemplo sencillo."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Más que todo, pues, como siempre, pensando en las lluvias",
+    "Y los incendios, cuando hay mucho verano, ¿cierto?"
+   ],
+   "justificacion": "Por sí misma relaciona la amenaza climática con las lluvias, antes de que el entrevistador explicara el concepto. Después asocia el verano con los incendios, así que la vincula con fenómenos del clima, pero de forma general. No menciona el cambio climático como agravante ni fenómenos de largo plazo, que serían necesarios para el nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "De pronto los deslizamientos. Sí, puede ser eso lo que más se presente.",
+    "Y los incendios, cuando hay mucho verano, ¿cierto? Los incendios."
+   ],
+   "justificacion": "Nombra dos de las amenazas principales de su territorio: deslizamientos e incendios. Relaciona brevemente el verano con los incendios, pero no lo desarrolla en un argumento completo sobre causas o agravantes. Tampoco menciona sectores, eventos pasados ni cambios en el tiempo, que serían necesarios para subir de nivel."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "cuando esos lugares son muy pendientes y también están muy deforestados, sin árboles",
+    "esos lugares así, pendientes y deforestados, son los que más tienden a deslizarse",
+    "esas agüitas filtradas: con el tiempo va pasando la agüita filtrada y, de un momento a otro, se desprende el terreno"
+   ],
+   "justificacion": "Menciona tres señales: la pendiente, la deforestación y el agua que se filtra. Dos de ellas son señales clave (deforestación y acumulación de humedad). Además explica cómo el agua filtrada termina soltando el terreno, y en otra respuesta dice que la vegetación amarra la tierra. Para el nivel 5 le falta proponer una decisión preventiva concreta según las condiciones."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "la vegetación ayuda, pues, a amarrar la tierra, para que no esté tan suelta y no se nos derrumbe"
+   ],
+   "justificacion": "Menciona una función concreta: la vegetación amarra la tierra y evita derrumbes. La relación con su territorio es solo implícita (el «nos») y no la desarrolla en un argumento sobre una problemática local específica. Para el nivel 4 tendría que vincular claramente esa función con un problema concreto de su vereda."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "como ahorita, que vamos a hacer este trabajo de las guaduas. Es importantísimo. Mire que nos ayuda demasiado."
+   ],
+   "justificacion": "Pone la guadua como ejemplo de biomaterial, después de que el entrevistador explicara el término. Dice que ayuda «demasiado», pero no nombra ninguna ventaja concreta, como la disponibilidad local, las menores emisiones o el confort. Para el nivel 3 tendría que explicar por qué es positivo usarla."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 2,
+   "evidencia": [
+    "una sola persona no realiza los trabajos. Si nos unimos, podemos lograr más cosas favorables para la vereda. Entre más unión haya, mejor."
+   ],
+   "justificacion": "Ve ventajas generales en el trabajo comunitario, como la unión y lograr más cosas juntos. No menciona soluciones ni resultados concretos que la comunidad pueda gestionar por sí misma frente a problemas climáticos. Para el nivel 3 tendría que hablar de la participación como forma de autogestionar soluciones para problemas locales."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0819048
+ }
+}

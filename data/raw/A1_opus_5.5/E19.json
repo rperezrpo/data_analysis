@@ -1,0 +1,93 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 3,
+   "evidencia": [
+    "Pues para mí es todo lo que produce la naturaleza y que pueda servir de soporte para algo mejor.",
+    "las mismas piedritas, la misma hojarasca, las raíces, los mismos árboles que se siembren y que sirvan de soporte para la tierra y para otras cosas.",
+    "Y le estoy pidiendo al Señor que me regale la platica para comprar un terreno y dedicarlo solamente a eso."
+   ],
+   "justificacion": "Da una definición propia, todavía general (usar lo que produce la naturaleza como «soporte»). La acompaña de ejemplos concretos vinculados al sostenimiento del suelo: raíces, hojarasca y árboles. Expresa además el deseo de dedicar un terreno a estas soluciones. Para el nivel 4 le falta una definición más completa, orientada a mitigar riesgos o resolver problemas, y relacionar explícitamente cada ejemplo con una problemática concreta de su territorio."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "El clima nosotros no lo podemos evitar, pero sí podemos tener un control, un margen de prevención.",
+    "Las lluvias, porque definitivamente cuando llueve es sin misericordia.",
+    "La otra son tantas construcciones.",
+    "Y la parte del reciclaje."
+   ],
+   "justificacion": "Relaciona la amenaza con un fenómeno del clima, las lluvias intensas, y reflexiona sobre la prevención. Sin embargo, presenta las construcciones y el reciclaje como amenazas, sin distinguirlas de los fenómenos climáticos. Tampoco menciona el cambio climático ni fenómenos de largo plazo como agravantes, lo que le impide llegar al nivel 4."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 2,
+   "evidencia": [
+    "Prevenir que haya surcos por donde se vaya el agua y ruede la tierra",
+    "Las lluvias, porque definitivamente cuando llueve es sin misericordia.",
+    "También el mal manejo de las quebradas, definitivamente.",
+    "Y la parte del reciclaje. Empezando por mí, no tengo la suficiente disciplina para reciclar bien."
+   ],
+   "justificacion": "Percibe la amenaza por lluvias y alude al movimiento de tierra («ruede la tierra»). Pero mezcla estas amenazas con problemas no climáticos como las construcciones, el reciclaje y el mal manejo de las quebradas. No nombra con claridad al menos dos de las cuatro amenazas principales (deslizamientos, avenidas torrenciales, inundaciones, incendios), condición necesaria para el nivel 3."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "Las zanjas en la tierra, cuando está reseca. Y lo que yo decía: que antes de rellenarlas, hay que buscarles la solución.",
+    "Serían las plantas mal ubicadas.",
+    "la acumulación de desechos donde estorbe para que haya una buena fluidez del agua.",
+    "los árboles que ya no se sostienen y se van arrastrando con la pérdida de fuerza del suelo.",
+    "Tener la suficiente vegetación para que nos contenga la tierra, y tener los suficientes surquitos para que el agua camine y no se quede estancada."
+   ],
+   "justificacion": "Menciona varias señales: zanjas o grietas, vegetación mal ubicada, obstrucción del flujo del agua y árboles inclinados. Explica la relación de algunas con el deslizamiento, como la pérdida de fuerza del suelo que arrastra los árboles o el agua estancada. Propone buscar la causa antes de rellenar las zanjas, pero esa idea no llega a ser una decisión preventiva concreta ligada a una condición observable, como exige el nivel 5."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 4,
+   "evidencia": [
+    "Los árboles son los pulmones de la tierra.",
+    "aprovechar la tierra, para que sea ella la que se encargue de fortalecer ese suelo.",
+    "Si siembra cebolla y la va a cosechar cada vez que esté, la tierra va a quedar floja. Entonces hay que sembrar cosas que fortalezcan la tierra.",
+    "aprovechar esos árboles que nos han recomendado y, el que tenga un pedacito, sembrar ese arbolito."
+   ],
+   "justificacion": "Menciona funciones concretas de la vegetación: oxígeno («pulmones») y fortalecimiento del suelo. Las vincula con su territorio (construcción, suelos flojos) y reconoce una limitación: no todas las especies fortalecen la tierra. Para el nivel 5 le falta explicar en detalle al menos tres funciones, abarcando la mitigación y la adaptación (por ejemplo, retención de agua, sombra o biodiversidad)."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 3,
+   "evidencia": [
+    "que no usemos hierro, cemento ni nada de esas cosas, sino que sea la misma naturaleza la que se encargue de proveer los materiales.",
+    "El mismo suelo los va absorbiendo y va generando cosas nuevas. En cambio, un cemento o un hierro más bien va a deteriorar el suelo."
+   ],
+   "justificacion": "Al principio confunde biomateriales con abonos. Luego los identifica como materiales provistos por la naturaleza en lugar del cemento o el hierro y nombra una ventaja: se integran al suelo sin deteriorarlo. Solo alude de forma vaga a «lo que hicimos», sin desarrollar aplicaciones ni proyectos concretos donde serían pertinentes, que es lo que pide el nivel 4."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "cuando se hace un convite para ayudar al vecino, eso ayuda a que todos gestionemos, porque también me van a ayudar a mí.",
+    "la gente de allá que participó, que fue mucha y que tiene la historia de lo que pasó con ese derrumbe, va a tener la conciencia de que necesitamos hacer eso.",
+    "Ahorita quedé comprometida a subir y hablar con los vecinos que tienen los pozos sépticos botando el agua del baño a la montaña, y con lo del agua que sobra de la quebrada"
+   ],
+   "justificacion": "Ve el convite como un mecanismo de gestión mutua y conecta la experiencia del derrumbe con la necesidad de actuar. Además, asume un compromiso concreto de gestión comunitaria sobre los vertimientos y los rebosamientos que afectan la ladera. Para el nivel 5 le falta explicar por qué la autogestión ofrece ventajas frente a esperar al Estado y reconocer sus límites, como la necesidad de orientación técnica."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.11488929999999999
+ }
+}

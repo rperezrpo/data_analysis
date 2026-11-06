@@ -1,0 +1,83 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 1,
+   "evidencia": [
+    "Pues, para uno aprender más. Porque siempre aprendimos a cuidar la naturaleza",
+    "no tirar agua contaminada a las corrientes"
+   ],
+   "justificacion": "La persona no dice qué es una SbN. La confunde con el cuidado ambiental en general, como no contaminar las corrientes. No da una definición básica del tipo «usar la naturaleza para resolver problemas» ni ejemplos de SbN, que son necesarios para el nivel 2."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "Las lluvias, los derrumbes.",
+    "Y así, los deslizamientos."
+   ],
+   "justificacion": "Relaciona la amenaza climática con un fenómeno del clima (las lluvias) y con sus efectos (derrumbes, deslizamientos), pero lo hace de forma general. Para el nivel 4 le falta mencionar el cambio climático o fenómenos de largo plazo como agravantes, y distinguir la amenaza de otros problemas."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "las aguas se están profundizando. Eso es lo que está provocando los deslizamientos aquí abajo",
+    "hicimos casas ahí, y eso se fue",
+    "no tirar basuras a las quebradas, porque eso se represa y entonces las partes de arriba son las que sufren"
+   ],
+   "justificacion": "Nombra los deslizamientos y alude al represamiento de quebradas. Cuenta un evento vivido y le atribuye una causa (el agua subterránea). Para el nivel 4 le falta nombrar con claridad una segunda amenaza y vincular de forma más amplia las señales climáticas con cada amenaza."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 2,
+   "evidencia": [
+    "Cuando veo que hay harta lluvia, un fuerte aguacero, un vendaval, que se caen los árboles.",
+    "las aguas se están profundizando. Eso es lo que está provocando los deslizamientos"
+   ],
+   "justificacion": "Identifica señales sencillas: lluvias fuertes, árboles que se caen y agua en el subsuelo. De las señales clave, solo la humedad se acerca a lo pedido. Para el nivel 3 le faltan al menos dos señales clave (grietas, árboles inclinados, tuberías rotas, etc.)."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 3,
+   "evidencia": [
+    "Pues yo digo que sí, porque sostiene más el terreno."
+   ],
+   "justificacion": "Menciona una función concreta de la vegetación: sostener el terreno. No la relaciona de forma explícita con una problemática de su territorio ni construye un argumento completo, que es lo que exige el nivel 4."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "Ay, sí, pero se me olvidó.",
+    "Ah, sí, los estudiamos casi en las últimas clases.",
+    "Para hacer terrazas."
+   ],
+   "justificacion": "No recuerda qué es un biomaterial. El ejemplo de la guadua lo dio el entrevistador. Solo menciona un uso («hacer terrazas») sin decir qué beneficios tiene, lo que corresponde a un nivel de percepción. Para el nivel 3 le faltan ejemplos propios y ventajas de los biomateriales."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 3,
+   "evidencia": [
+    "podríamos mantener limpias las vías y las, ¿cómo se dice?, las cunetas",
+    "no tirar basuras a las quebradas, porque eso se represa y entonces las partes de arriba son las que sufren"
+   ],
+   "justificacion": "Ve la participación comunitaria como una forma de hacer acciones concretas para un problema local, como limpiar las cunetas y evitar que se represen las quebradas. Para el nivel 4 le faltan ejemplos de soluciones que se puedan replicar por autogestión y una reflexión sobre si serían viables o qué ayuda externa necesitarían."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.0731866
+ }
+}

@@ -1,0 +1,74 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Por ejemplo, lo de la recolección del agua lluvia, que es tan importante. Que ojalá lo implementáramos en todas las fincas."
+      ],
+      "justificacion": "Reconoce un ejemplo sencillo de aprovechamiento de un recurso natural y expresa interés en implementarlo. No desarrolla una definición conceptual ni ofrece ejemplos específicos suficientes para demostrar una comprensión de nivel superior."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Esa sí no me llega en este momento.",
+        "Está la tala de árboles en las orillas de las quebradas. Están las quemas, que muchas veces hacen por ahí. Y están las aguas que no las recogen bien, por donde deben ir."
+      ],
+      "justificacion": "Asocia las amenazas con problemas ambientales y prácticas humanas como la tala, las quemas y el manejo inadecuado del agua. No las relaciona explícitamente con fenómenos climáticos ni explica cómo el cambio climático las modifica."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Pues hay muchas amenazas. Está la tala de árboles en las orillas de las quebradas. Están las quemas, que muchas veces hacen por ahí.",
+        "Esas mangueras se rompen y el agua se va metiendo en la tierra, y ahí es donde aparecen los desastres, los daños, los deslizamientos. Eso se ha visto mucho."
+      ],
+      "justificacion": "Reconoce los deslizamientos como un problema observado y describe un agravante concreto, pero mezcla las amenazas con prácticas ambientales perjudiciales. No identifica con claridad una segunda amenaza principal del territorio; las quemas mencionadas no se describen como incendios."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Está la tala de árboles en las orillas de las quebradas.",
+        "Y están las aguas que no las recogen bien, por donde deben ir.",
+        "Esas mangueras se rompen y el agua se va metiendo en la tierra, y ahí es donde aparecen los desastres, los daños, los deslizamientos."
+      ],
+      "justificacion": "Reconoce prácticas de pérdida de vegetación y manejo inadecuado del agua, y explica concretamente cómo las mangueras rotas permiten la infiltración que favorece los deslizamientos. Esta explicación causal demuestra una profundidad superior a la simple identificación, aunque no establece una decisión preventiva condicionada que permita alcanzar el nivel 5."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Entre más árboles y vegetación tengamos sembrados, más protegido está todo el terreno, y también el aire, el ambiente.",
+        "Protege de que haya deslizamientos. Además, hay más oxígeno, mejor vegetación y mejores terrenos."
+      ],
+      "justificacion": "Relaciona la siembra de vegetación con la protección del terreno frente a los deslizamientos, una problemática que reconoce en su entorno, y menciona el aporte de oxígeno. No explica detalladamente tres funciones con aplicaciones territoriales ni reconoce limitaciones de las especies."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "Los biomateriales… Ay, no, eso sí no."
+      ],
+      "justificacion": "sin evidencia de reconocimiento de biomateriales o de sus usos constructivos; expresa desconocimiento del concepto. Para el nivel 2 tendría que identificar al menos un material de este tipo asociado con la construcción."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "El terreno donde se va a hacer ese trabajo se sostiene más y queda más protegido. Y podemos aprender, para hacerlo nosotros mismos donde tengamos algún problema en las fincas.",
+        "Como le digo, aprendemos, y cuando vemos la necesidad podemos hacer lo mismo: hacer un convite para poderlo hacer.",
+        "En cambio, si nos ponemos a esperar, la ayuda no llega ligero y el trabajo no se puede hacer ligero. Así, en cambio, podemos actuar rápido y hacer lo que necesitamos hacer."
+      ],
+      "justificacion": "Explica que aprender y organizar convites permite replicar soluciones de protección del terreno en las fincas. Fundamenta la ventaja de la autonomía comunitaria en poder actuar oportunamente sin esperar ayuda externa, lo que corresponde al nivel máximo."
+    }
+  ]
+}

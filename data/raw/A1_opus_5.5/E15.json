@@ -1,0 +1,90 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 4,
+   "evidencia": [
+    "Siento que es darle más aprovechamiento a lo que nos brinda la naturaleza.",
+    "ese trincho que hicimos, mire que lo hicimos con algo que nos proporciona la misma naturaleza. Y con eso podemos darle solución en ese espacio al que subimos a una situación que hay",
+    "Para mitigar situaciones que nos puedan poner en peligro. No tanto para el riesgo, sino incluso previniendo que sucedan esas situaciones",
+    "el tema de la reforestación, que nos ayuda con el tema de calor y para mejorar la tierra. O dependiendo de lo que se siembre, se pueden sostener los terrenos. También está el tema de recoger las aguas, porque nos ayudan a prevenir inundaciones."
+   ],
+   "justificacion": "Da una definición conceptual bastante completa (aprovechar lo que brinda la naturaleza para mitigar y prevenir situaciones de peligro) y la acompaña con ejemplos vinculados a problemas concretos: reforestación frente al calor, sostener terrenos, recoger aguas para prevenir inundaciones. Para el nivel 5 le falta proyectar las SbN como posibilidad propia en su territorio, con experiencias previas o propuestas de implementación más allá del trincho del proceso."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 3,
+   "evidencia": [
+    "No, no me acuerdo. No yo creo que esta mejor pasemos",
+    "si empieza a llover mucho, sumado a toda esa agua que ya tenemos entonces se empiezan a venir terrenos, y como no tenemos un buen sistema de alcantarillado, empiezan a haber inundaciones. Pero también, por el contrario, cuando no llueve también toca que corten el agua."
+   ],
+   "justificacion": "No recuerda el concepto, pero cuando se lo explican relaciona la amenaza con fenómenos del clima (lluvias intensas y falta de lluvia) y con sus efectos. Mezcla esos fenómenos con agravantes sociales, como el alcantarillado, sin distinguirlos. Para el nivel 4 le falta mencionar el cambio climático como agravante de largo plazo (El Niño o La Niña, veranos prolongados, aumento de la temperatura)."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "acá donde vivimos es una vereda donde el agua es demasiada. Entonces si empieza a llover mucho... se empiezan a venir terrenos, y como no tenemos un buen sistema de alcantarillado, empiezan a haber inundaciones.",
+    "Como tenemos tanta montaña, lo que más nos puede afectar es el tema de los deslizamientos. Además que acá tenemos una falla",
+    "si llueve mucho, se remoja mucho la tierra y va a dar a la quebrada, y puede haber un taponamiento."
+   ],
+   "justificacion": "Nombra deslizamientos, inundaciones y el taponamiento de la quebrada, y explica sus causas y agravantes: la pendiente, la falla, la saturación del suelo y el alcantarillado deficiente. También muestra cómo se encadenan (la lluvia remoja la tierra, la tierra llega a la quebrada y la tapona). Para el nivel 5 le faltan casos concretos, eventos recordados, sectores críticos o épocas específicas."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 3,
+   "evidencia": [
+    "Si vemos grietas, un árbol que se desplazó... Grietas en las mismas viviendas o en la tierra. O también socavaciones.",
+    "si llueve mucho, se remoja mucho la tierra"
+   ],
+   "justificacion": "Menciona al menos tres señales, entre ellas varias clave: grietas en la tierra y en las viviendas, árboles desplazados y socavaciones. Sin embargo, no explica cómo se relaciona cada señal con el movimiento del terreno. Para el nivel 4 le falta explicar por qué esas señales indican un deslizamiento."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 5,
+   "evidencia": [
+    "si cortamos los árboles... si impermeabilizamos los espacios, entonces ya no van a haber polinizadores",
+    "sembrando árboles, o al menos algunos tipos de árboles, se ayuda a sostener el suelo y a filtrar el agua.",
+    "se vuelve más impermeable el suelo y menos va a poder servir como ese filtro. Entonces el agua que tenemos por lo menos aquí por los nacimientos ya va a correr es sobre la vía.",
+    "sí han estado cortando demasiados árboles porque han estado construyendo mucho.",
+    "la reforestación, que nos ayuda con el tema de calor y para mejorar la tierra"
+   ],
+   "justificacion": "Explica varias funciones de la vegetación, tanto de mitigación (sostener el suelo, filtrar el agua) como de adaptación (regular el calor, proteger a los polinizadores). Las relaciona con su territorio: la tala y la impermeabilización hacen que el agua de los nacimientos corra por la vía. Además, reconoce un límite, porque solo algunos tipos de árboles cumplen esas funciones, con lo que alcanza el nivel más alto."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 2,
+   "evidencia": [
+    "En el convite lo que hicimos fue con la guadua... Y también hay lugares donde precisamente cultivan los árboles para usarlos para eso, para construir.",
+    "¿la piedra también sería un material natural? Porque me parece que esos son como materiales que se asimilan más con el terreno. Pero no, no me acuerdo de más."
+   ],
+   "justificacion": "Identifica la guadua y la madera cultivada como materiales para construir, pero la única ventaja que menciona es vaga e insegura: que se asimilan más con el terreno. Para el nivel 3 le faltan ventajas concretas, como la disponibilidad local, las menores emisiones o el confort térmico."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 4,
+   "evidencia": [
+    "el grupo que tenemos con CoCreando es muy bueno y estamos ahí, pero somos los mismos. Invitar a la comunidad a que quiera participar es un poco complejo.",
+    "apenas vean los riesgos en los que estamos y que como comunidad los podemos solucionar",
+    "Ya en términos de repetir, sería dependiendo del tema de los recursos, pero como comunidad podríamos salir a buscar ese tema.",
+    "los que estuvimos volveríamos a hacerlo y podríamos invitar a la comunidad"
+   ],
+   "justificacion": "Ve viable que la comunidad replique el trincho por autogestión y señala límites concretos: los recursos y la baja participación. Además, plantea que la comunidad puede solucionar sus propios riesgos. Sin embargo, pone mucho peso en la concientización y no explica por qué la autonomía comunitaria tiene ventajas frente a otras vías ni la necesidad de complementarse con orientación técnica, que es lo que falta para el nivel 5."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.1138175
+ }
+}

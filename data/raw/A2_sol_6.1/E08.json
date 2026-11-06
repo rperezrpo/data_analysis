@@ -1,0 +1,76 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 2,
+      "evidencia": [
+        "Son para sembrar, para buscar la sombra, para el agua y todas esas cositas."
+      ],
+      "justificacion": "Reconoce usos generales de la naturaleza relacionados con la siembra, la sombra y el agua. No desarrolla una definición más específica de las SbN ni presenta varios ejemplos que permitan distinguirlas de otras acciones ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "No… ¿No son como esos incendios? La gente que daña lo que uno siembra.",
+        "Como anoche llovió, se fue toda la tierra y se ensució toda el agua."
+      ],
+      "justificacion": "Relaciona la lluvia con el arrastre de tierra y la afectación del agua, aunque mezcla inicialmente la amenaza con acciones humanas que dañan las plantas. No explica cómo el cambio climático modifica las amenazas ni menciona tendencias climáticas prolongadas."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 2,
+      "evidencia": [
+        "Pues amenazas, en este momento, gracias a Dios, no.",
+        "Lo del agua que baja de ahí arriba, ese sobrante de agua que hay allá.",
+        "Donde está mi casa era una parte arriesgada, que se podía ir a la carretera."
+      ],
+      "justificacion": "Percibe problemas localizados de exceso de agua e inestabilidad del terreno, aunque inicialmente niega la existencia de amenazas cercanas. No identifica claramente al menos dos de las amenazas principales del territorio; el agua que baja no se caracteriza como inundación o avenida torrencial."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Pues cuando se empieza a tarrajear [agrietar] la tierra, cuando empieza a bajar toda esa agua, uno dice: \"esta se está entrando y va a haber un deslizamiento para allá abajo\".",
+        "Porque no es lo mismo que nosotros vamos y sembramos y que otro llegue y la dañe, sabiendo que estamos sembrando para que de pronto no se vaya a bajar ese bordo.",
+        "Se sembraron en ese bordo y con las raíces se sostuvo totalmente toda esa tierra."
+      ],
+      "justificacion": "Reconoce el agrietamiento, la entrada de agua y la pérdida de vegetación protectora como condiciones relacionadas con la inestabilidad. Explica cómo el agua puede favorecer un deslizamiento y cómo las raíces sostienen el suelo, pero no establece una decisión preventiva concreta condicionada a señales de movimiento."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Son para sembrar, para buscar la sombra, para el agua y todas esas cositas.",
+        "En este momento ya hay árboles ahí: hay un yarumo, hay un palo de limón, hay un palo de guayabo.",
+        "Se sembraron en ese bordo y con las raíces se sostuvo totalmente toda esa tierra."
+      ],
+      "justificacion": "Explica la estabilización del suelo mediante raíces y la vincula con un bordo que amenazaba con caer hacia la carretera. Aunque también menciona la sombra y el agua, no desarrolla al menos tres funciones ni sus aplicaciones o limitaciones con la profundidad del nivel superior."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 1,
+      "evidencia": [
+        "A mí me parece que los biomateriales deben servir para sostener la tierra. Por ejemplo, mire, las raíces de los árboles."
+      ],
+      "justificacion": "Interpreta los biomateriales como raíces vivas que sostienen el terreno, sin asociarlos con materiales de construcción. No identifica ejemplos como guadua, madera o tierra empleados con fines constructivos."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 3,
+      "evidencia": [
+        "Pues lo importante es que hubiera unión entre todos y que no fuéramos tan egoístas, digo yo, tal vez es la palabra mía.",
+        "Porque están haciendo una casa y están tirando tierra para hacerla en el banqueo, allá al frente.",
+        "Uno debe hablar seriamente: ir y decir \"vamos a hablar, vea, esto no se puede hacer\"."
+      ],
+      "justificacion": "Además de valorar la unión, propone el diálogo comunitario para intervenir sobre una práctica constructiva que provoca arrastre de tierra y deterioro del agua. No desarrolla una iniciativa concreta de autogestión con acciones organizadas, ni explica las capacidades y apoyos necesarios para implementarla."
+    }
+  ]
+}

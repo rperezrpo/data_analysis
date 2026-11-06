@@ -1,0 +1,98 @@
+{
+ "capacidades": [
+  {
+   "n": 1,
+   "slug": "nbs_definition",
+   "nivel": 5,
+   "evidencia": [
+    "Con las Soluciones basadas en la Naturaleza se utilizan los mismos recursos que tiene la naturaleza, y que ella nos provee a los seres humanos, para aplicarlos en algunos lugares y dar ciertas soluciones a ciertos problemas.",
+    "Por ejemplo, los deslizamientos por humedad o por falta de arborización en el lugar.",
+    "Con ellas se hacen trinchos y otras cosas que sirven para retener la tierra o para reducir la humedad en el lugar.",
+    "Las piedras se utilizan como medio natural para disminuir las corrientes de agua, para mermar su velocidad.",
+    "Yo ya había participado alguna vez en la construcción de unos trinchos, un poco más arriba de donde hicimos el que realizamos."
+   ],
+   "justificacion": "Da una definición conceptual completa: usar los recursos de la naturaleza para resolver problemas, y la conecta con problemas concretos como los deslizamientos por humedad o por falta de árboles. Da ejemplos específicos con su función: trinchos para retener la tierra, plantas que manejan la humedad y piedras que bajan la velocidad del agua. Además cuenta una experiencia propia anterior construyendo trinchos en su vereda, lo que corresponde al nivel de liderazgo."
+  },
+  {
+   "n": 2,
+   "slug": "climate_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "el calentamiento tan fuerte de la tierra. Siempre habíamos vivido momentos en que el tiempo se volvía más frío y otros en que se volvía más caliente, pero la fuerza del calor o del frío ahora es más violenta.",
+    "El deshielo de los polos agrava las circunstancias, porque los mares comienzan a aumentar la cantidad de agua",
+    "aquí el tiempo de lluvia es larguísimo en el año. Llueve mucho, entonces las quebradas crecen demasiado y generan esa problemática.",
+    "Los deslizamientos son prevenibles"
+   ],
+   "justificacion": "Ubica la amenaza en el marco amplio del cambio climático: calentamiento, deshielo y cambios más intensos y bruscos. También la conecta con consecuencias en su contexto, como las lluvias largas que hacen crecer las quebradas. Sin embargo, incluye la contaminación con basuras dentro de la problemática sin separar con claridad la amenaza de sus causas sociales. Habla de prevención solo de pasada y no la desarrolla como reflexión sobre cómo gestionar la amenaza, por eso no alcanza el nivel 5."
+  },
+  {
+   "n": 3,
+   "slug": "local_hazard",
+   "nivel": 4,
+   "evidencia": [
+    "aquí en mi vereda lo más fuerte son los deslizamientos. También las salidas tan fuertes de las corrientes de agua",
+    "Los deslizamientos amenazan el territorio, los cultivos, las viviendas y la misma vía, que es una sola.",
+    "aquí el tiempo de lluvia es larguísimo en el año. Llueve mucho, entonces las quebradas crecen demasiado",
+    "Los pobladores quitan los árboles y luego hacen una edificación, pero al terreno no le hacen un trabajo para que quede seguro"
+   ],
+   "justificacion": "Nombra dos amenazas principales de su territorio, los deslizamientos y las crecientes torrenciales, y explica sus causas y agravantes: lluvias prolongadas, deforestación y construcciones sin asegurar el terreno. Menciona también lo que está expuesto, como la única vía de la vereda. Le falta hablar de eventos concretos del pasado, sectores críticos o cambios que haya visto con el tiempo para llegar al nivel 5."
+  },
+  {
+   "n": 4,
+   "slug": "identify_landslide",
+   "nivel": 4,
+   "evidencia": [
+    "Lo que más lo muestra, y lo más grave, es la falta de arborización. Se sabe que donde no hay árboles no hay raíces que amarren el terreno.",
+    "algunas personas dejan mangueras rotas o tuberías dañadas filtrando agua permanentemente en un terreno, la humedad lo va saturando hasta que ocurre el deslave.",
+    "Los pobladores quitan los árboles y luego hacen una edificación, pero al terreno no le hacen un trabajo para que quede seguro"
+   ],
+   "justificacion": "Identifica tres señales o prácticas clave: la deforestación, las mangueras rotas que generan humedad y las construcciones en terreno sin asegurar. Explica cómo cada una se relaciona con el deslizamiento: sin raíces la tierra no queda amarrada y la humedad satura el suelo. No plantea una decisión preventiva que dependa de una condición concreta, como avisar o dejar de construir según lo que se observe, que es lo que pide el nivel 5."
+  },
+  {
+   "n": 5,
+   "slug": "functions_vegetation",
+   "nivel": 5,
+   "evidencia": [
+    "Si no hay vegetación, vuelvo y digo, la tierra se lava cada vez que llueve. Los vientos son más fuertes, porque no hay quien los retenga un poquito",
+    "Y la temperatura, el sol, aumenta demasiado.",
+    "las plantas también se encargan de reducir la humedad: mandan el agua para otro lado, la consumen ellas mismas o la canalizan a través de la raíz.",
+    "esa estabilidad del terreno se va aumentando con plantas vivas.",
+    "donde no hay árboles no hay raíces que amarren el terreno."
+   ],
+   "justificacion": "Explica varias funciones de la vegetación: amarra el terreno, maneja la humedad, evita que la lluvia lave la tierra, frena el viento y regula la temperatura. Así cubre tanto la mitigación como la adaptación. Además las aplica en su territorio: plantas vivas para estabilizar el trincho y para prevenir deslizamientos en la vereda. Esto corresponde al nivel más alto."
+  },
+  {
+   "n": 6,
+   "slug": "biobased_materials",
+   "nivel": 5,
+   "evidencia": [
+    "Los biomateriales son elementos que provee la naturaleza, como en este caso la guadua. La guadua sirve para amarrar terrenos.",
+    "primero, que son más amigables con el planeta.",
+    "Si hay un temblor muy fuerte, es posible que la casa de madera no nos mate",
+    "una guadua inmunizada dura mucho tiempo, mientras que una guadua sin inmunizar se acaba muy ligero con la humedad que se da aquí en este territorio."
+   ],
+   "justificacion": "Define qué son los biomateriales y da ejemplos: guadua y madera. Nombra ventajas, como ser amigables con el planeta, más seguros en un temblor y de menor impacto donde hay biodiversidad. También describe una aplicación concreta: el trincho combinado con plantas vivas. Además reconoce un límite técnico ligado a su contexto: la guadua sin inmunizar se deteriora rápido con la humedad del territorio."
+  },
+  {
+   "n": 7,
+   "slug": "community_participation",
+   "nivel": 5,
+   "evidencia": [
+    "Estos convites ayudan a que nosotros mismos hagamos prevención para que no haya deslizamientos.",
+    "el trincho de arriba, donde don Luis, lo habíamos hecho nosotros sin tener experto, pero cometimos algunos errores.",
+    "yo creo que sí podríamos hacerlo como comunidad, por aparte, sin tener un técnico, sin tener un experto.",
+    "Poner a una comunidad de acuerdo es un poco difícil, porque cada uno quiere que prime su pensamiento",
+    "usamos la guadua sin inmunizar."
+   ],
+   "justificacion": "Ve en la autogestión una forma de prevenir deslizamientos sin depender de materiales industriales, y se apoya en una experiencia real: el trincho que la comunidad construyó sin expertos. También señala límites concretos: la dificultad de que la comunidad se ponga de acuerdo y la falta de técnicas, como inmunizar la guadua. Por eso plantea el saber de la comunidad y el acompañamiento experto como complementarios, lo que corresponde al nivel 5."
+  }
+ ],
+ "_modelo": {
+  "pedido": "claude-opus-5-5",
+  "usados": [
+   "claude-opus-5-5"
+  ],
+  "ok": true,
+  "costo_usd": 0.13396740000000001
+ }
+}

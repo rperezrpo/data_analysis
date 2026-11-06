@@ -1,0 +1,89 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 5,
+      "evidencia": [
+        "descubrimos que aprovecharon parte de las mismas soluciones que la naturaleza les había dado, o que ya estaban ahí, y las volvieron a retomar.",
+        "unos trinchos para evitar que la tierra se viniera",
+        "unos filtros naturales, recuperando los filtros naturales que la tierra tenía.",
+        "Así le explicamos bien a la comunidad por qué es tan importante y por qué nos ofrece unas Soluciones basadas en la Naturaleza muy factibles para esta vereda"
+      ],
+      "justificacion": "Entiende las SbN como formas de aprovechar procesos y recursos naturales para resolver problemas territoriales, y distingue aplicaciones concretas de estabilización y manejo del agua. Además, relaciona prácticas ancestrales investigadas con propuestas actuales de implementación comunitaria, alcanzando el nivel máximo."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 5,
+      "evidencia": [
+        "Ellos decían que en ese tiempo hacía verano, pero el calor no quemaba como quema ahora. O sea, la temperatura ha aumentado en grados.",
+        "Aun así, cuando hay bastante precipitación, hay mucha problemática.",
+        "A eso se suma todo lo que el hombre ha hecho para acelerar esa problemática: la tala del bosque, el desvío de las fuentes hídricas, la contaminación, las altas parcelaciones, las quemas y la extracción de mucha de la biodiversidad que teníamos.",
+        "Por eso, la bioingeniería nos ofrece una posibilidad de recuperar esos hilos de agua natural y esa biota o ese micelio interno que tiene el suelo, para que el suelo vuelva a conectarse."
+      ],
+      "justificacion": "Distingue fenómenos climáticos de intervenciones humanas que agravan sus consecuencias y utiliza memoria histórica para argumentar el aumento de la temperatura. A lo largo de la entrevista conecta esas problemáticas con posibilidades de gestión mediante bioingeniería y participación comunitaria, mostrando la profundidad del nivel máximo."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 4,
+      "evidencia": [
+        "Primero, el tema de la Falla de Romeral: es un movimiento en masa no recuperable.",
+        "Aun así, cuando hay bastante precipitación, hay mucha problemática.",
+        "A eso se suma todo lo que el hombre ha hecho para acelerar esa problemática: la tala del bosque, el desvío de las fuentes hídricas, la contaminación, las altas parcelaciones, las quemas y la extracción de mucha de la biodiversidad que teníamos.",
+        "Entonces, cuando camino el territorio y observo que están modificando todo eso, obra de la mano del hombre, sé que va a haber un deslizamiento en tal parte, porque estamos tocando algo que no debiéramos tocar."
+      ],
+      "justificacion": "Aunque concentra su explicación en los movimientos en masa, desarrolla relaciones entre precipitaciones, transformación del territorio y agravamiento de la inestabilidad que superan una identificación superficial. Para el nivel 5 faltaría describir con mayor precisión el encadenamiento de amenazas y ubicar eventos o sectores críticos concretos."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 4,
+      "evidencia": [
+        "Conozco las grietas que tiene y las aguas por donde han caminado normalmente.",
+        "la tala del bosque, el desvío de las fuentes hídricas",
+        "Y veo el desvío de la quebrada, el desvío de algunos caminos y la pérdida de unas zanjas o 'chambas' que se tenían para repartir las aguas desde la parte alta.",
+        "Entonces, cuando camino el territorio y observo que están modificando todo eso, obra de la mano del hombre, sé que va a haber un deslizamiento en tal parte, porque estamos tocando algo que no debiéramos tocar."
+      ],
+      "justificacion": "Reconoce grietas, pérdida de vegetación y alteraciones del drenaje, y explica que modificar la distribución natural del agua y el terreno favorece los deslizamientos. No alcanza el nivel 5 porque no establece una decisión preventiva concreta condicionada a una señal o situación de inestabilidad."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "De esa red parte todo lo que es la vegetación, el agua y la estabilidad de nuestros suelos.",
+        "Que nosotros llegamos aquí a invadir este territorio, a cortar el suelo, a mover grandes cantidades de tierra, a hacer carreteras.",
+        "Al cortar esa red, estamos modificando unos hilos naturales de agua.",
+        "A través de esa conectividad se evitan la erosión y la aceleración de todo este daño ambiental."
+      ],
+      "justificacion": "Relaciona la vegetación y la red viva del suelo con estabilidad, circulación del agua y prevención de la erosión, vinculándolas con intervenciones concretas de su territorio. Para el nivel 5 faltaría desarrollar funciones más diversas con aplicaciones locales o reconocer limitaciones específicas de la vegetación."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Primero, porque no se le pone peso al terreno donde se va a intervenir o que se va a recuperar; no ejerce un peso externo.",
+        "Es algo natural, algo que está disponible en las fincas.",
+        "Es utilizar todas esas ramas, árboles, guaduas, bambúes, troncos de plátano. Todo eso sirve; en la construcción de bioingeniería todo eso es utilizable.",
+        "Al mismo tiempo, es biomasa o biomaterial que se degrada con el tiempo, después de que la vegetación comienza a recuperar su estado natural."
+      ],
+      "justificacion": "Identifica diversos biomateriales, destaca su disponibilidad local y explica su aplicación en intervenciones de recuperación del terreno. Aunque reconoce su degradación, la presenta como parte favorable del proceso y no desarrolla restricciones de durabilidad, mantenimiento o requisitos técnicos que sustenten el nivel 5."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 5,
+      "evidencia": [
+        "el primer problema que vamos a tener cuando empecemos a intervenir aquí con bioingeniería es el desconocimiento de la comunidad.",
+        "Le estoy pidiendo también que involucre a César Correa, que maneja el tema muy bien porque vive haciendo esas obras por todo el país.",
+        "Así la gente se da cuenta, entiende y también participa del convite.",
+        "porque esa es una técnica que cada propietario puede hacer en su finca. Qué bueno que aprendieran a hacerlo.",
+        "Que Ricardo o el ingeniero le expliquen bien explicadito a Jonathan, y que Jonathan lo ponga en un video."
+      ],
+      "justificacion": "Propone una estrategia implementable que combina comunicación local, convocatoria al convite y aprendizaje para replicar soluciones en las fincas. Reconoce el desconocimiento comunitario como límite y explica cómo complementar las capacidades del liderazgo local con orientación técnica, alcanzando el nivel máximo."
+    }
+  ]
+}

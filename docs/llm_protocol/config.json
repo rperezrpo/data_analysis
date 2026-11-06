@@ -1,0 +1,91 @@
+{
+ "fecha": "2026-10-19T07:20:35",
+ "fuente": "externa",
+ "rubrica": "v6_matriz_base.xlsx",
+ "rubrica_sha256_16": "ef37a8e848997e99",
+ "tiene_ejemplos": false,
+ "agentes": {
+  "A1": "claude-opus-5-5",
+  "A2": "claude-sonnet-5-5",
+  "A3": "gpt-6-astra",
+  "A4": "gpt-6.1-sol",
+  "Revisor": "claude-opus-5-5"
+ },
+ "panel": "anthropic_openai",
+ "evaluadores": [
+  {
+   "clave": "A1",
+   "modelo": "claude-opus-5-5",
+   "ejecutor": "claude"
+  },
+  {
+   "clave": "A2",
+   "modelo": "claude-sonnet-5-5",
+   "ejecutor": "claude"
+  },
+  {
+   "clave": "A3",
+   "modelo": "gpt-6-astra",
+   "ejecutor": "externo"
+  },
+  {
+   "clave": "A4",
+   "modelo": "gpt-6.1-sol",
+   "ejecutor": "externo"
+  }
+ ],
+ "system_prompt": "Eres un evaluador experto en educación ambiental y gestión comunitaria del riesgo. Sigues al pie de la letra las reglas de la tarea y respondes solo con el objeto pedido.",
+ "semilla_orden_informes": "13679474",
+ "codigos": [
+  "E01",
+  "E02",
+  "E03",
+  "E04",
+  "E05",
+  "E06",
+  "E07",
+  "E08",
+  "E09",
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14",
+  "E15",
+  "E16",
+  "E17",
+  "E18",
+  "E19",
+  "E20",
+  "E21",
+  "E22",
+  "E23",
+  "E24",
+  "E25",
+  "E26",
+  "E27",
+  "E28",
+  "E29",
+  "E30",
+  "E31",
+  "E32"
+ ],
+ "script": "panel_v4.py",
+ "script_sha256_16": "471643dd2a5d0d79",
+ "formato_prompt": "sistema_cacheable",
+ "escala": [
+  1,
+  5
+ ],
+ "estructura": "carpetas",
+ "clave": "resultados_v6.1_key.json",
+ "ampliacion": {
+  "fecha": "2026-10-20",
+  "agregados": [
+   "A2 claude-sonnet-5-5",
+   "A3 gpt-6-astra"
+  ],
+  "panel_original": "opus_sol",
+  "script_sha256_16": "2e5465c4226ab517"
+ }
+}

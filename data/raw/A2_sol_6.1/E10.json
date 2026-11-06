@@ -1,0 +1,72 @@
+{
+  "capacidades": [
+    {
+      "n": 1,
+      "slug": "nbs_definition",
+      "nivel": 3,
+      "evidencia": [
+        "Es lo de la sembración de las plantas. Yo digo que entre más sembremos planticas y árboles, es como conservar un poquito más la naturaleza.",
+        "A atajar los derrumbes, y se van a hacer en forma de capitas [terrazas], para que podamos sostener."
+      ],
+      "justificacion": "Relaciona las SbN con la siembra y describe una aplicación específica para contener derrumbes mediante estructuras en capas. Esto supera una percepción exclusivamente conservacionista, pero falta una definición conceptual completa que articule el aprovechamiento de la naturaleza con la solución de problemas ambientales."
+    },
+    {
+      "n": 2,
+      "slug": "climate_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Una amenaza climática… A ver, de pronto como cuando llueve demasiado y hay bordos donde la tierra no está muy bien apretadita, y se desbordan."
+      ],
+      "justificacion": "Relaciona la amenaza con lluvias excesivas y con condiciones del terreno que favorecen movimientos de tierra. No explica cómo el cambio climático modifica estas amenazas ni identifica tendencias climáticas de largo plazo, necesarias para el nivel superior."
+    },
+    {
+      "n": 3,
+      "slug": "local_hazard",
+      "nivel": 3,
+      "evidencia": [
+        "Los movimientos de masa.",
+        "Una amenaza climática… A ver, de pronto como cuando llueve demasiado y hay bordos donde la tierra no está muy bien apretadita, y se desbordan.",
+        "Cuando la tierra empieza a rajarse. O cuando llueve mucho y hay algo que baja un poquito. Uno dice: \"no, esto con otro aguacero se va a ir\"."
+      ],
+      "justificacion": "Reconoce los movimientos de masa y los relaciona con lluvias intensas, terreno poco firme y señales observables, mostrando más que una percepción superficial. El ajuste al nivel es parcial porque identifica una sola amenaza principal; falta una comprensión más amplia de las amenazas locales y sus agravantes para alcanzar el nivel superior."
+    },
+    {
+      "n": 4,
+      "slug": "identify_landslide",
+      "nivel": 2,
+      "evidencia": [
+        "Cuando la tierra empieza a rajarse. O cuando llueve mucho y hay algo que baja un poquito. Uno dice: \"no, esto con otro aguacero se va a ir\"."
+      ],
+      "justificacion": "Reconoce el agrietamiento y pequeños desplazamientos durante las lluvias como indicios de un posible deslizamiento. Para el nivel superior falta identificar un conjunto más amplio de señales o prácticas, incluyendo al menos dos señales clave."
+    },
+    {
+      "n": 5,
+      "slug": "functions_vegetation",
+      "nivel": 4,
+      "evidencia": [
+        "Ayuda a afirmar un poquito más. Es lo que decimos en las clases: que si se siembran tales y tales plantas, pueden apretar un poquito el terreno.",
+        "se necesitan varios para poder colocar las guaduas, para después echar la tierra, para sembrar la vegetación."
+      ],
+      "justificacion": "Explica la estabilización del terreno mediante plantas y sitúa la vegetación dentro de la intervención comunitaria para contener derrumbes. Para el nivel superior falta desarrollar otras funciones, sus aplicaciones territoriales y posibles limitaciones."
+    },
+    {
+      "n": 6,
+      "slug": "biobased_materials",
+      "nivel": 4,
+      "evidencia": [
+        "Ah, bueno. Entonces esa sí, porque con esa podemos atajar un poquito los derrumbes, como vamos a aprender y como nos van a enseñar. A atajar los derrumbes, y se van a hacer en forma de capitas [terrazas], para que podamos sostener.",
+        "se necesitan varios para poder colocar las guaduas, para después echar la tierra, para sembrar la vegetación."
+      ],
+      "justificacion": "Aunque inicialmente desconoce el término, desarrolla una aplicación concreta de la guadua para sostener el terreno mediante estructuras en capas, más allá del ejemplo proporcionado por el entrevistador. No reconoce límites de durabilidad, mantenimiento o requisitos técnicos, necesarios para el nivel superior."
+    },
+    {
+      "n": 7,
+      "slug": "community_participation",
+      "nivel": 4,
+      "evidencia": [
+        "Porque una persona sola no lo puede hacer: se necesitan varios para poder colocar las guaduas, para después echar la tierra, para sembrar la vegetación. Entonces, claro que sí. Y si ya está dando el resultado, excelente."
+      ],
+      "justificacion": "Explica la necesidad del trabajo colectivo mediante tareas concretas de una solución para contener derrumbes, superando una valoración genérica de la unión comunitaria. Para el nivel superior falta reflexionar sobre las ventajas de la autonomía comunitaria y los límites o apoyos externos necesarios."
+    }
+  ]
+}
