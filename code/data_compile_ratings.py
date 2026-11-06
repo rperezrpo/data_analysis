@@ -11,7 +11,7 @@ Necessary folder layout:
             A1_<model>/E01.json ... E32.json      one JSON per interview (LLM agent)
             H1_<name>/E01_evaluacion_<name>.xlsx  one workbook per interview (human)
             ...
-        data/processed/ratings_summary.xlsx       written by this script
+        data/processed/YYYYMMDD_ratings_summary.xlsx  written by this script (run date)
 
 Every folder in data/raw/ named <A|H><number>_<label> is one evaluator; the
 prefix (A1, H2 ...) becomes its column in the summary. Agents (A) and humans (H)
@@ -19,7 +19,8 @@ read the transcripts under different blind codes, so each kind is mapped to the
 transcript through its own key (KEYS below). Ratings are on the rubric's 1-5
 scale (1 Absence, 2 Awareness, 3 Competence, 4 Expertise, 5 Leadership).
 
-Output: data/processed/ratings_summary.xlsx, with the sheets
+Output: data/processed/YYYYMMDD_ratings_summary.xlsx (dated with the run date;
+a second run on the same day overwrites it), with the sheets
     results_vertical  one row per interview and capacity, one column per evaluator
     evaluators        what was read from each evaluator folder
     key               transcript, participant, moment and both blind codes
@@ -32,6 +33,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 import pandas as pd
@@ -41,7 +43,8 @@ from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).resolve().parent.parent  # data_analysis/
 SOURCE_DIR = ROOT / "data" / "raw"
-OUT_FILE = ROOT / "data" / "processed" / "ratings_summary.xlsx"
+OUT_NAME = "ratings_summary.xlsx"  # written as YYYYMMDD_ratings_summary.xlsx
+OUT_FILE = ROOT / "data" / "processed" / f"{date.today():%Y%m%d}_{OUT_NAME}"
 
 # Evaluator kind -> key file (relative to the source folder) that maps its blind codes to transcripts.
 KEYS = {

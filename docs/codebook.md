@@ -44,7 +44,9 @@ Wording as in the rubric (`capability_en`); the Spanish wording and the level de
 
 **Keys** (`keys/`): `resultados_v6.1_key.json` maps agent code -> transcript. `clave_evaluacion_externa_v6.xlsx`, sheet `clave`, maps human code (`codigo`) -> transcript (`transcripcion`); its `codigo_anterior` column holds the agents' code.
 
-## `data/processed/ratings_summary.xlsx`
+## `data/processed/YYYYMMDD_ratings_summary.xlsx`
+
+Prefixed with the date the compile script was run.
 
 **Sheet `results_vertical`**: one row per interview × capacity (32 × 7 = 224 rows).
 
@@ -75,7 +77,9 @@ Wording as in the rubric (`capability_en`); the Spanish wording and the level de
 
 **Sheet `warnings`** (only if there were any): problems found while reading.
 
-## `results/tables/reliability_results.xlsx`
+## `results/tables/YYYYMMDD_reliability_results.xlsx`
+
+Prefixed with the date the reliability script was run; by default it reads the newest dated ratings summary.
 
 **Sheet `reliability`**: one row per group of evaluators × scope.
 

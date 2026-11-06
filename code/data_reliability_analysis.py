@@ -1,6 +1,6 @@
 """Inter-rater reliability of the capacity ratings compiled by 01_compile_ratings.py.
 
-Input: data/processed/ratings_summary.xlsx, sheet 'results_vertical' - one row per interview
+Input: data/processed/YYYYMMDD_ratings_summary.xlsx (by default the newest one), sheet 'results_vertical' - one row per interview
 and capacity (a "unit"), one column per evaluator (H1 ... humans, A1 ...
 LLM agents), levels on the rubric's ordinal 1-5 scale; blank = not rated.
 
@@ -36,8 +36,9 @@ Libraries: irrCAC (Python port of Gwet's R irrCAC; installed with
 `pip install --no-deps irrCAC` because 0.4.4 pins scipy==1.12.0, which has no
 Python 3.13 build) and krippendorff (Castro). Both versions go into 'settings'.
 
-Output: results/tables/reliability_results.xlsx (sheets 'reliability' and
-'settings') and the same table printed to the console.
+Output: results/tables/YYYYMMDD_reliability_results.xlsx (dated with the run date;
+a second run on the same day overwrites it; sheets 'reliability' and 'settings')
+and the same table printed to the console.
 
 Usage (from data_analysis/; paths do not depend on the working directory):
     python code/02_reliability_analysis.py
@@ -50,6 +51,7 @@ References
 import argparse
 import importlib.metadata
 import re
+from datetime import date
 from pathlib import Path
 
 import krippendorff
@@ -60,8 +62,9 @@ from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).resolve().parent.parent  # data_analysis/
-SUMMARY_FILE = ROOT / "data" / "processed" / "ratings_summary.xlsx"
-OUT_FILE = ROOT / "results" / "tables" / "reliability_results.xlsx"
+SUMMARY_DIR = ROOT / "data" / "processed"
+SUMMARY_NAME = "ratings_summary.xlsx"  # as written by data_compile_ratings.py, with a YYYYMMDD_ prefix
+OUT_FILE = ROOT / "results" / "tables" / f"{date.today():%Y%m%d}_reliability_results.xlsx"
 SHEET = "results_vertical"
 
 LEVELS = (1, 2, 3, 4, 5)  # the rubric's ordinal scale
@@ -221,13 +224,24 @@ def write_workbook(path: Path, results: pd.DataFrame) -> None:
                         cell.number_format = "0.000"
 
 
+def latest_summary() -> Path:
+    """Newest YYYYMMDD_ratings_summary.xlsx in SUMMARY_DIR (the date prefix sorts chronologically)."""
+    dated = sorted(p for p in SUMMARY_DIR.glob(f"*_{SUMMARY_NAME}") if re.fullmatch(r"\d{8}", p.name.split("_")[0]))
+    if not dated:
+        raise FileNotFoundError(f"no YYYYMMDD_{SUMMARY_NAME} in {SUMMARY_DIR}; run data_compile_ratings.py first")
+    return dated[-1]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--summary", type=Path, default=SUMMARY_FILE, help="workbook written by compile_ratings.py")
+    parser.add_argument("--summary", type=Path, default=None,
+                        help=f"workbook written by data_compile_ratings.py (default: newest YYYYMMDD_{SUMMARY_NAME})")
     parser.add_argument("--out", type=Path, default=OUT_FILE, help="workbook to write the results to")
     args = parser.parse_args()
 
-    df = pd.read_excel(args.summary, sheet_name=SHEET, dtype={"participante": str})
+    summary = args.summary or latest_summary()
+    print(f"Reading {summary}\n")
+    df = pd.read_excel(summary, sheet_name=SHEET, dtype={"participante": str})
     results = analyse(df)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     write_workbook(args.out, results)
