@@ -57,6 +57,13 @@ LEVELS = {
     3: ("Moderate", "#60f070"),
     4: ("Strong", "#6080f0"),
 }
+
+# Interview moment -> (label, colour), for pre/post comparisons; keys as in STAGES and 'momento'.
+TIME = {
+    "pre": ("Pre-workshop", "#dda15e"),
+    "post": ("Post-workshop", "#7b2cbf"),
+}
+
 # Level names from rubric v5 on (columns 1_absence ... 5_leadership), on the 0-4 scale.
 RUBRIC_V5_NAMES = {0: "Absence", 1: "Awareness", 2: "Competence", 3: "Expertise", 4: "Leadership"}
 FOUR_LEVELS = (1, 2, 3, 4)
