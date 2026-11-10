@@ -33,7 +33,7 @@ from plot_shared_config import (
 )
 
 HUMAN = re.compile(r"H\d+")
-TITLE = "Figure 3. Learning trajectories of participants through the workshops, averaged across evaluators"
+TITLE = "Figure 12. Learning trajectories of participants through the workshops, averaged across evaluators"
 CAPTION = ("Paths from pre- to post-workshop level by capacity: rounded average of the human evaluators per transcript; "
            "numbers count participants")
 LINE_W = 0.5  # points of line width per participant

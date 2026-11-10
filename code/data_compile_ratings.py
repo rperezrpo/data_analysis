@@ -21,7 +21,9 @@ scale (1 Absence, 2 Awareness, 3 Competence, 4 Expertise, 5 Leadership).
 
 Output: data/processed/YYYYMMDD_ratings_summary.xlsx (dated with the run date;
 a second run on the same day overwrites it), with the sheets
-    results_vertical  one row per interview and capacity, one column per evaluator
+    results_vertical  one row per interview and capacity, one column per evaluator, then
+                      human_average: mean of the human evaluators (H1 ...) who rated that
+                      row, to 2 decimals; blank if none did
     evaluators        what was read from each evaluator folder
     key               transcript, participant, moment and both blind codes
 
@@ -66,6 +68,10 @@ MOMENTS = ("pre", "post")
 
 # Columns always written, in this order, even when the folder is missing or holds no ratings yet.
 EXPECTED_EVALUATORS = ("H1", "H2", "H3", "H4", "A1", "A2")
+# Derived column after the evaluators: mean level of the human evaluators who rated the row.
+HUMAN_AVERAGE = "human_average"
+HUMAN_COLUMN = re.compile(r"H\d+")
+AVERAGE_DECIMALS = 2
 
 EVALUATOR_DIR = re.compile(r"(?P<kind>[AH])(?P<number>\d+)_(?P<label>.+)")
 CODE = re.compile(r"E\d{2}")
@@ -234,6 +240,12 @@ def compile_ratings(source: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFr
     lead = ["transcripcion", "participante", "momento", "capacidad", *(f"codigo_{k}" for k in keys)]
     extra = [c for c in results.columns if c not in lead and c not in EXPECTED_EVALUATORS]
     results = results[lead + list(EXPECTED_EVALUATORS) + extra]
+
+    # Mean of the human evaluators who rated the row; blank when none did. Not an evaluator column
+    # (it does not match [AH]<n>), so the reliability and plotting scripts leave it out.
+    humans = [c for c in results.columns if HUMAN_COLUMN.fullmatch(c)]
+    results[HUMAN_AVERAGE] = results[humans].astype("Float64").mean(axis=1, skipna=True).round(AVERAGE_DECIMALS)
+
     order = {c: i for i, c in enumerate([*EXPECTED_EVALUATORS, *extra])}
     evaluator_rows.sort(key=lambda r: order[r["columna"]])
     return results, pd.DataFrame(evaluator_rows), key_df

@@ -141,15 +141,15 @@ class Indicator:
 
 CAPTION_END = "; last row pools the human evaluators and the LLM agents"
 INDICATORS = [
-    Indicator("raw", 4, "raw_agreement", "Figure 4. Raw exact agreement between evaluators",
+    Indicator("raw", 4, "raw_agreement", "Figure 13. Raw exact agreement between evaluators",
               "Share of evaluator pairs that gave the same level, averaged over interviews" + CAPTION_END,
               raw_share, altman_bands(percent=True),
               "Altman (1991) benchmark scale (set for chance-corrected coefficients; applied here to raw agreement)",
               percent=True),
-    Indicator("alpha", 5, "krippendorff_alpha", "Figure 5. Krippendorff's alpha between evaluators",
+    Indicator("alpha", 5, "krippendorff_alpha", "Figure 14. Krippendorff's alpha between evaluators",
               "Krippendorff's alpha with the ordinal metric, by capacity and moment" + CAPTION_END,
               krippendorff_alpha_ordinal, KRIPPENDORFF, "Krippendorff (2004) thresholds"),
-    Indicator("ac2", 6, "gwet_ac2", "Figure 6. Gwet's AC2 between evaluators",
+    Indicator("ac2", 6, "gwet_ac2", "Figure 15. Gwet's AC2 between evaluators",
               "Gwet's AC2 with ordinal weights, by capacity and moment" + CAPTION_END,
               gwet_ac2, altman_bands(), "Altman (1991) benchmark scale"),
 ]

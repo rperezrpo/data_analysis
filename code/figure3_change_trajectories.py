@@ -36,7 +36,7 @@ from plot_shared_config import (
 )
 
 HUMAN = re.compile(r"H\d+")
-TITLE = "Figure 3. Learning trajectories of participants through the workshops"
+TITLE = "Figure 12. Learning trajectories of participants through the workshops"
 CAPTION = ("Paths from pre- to post-workshop level by capacity, as rated by the human evaluators; "
            "numbers count ratings at each level")
 LINE_W = 0.35  # points of line width per path

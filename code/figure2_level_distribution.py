@@ -1,8 +1,12 @@
-"""Figure 2: level distribution. Pre- and post-workshop appropriation levels by capacity, pooled over all human ratings.
+"""Figure 2: level distribution. Pre- and post-workshop appropriation levels by capacity, averaged over the human evaluators.
 
 Two diverging stacked bars per capacity: pre-workshop on the left, post-workshop on the right.
 
-Heights and labels are the share of the bar's ratings at each level (each bar sums to 100%);
+Each interview counts once per capacity, at the level of its 'human_average' column (the mean of the
+human evaluators who rated it, written by data_compile_ratings.py), rounded to the nearest level with
+an exact half rounded down (2.5 -> 2, 2.67 -> 3). Interviews no human evaluator rated are left out.
+
+Heights and labels are the share of the bar's interviews at each level (each bar sums to 100%);
 segments under MIN_LABEL % are left unlabelled (too thin for the text).
 
 Levels on the rubric's 1-5 scale with the names of rubric v5 on (Absence ... Leadership), coloured as
@@ -24,6 +28,7 @@ import time
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 from plot_shared_config import (
@@ -32,9 +37,10 @@ from plot_shared_config import (
 )
 
 HUMAN = re.compile(r"H\d+")
-TITLE = "Figure 2. Appropriation levels of participants before and after the workshops"
-CAPTION = ("Share of ratings at each level by capacity, pooled over all human evaluators; "
-           "left bar pre-workshop, right bar post-workshop")
+AVERAGE = "human_average"  # mean of the human evaluators per interview and capacity (data_compile_ratings.py)
+TITLE = "Figure 11. Averaged appropriation levels of participants before and after the workshops"
+CAPTION = ("Share of interviews at each level by capacity, human evaluators' average rounded (halves down); "
+           "left bar pre, right bar post-workshop")
 LEGEND_TITLE = "Appropriation level of the capacity"
 # Level on the 0-4 scale of LEVELS -> (rubric v5 name, colour).
 STYLES = {lv: (RUBRIC_V5_NAMES[lv], color) for lv, (_, color) in LEVELS.items()}
@@ -52,21 +58,28 @@ CM = 1 / 2.54
 FONT, SMALL, TITLE_FONT = 6.5, 5.5, 8  # points
 
 
+def round_half_down(values: pd.Series) -> pd.Series:
+    """Nearest whole level, with an exact half going to the lower level (2.5 -> 2, 2.67 -> 3, 2.33 -> 2)."""
+    return np.ceil(values - 0.5).astype(int)
+
+
 def load(path: Path) -> tuple[pd.DataFrame, list[str]]:
-    """Every human rating in long form (capacidad, momento, evaluator, level on the 0-4 scale), and the
-    human evaluators that rated at least one interview."""
+    """One row per interview and capacity (capacidad, momento, average, level on the 0-4 scale), the level
+    being the human average rounded half down; and the human evaluators that rated at least one interview."""
     df = pd.read_excel(path, sheet_name=VERTICAL_SHEET)
+    if AVERAGE not in df.columns:
+        raise SystemExit(f"{path.name}: no '{AVERAGE}' column; rerun data_compile_ratings.py")
     df = df[df["capacidad"].isin(CAPACITIES) & df["momento"].isin(STAGES)]
     humans = [c for c in evaluator_columns(df) if HUMAN.fullmatch(c) and df[c].notna().any()]
-    if not humans:
+    ratings = (df[["capacidad", "momento", AVERAGE]].rename(columns={AVERAGE: "average"})
+               .dropna(subset=["average"]).reset_index(drop=True))
+    if ratings.empty:
         raise SystemExit(f"{path.name}: no human evaluator has rated an interview")
-    long = df.melt(id_vars=["capacidad", "momento"], value_vars=humans, var_name="evaluator",
-                   value_name="level").dropna(subset=["level"])
-    off_scale = sorted(set(long["level"]) - set(range(1, 6)))
+    off_scale = sorted(set(ratings["average"][(ratings["average"] < 1) | (ratings["average"] > 5)]))
     if off_scale:
-        raise ValueError(f"{path.name}: levels {off_scale} are outside the rubric's 1-5 scale")
-    long["level"] = long["level"].astype(int) - RUBRIC_OFFSET
-    return long, humans
+        raise ValueError(f"{path.name}: averages {off_scale} are outside the rubric's 1-5 scale")
+    ratings["level"] = round_half_down(ratings["average"]) - RUBRIC_OFFSET
+    return ratings, humans
 
 
 def draw_bar(ax: plt.Axes, x: float, shares: pd.Series) -> None:
@@ -146,10 +159,11 @@ def plot(ratings: pd.DataFrame, humans: list[str], summary: Path) -> None:
                 raise
             time.sleep(0.5)
 
-    print(f"human evaluators {', '.join(humans)}: ratings per capacity, moment and level")
+    print(f"average of human evaluators {', '.join(humans)}, rounded half down: interviews per capacity, moment and level")
     table = counts.rename(columns={lv: STYLES[lv][0] for lv in LEVELS})
     print(table.assign(total=table.sum(axis=1)).to_string())
-    print("\nratings per evaluator:", ratings.groupby("evaluator").size().to_dict())
+    halves = ratings["average"].mod(1).eq(0.5)
+    print(f"\nexact halves rounded down: {int(halves.sum())} of {len(ratings)} interview-capacity averages")
     print(f"\n{TITLE}\n{CAPTION}")
     print("->", out.relative_to(OUT_DIR.parent.parent).as_posix(), f"({WIDTH_CM} x {height_cm:g} cm)")
 

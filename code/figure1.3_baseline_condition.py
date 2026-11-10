@@ -37,7 +37,7 @@ from plot_shared_config import (
 )
 
 HUMAN = re.compile(r"H\d+")
-TITLE = "Figure 1. Distribution of appropriation levels of participants before and after the workshops"
+TITLE = "Figure 10. Distribution of appropriation levels of participants before and after the workshops"
 CAPTION = "Median and quartiles of the pre- and post-workshop levels by capacity, as rated by the human evaluators"
 LEGEND_TITLE = "Moment of assessment"
 OFFSET = 0.19  # distance of the pre and post box centres from the capacity's centre, in capacity steps
