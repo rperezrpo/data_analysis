@@ -141,7 +141,8 @@ def write(matrix: pd.DataFrame, per_participant: pd.DataFrame, summary: Path, ou
             break
         except OSError:
             if attempt == 9:
-                raise
+                raise SystemExit(f"Cannot write {out.relative_to(ROOT).as_posix()}: it is open in another "
+                                 "program (Excel?). Close it and run the script again.")
             time.sleep(0.5)
 
 
@@ -156,7 +157,7 @@ def main(date: str | None) -> None:
     data.index.name = "ID"
 
     matrix = build_matrix(data, list(attrs.columns))
-    out = TABLES_DIR / f"figure5_learning_by_tasks_{summary.name.split('_', 1)[0]}.xlsx"
+    out = TABLES_DIR / f"table5_learning_by_tasks_{summary.name.split('_', 1)[0]}.xlsx"
     write(matrix, data.reset_index(), summary, out)
 
     print(matrix.drop(columns="Participants").round(2).to_string(index=False))
