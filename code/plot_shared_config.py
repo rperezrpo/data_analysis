@@ -49,19 +49,21 @@ RUBRIC_OFFSET = 1  # vertical workbooks store the rubric's 1-5 levels; figures u
 EVALUATOR_COLUMN = re.compile(r"[HA]\d+|evaluador.*", re.IGNORECASE)
 PANEL_COLUMN = "panel"  # consensus of the LLM agents, derived on reading (see read_vertical)
 
+
+#Okabe-Ito colour palette chosen for colour blind accessibility, hex codes retrieved from https://conceptviz.app/blog/okabe-ito-palette-hex-codes-complete-reference 
 # Level -> (label, fill colour), on the 0-4 scale. Level 0 is the rubric's level 1, below Weak.
 LEVELS = {
     0: ("Lacks", "#b0aea6"),
-    1: ("Weak", "#f06085"),
-    2: ("Basic", "#f0c960"),
-    3: ("Moderate", "#60f070"),
-    4: ("Strong", "#6080f0"),
+    1: ("Weak", "#CC79A7"),
+    2: ("Basic", "#E69F00"),
+    3: ("Moderate", "#009E73"),
+    4: ("Strong", "#56B4E9"),
 }
 
 # Interview moment -> (label, colour), for pre/post comparisons; keys as in STAGES and 'momento'.
 TIME = {
-    "pre": ("Pre-workshop", "#dda15e"),
-    "post": ("Post-workshop", "#7b2cbf"),
+    "pre": ("Pre-workshop", "#CC79A7"),
+    "post": ("Post-workshop", "#009E73"),
 }
 
 # Level names from rubric v5 on (columns 1_absence ... 5_leadership), on the 0-4 scale.
