@@ -1,4 +1,4 @@
-"""Figure 4.2: inter-rater reliability by capacity and moment. Gwet's AC2 with the raw agreement beneath it.
+"""Figure 13: inter-rater reliability by capacity and moment. Gwet's AC2 with the raw agreement beneath it.
 
 One PNG. Each cell shows, in bold, Gwet's AC2 (ordinal weights, chance term over the full 1-5 scale) and,
 beneath it, "PA% (SD)":
@@ -36,12 +36,12 @@ truncated toward zero to three decimals so it never contradicts the colour.
 An undefined AC2 (no unit with two ratings, or no variation at all) is drawn as a grey cell with a dash.
 
 Input: data/processed/YYYYMMDD_ratings_summary.xlsx (sheet 'results_vertical'), the newest one unless --date
-is given. Output: results/figures/figure4.2_gwet_ac2_YYYYMMDD.png (PNG only, 16 cm wide, 300 dpi). The values
-are also printed to the console.
+is given. Output: results/figures/figure13_reliability_analysis_YYYYMMDD.png (PNG only, 16 x 6.6 cm, 300 dpi). No title or
+caption is drawn (they go in the manuscript); the values and the caption are printed to the console.
 
 Usage (from data_analysis/):
-    python code/figure4.2_reliability_analysis.py
-    python code/figure4.2_reliability_analysis.py --date 20261106
+    python code/figure13_reliability_analysis.py
+    python code/figure13_reliability_analysis.py --date 20261106
 """
 import argparse
 import colorsys
@@ -125,10 +125,12 @@ CAPTION = ("Last row includes both LLM-as-judge agents and human evaluators.In b
            )
 LEGEND_TITLE = "Altman (1991) benchmark scale"
 
-WIDTH_CM, HEIGHT_CM, HEADER_CM, LEGEND_CM = 16, 8.0, 1.4, 1.0
+WIDTH_CM, HEIGHT_CM, HEADER_CM, LEGEND_CM = 16, 6.6, 0.0, 1.0
 CM = 1 / 2.54
 FONT, SMALL, TITLE_FONT = 6.5, 5.5, 8  # points
 W, GAP, LABEL_ROWS = 1.0, 0.3, 0.75  # cell width, gap before a set-apart column or row, column label height
+LEFT = 0.13  # first guess at the left edge of the grid; moved so the row labels touch the margin
+MARGIN_CM = 0.05  # space left and right of the chart
 
 
 def trunc(v: float) -> float:
@@ -259,16 +261,16 @@ def figure(res: dict, out: Path) -> None:
     ax.set_xlim(-0.1, xs[-1] + W)
     ax.set_ylim(0, top + LABEL_ROWS)
     ax.axis("off")
-    fig.subplots_adjust(left=0.13, right=0.98, top=1 - (HEADER_CM + 0.2) / HEIGHT_CM,
+    fig.subplots_adjust(left=LEFT, right=0.98, top=1 - (HEADER_CM + 0.2) / HEIGHT_CM,
                         bottom=(LEGEND_CM + 0.15) / HEIGHT_CM)
 
-    # Title, caption and legend at the left edge of the whole chart: the row labels.
+    # Shift the grid left until the row labels sit at the margin, and stretch it to the right margin;
+    # the legend starts at the same margin.
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     left = min(t.get_window_extent(renderer).x0 for t in ax.texts)
-    x = fig.transFigure.inverted().transform((left, 0))[0]
-    fig.text(x, 1 - 0.15 / HEIGHT_CM, TITLE, ha="left", va="top", fontsize=TITLE_FONT, fontweight="bold", color=INK)
-    fig.text(x, 1 - 0.55 / HEIGHT_CM, CAPTION, ha="left", va="top", fontsize=FONT, color=MUTED, linespacing=1.4)
+    x = MARGIN_CM / WIDTH_CM
+    fig.subplots_adjust(left=LEFT - fig.transFigure.inverted().transform((left, 0))[0] + x, right=1 - x)
     fig.legend(handles=[Patch(facecolor=c, edgecolor="none", label=lab) for _, lab, c in BANDS],
                title=LEGEND_TITLE, loc="upper left", bbox_to_anchor=(x, (LEGEND_CM - 0.1) / HEIGHT_CM),
                ncol=len(BANDS), fontsize=SMALL, title_fontsize=SMALL, alignment="left", handlelength=1.0,
@@ -293,9 +295,9 @@ if __name__ == "__main__":
     print(f"{summary.name}: humans {', '.join(raters[HUMANS])}; mixed panel {', '.join(raters[MIXED])}")
     print("units rated by >= 2 evaluators (all capacities): "
           + ", ".join(f"{row.key} {res[GLOBAL, row.key]['n']}" for row in ROWS))
-    out = OUT_DIR / f"figure4.2_gwet_ac2_{tag}.png"
+    out = OUT_DIR / f"figure13_reliability_analysis_{tag}.png"
     figure(res, out)
-    print(f"\n{TITLE}  (AC2 / percent agreement % (mean SD of scores) / pairwise agreement, not drawn)")
+    print(f"\n{TITLE}\n{CAPTION}\n(AC2 / percent agreement % (mean SD of scores) / pairwise agreement, not drawn)")
     print(f"{'':9s}" + "".join(f"{g[:14]:>16s}" for g in COLUMNS))
     for row in ROWS:
         print(f"{row.key:9s}" + "".join(f"{trunc(res[g, row.key]['ac2']):>16.3f}" for g in COLUMNS))

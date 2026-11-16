@@ -38,6 +38,8 @@ CAPS = list(CAPACITIES)
 VALUE_COLUMNS = [*CAPS, "All"]
 # Numeric attribute -> value from which participants are pooled into one "<value>+" row (too few to show apart).
 TOP_CODED = {"Days assisted": 3}
+# Attributes moved to the bottom of the matrix, in this order; the others keep the order of the tasks file.
+LAST_ATTRIBUTES = ["participated_logistics"]
 
 
 def pid(x) -> str:
@@ -156,7 +158,8 @@ def main(date: str | None) -> None:
     data = attrs.join(change, how="inner")
     data.index.name = "ID"
 
-    matrix = build_matrix(data, list(attrs.columns))
+    order = [c for c in attrs.columns if c not in LAST_ATTRIBUTES] + [c for c in LAST_ATTRIBUTES if c in attrs]
+    matrix = build_matrix(data, order)
     out = TABLES_DIR / f"table5_learning_by_tasks_{summary.name.split('_', 1)[0]}.xlsx"
     write(matrix, data.reset_index(), summary, out)
 

@@ -1,8 +1,7 @@
-"""Figure 1.3: baseline and posterior condition. Side-by-side boxplots of the pre- and post-workshop levels
+"""Figure 10: baseline and posterior condition. Side-by-side boxplots of the pre- and post-workshop levels
 by capacity, as rated by the human evaluators.
 
-Combines Figure 1 (pre-workshop) and Figure 4 (post-workshop): for each capacity, a pre-workshop box
-on the left and a post-workshop box on the right, each pooling the ratings of the human evaluators
+for each capacity, a pre-workshop box on the left and a post-workshop box on the right, each pooling the ratings of the human evaluators
 (H1 ...) for that moment. Evaluators are the columns of the ratings summary; one without a single
 rating yet (an empty rater folder) is left out, and one who rated only part of the interviews adds
 only those. Pre and post are pooled independently, so a box is not restricted to paired participants.
@@ -12,15 +11,15 @@ Boxes: quartiles; black line: median, a little wider than the box so it shows on
 whiskers: 1.5 IQR; dots: values beyond the whiskers. With only five possible levels a quartile
 often equals the median, so many boxes have the median on an edge; when the middle half of the
 values sits on one level (Q1 = Q3) the box is drawn as a thick bar.
-The image is 16 cm wide (WIDTH_CM): a band of HEADER_CM for the title and caption over a plot area of
-PLOT_CM, with small fonts; the caption is also printed to the console. White background.
+The image is 16 cm wide (WIDTH_CM): a top margin of HEADER_CM over a plot area of PLOT_CM, with small
+fonts. No title or caption is drawn (they go in the manuscript); both are printed to the console. White background.
 
 Input: data/processed/YYYYMMDD_ratings_summary.xlsx (sheet 'results_vertical'), the newest one
-unless --date is given. Output: results/figures/figure1.3_baseline_condition_YYYYMMDD.png (16 x 5.9 cm, 300 dpi).
+unless --date is given. Output: results/figures/figure10_baseline_condition_YYYYMMDD.png (16 x 5.0 cm, 300 dpi).
 
 Usage (from data_analysis/):
-    python code/figure1.3_baseline_condition.py
-    python code/figure1.3_baseline_condition.py --date 20261106
+    python code/figure10_baseline_condition.py
+    python code/figure10_baseline_condition.py --date 20261106
 """
 import argparse
 import io
@@ -42,9 +41,10 @@ CAPTION = "Median and quartiles of the pre- and post-workshop levels by capacity
 LEGEND_TITLE = "Moment of assessment"
 OFFSET = 0.19  # distance of the pre and post box centres from the capacity's centre, in capacity steps
 WIDTH = 0.28  # box width, in capacity steps; leaves a gap between the pair's protruding medians
-# Layout in cm, top to bottom: header (title and caption), plot area, capacity labels and legend.
-WIDTH_CM, HEADER_CM, PLOT_CM, BOTTOM_CM = 16, 1.05, 3.5, 1.35
-LEFT = 0.13  # left edge of the plot area, as a fraction of the width; the right margin mirrors the left one
+# Layout in cm, top to bottom: top margin, plot area, capacity labels and legend.
+WIDTH_CM, HEADER_CM, PLOT_CM, BOTTOM_CM = 16, 0.15, 3.5, 1.35
+LEFT = 0.13  # first guess at the left edge of the plot area; moved so the level names touch the margin
+MARGIN_CM = 0.05  # space left and right of the chart
 CM = 1 / 2.54
 FONT, SMALL, TITLE_FONT = 6.5, 5.5, 8  # points
 
@@ -103,15 +103,13 @@ def plot(df: pd.DataFrame, humans: list[str], summary: Path) -> None:
     ax.tick_params(axis="y", labelsize=FONT, pad=2)
 
     fig.subplots_adjust(left=LEFT, top=1 - HEADER_CM / height_cm, bottom=BOTTOM_CM / height_cm)
-    # Title, caption and legend at the left edge of the whole chart: the level names.
+    # Legend at the left edge of the whole chart: the level names.
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     left = min(t.get_window_extent(renderer).x0 for t in ax.get_yticklabels())
-    x = fig.transFigure.inverted().transform((left, 0))[0]
-    # Right margin as wide as the left one, so the chart sits centred on the page.
-    fig.subplots_adjust(right=1 - x)
-    fig.text(x, 1 - 0.15 / height_cm, TITLE, ha="left", va="top", fontsize=TITLE_FONT, fontweight="bold", color=INK)
-    fig.text(x, 1 - 0.55 / height_cm, CAPTION, ha="left", va="top", fontsize=FONT, color=MUTED)
+    # Shift the plot left until the y labels sit at the margin, and stretch it to the right margin.
+    x = MARGIN_CM / WIDTH_CM
+    fig.subplots_adjust(left=LEFT - fig.transFigure.inverted().transform((left, 0))[0] + x, right=1 - x)
     fig.legend(
         [plt.Rectangle((0, 0), 1, 1, color=TIME[s][1]) for s in STAGES], [TIME[s][0] for s in STAGES],
         title=LEGEND_TITLE, title_fontsize=SMALL, alignment="left",
@@ -120,7 +118,7 @@ def plot(df: pd.DataFrame, humans: list[str], summary: Path) -> None:
     )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / f"figure1.3_baseline_condition_{summary.name.split('_', 1)[0]}.png"
+    out = OUT_DIR / f"figure10_baseline_condition_{summary.name.split('_', 1)[0]}.png"
     # Render to memory first: OneDrive briefly locks a file it is syncing, so the write is retried.
     buffer = io.BytesIO()
     fig.savefig(buffer, format="png", facecolor="white")

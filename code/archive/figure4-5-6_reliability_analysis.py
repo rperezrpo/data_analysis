@@ -1,8 +1,7 @@
-"""Figures 4-6: inter-rater reliability by capacity and moment. One PNG per indicator.
+"""Figures 4 and 6: inter-rater reliability by capacity and moment. One PNG per indicator.
 
     Figure 4   raw agreement: share of rater pairs that gave the same level
-    Figure 5   Krippendorff's alpha, ordinal metric
-    Figure 6  Gwet's AC2, ordinal weights, chance term over the full 1-5 scale
+    Figure 6   Gwet's AC2, ordinal weights, chance term over the full 1-5 scale
 
 Each figure is a grid with one column per capacity plus 'All capacities' (the seven pooled, set apart) and
 four rows (ROWS):
@@ -16,7 +15,7 @@ data_reliability_analysis.py (GROUPS). Evaluators without a single rating in a c
 and one who rated only part of the interviews adds only those. A unit is one interview x one capacity;
 only units rated by at least two evaluators count.
 
-The three indicators are computed by raw_agreement(), krippendorff_alpha_ordinal() and gwet_ac2() of
+The two indicators are computed by raw_agreement() and gwet_ac2() of
 data_reliability_analysis.py, so the 'All capacities' cells of the two 'Both' rows equal the reliability
 table's values for 'Humans' and 'All evaluators'.
 
@@ -28,14 +27,12 @@ Colours:
   Figure 4 gives the bounds as percentages, like its cells. Altman's scale was set for chance-corrected
   coefficients (kappa type), not for raw agreement, which includes the agreement expected by chance; the
   legend says so.
-- Figure 5 by Krippendorff's (2004) thresholds (< 0.667 insufficient, 0.667-0.800 tentative, >= 0.800
-  agreement), in the grey, yellow and blue of LEVELS in plot_shared_config.py.
 Values are truncated toward zero to three decimals so they never contradict the colour. A coefficient that
 is undefined (no unit with two ratings, or no variation at all) is drawn as a grey cell with a dash.
 
 Input: data/processed/YYYYMMDD_ratings_summary.xlsx (sheet 'results_vertical'), the newest one unless --date
 is given. Outputs (PNG only, 16 cm wide, 300 dpi), in results/figures/:
-    figure4_raw_agreement_YYYYMMDD.png, figure5_krippendorff_alpha_YYYYMMDD.png, figure6_gwet_ac2_YYYYMMDD.png
+    figure4_raw_agreement_YYYYMMDD.png, figure6_gwet_ac2_YYYYMMDD.png
 The values are also printed to the console.
 
 Usage (from data_analysis/):
@@ -57,7 +54,7 @@ import pandas as pd
 from irrCAC.benchmark import Benchmark
 from matplotlib.patches import Patch
 
-from data_reliability_analysis import GROUPS, count_matrix, gwet_ac2, krippendorff_alpha_ordinal, raw_agreement
+from data_reliability_analysis import GROUPS, count_matrix, gwet_ac2, raw_agreement
 from plot_shared_config import (
     CAPACITIES, INK, LEVELS, MUTED, OUT_DIR, STAGES, TIME, VERTICAL_SHEET, evaluator_columns, label_ink, latest_summary,
 )
@@ -84,12 +81,8 @@ ROWS = [
     Row("both_llm", STAGES, "Both, incl.\nLLM scoring", MIXED, apart=True),
 ]
 
-# Benchmark bands, lowest first: (lower bound, legend label, fill). Krippendorff's three take the grey, yellow
-# and blue of LEVELS in plot_shared_config.py (its levels 0, 2 and 4); Altman's five take the five LEVELS
-# colours in order. Both scales thus share their lowest (grey) and highest (blue) colour.
-KRIPPENDORFF = [(-math.inf, "Insufficient (< 0.667)", LEVELS[0][1]),
-                (0.667, "Tentative (0.667–0.800)", LEVELS[2][1]),
-                (0.800, "Agreement (≥ 0.800)", LEVELS[4][1])]
+# Benchmark bands, lowest first: (lower bound, legend label, fill). Altman's five take the five LEVELS
+# colours in order.
 
 
 def altman_bands(percent: bool = False) -> list[tuple[float, str, str]]:
@@ -146,9 +139,6 @@ INDICATORS = [
               raw_share, altman_bands(percent=True),
               "Altman (1991) benchmark scale (set for chance-corrected coefficients; applied here to raw agreement)",
               percent=True),
-    Indicator("alpha", 5, "krippendorff_alpha", "Figure 14. Krippendorff's alpha between evaluators",
-              "Krippendorff's alpha with the ordinal metric, by capacity and moment" + CAPTION_END,
-              krippendorff_alpha_ordinal, KRIPPENDORFF, "Krippendorff (2004) thresholds"),
     Indicator("ac2", 6, "gwet_ac2", "Figure 15. Gwet's AC2 between evaluators",
               "Gwet's AC2 with ordinal weights, by capacity and moment" + CAPTION_END,
               gwet_ac2, altman_bands(), "Altman (1991) benchmark scale"),

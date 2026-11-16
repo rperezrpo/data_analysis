@@ -1,4 +1,4 @@
-"""Figure 3.3: averaged change trajectories by task performed during the workshops.
+"""Figure 12: averaged change trajectories by task performed during the workshops.
 
 One row per task (construction, planting, logistics), one panel per capacity. For each transcript
 (interview x capacity) the ratings of the human evaluators are averaged and rounded half down to a rubric
@@ -12,11 +12,11 @@ Dots at the ends, sized by count: participants of that panel's group at that lev
 
 Inputs: data/processed/YYYYMMDD_ratings_summary.xlsx (sheet 'results_vertical'), the newest one unless
 --date is given, and data/raw/participants_summary_tasks.xlsx (ID, participated_<task> = yes/no).
-Output: results/figures/figure3.3_change_trajectories_by_tasks_YYYYMMDD.png (16 x 11.6 cm, 300 dpi).
+Output: results/figures/figure12_change_trajectories_by_tasks_YYYYMMDD.png (16 x 11.6 cm, 300 dpi).
 
 Usage (from data_analysis/):
-    python code/figure3.3_change_trajectories_by_tasks.py
-    python code/figure3.3_change_trajectories_by_tasks.py --date 20261110
+    python code/figure12_change_trajectories_by_tasks.py
+    python code/figure12_change_trajectories_by_tasks.py --date 20261110
 """
 import argparse
 import io
@@ -32,7 +32,7 @@ from matplotlib.patches import Polygon
 
 from plot_shared_config import (
     CAPACITIES, INK, MUTED, OUT_DIR, ROOT, RUBRIC_V5_NAMES, STAGES, VERTICAL_SHEET, evaluator_columns,
-    latest_summary, TIME
+    latest_summary, TIME, GRID
 )
 
 HUMAN = re.compile(r"H\d+")
@@ -60,7 +60,8 @@ BLOCK_GAP = 0.6  # width of the space between the no and yes blocks, as a fracti
 # under its row title and group sizes), capacity labels and legends.
 WIDTH_CM, HEIGHT_CM, TOP_CM, BOTTOM_CM = 16, 11.6, 0.1, 2.0
 GROUP_TITLE_CM = 0.75  # band between the top margin and the first row: block titles above the first row title
-ROW_TITLE_CM = 0.1  # height of the row title and group sizes above their row's panels
+ROW_TITLE_CM = 0.12  # height of the row title above its row's panels
+N_OFFSET_CM = -0.12  # height of the group sizes above the panels: just over the top gridline
 ROW_GAP = 0.2  # space between rows, as a fraction of a row's height (holds the row title)
 LEGEND_GAP_CM = 0.5  # horizontal space between the two legends
 LEFT = 0.13  # first guess at the left edge of the panels; moved so the level names touch the margin
@@ -110,9 +111,9 @@ def load(path: Path) -> tuple[pd.DataFrame, list[str]]:
 
 
 def output_path(summary: Path) -> Path:
-    """results/figures/figure3.3_change_trajectories_by_tasks_YYYYMMDD.png, dated like the ratings summary."""
+    """results/figures/figure12_change_trajectories_by_tasks_YYYYMMDD.png, dated like the ratings summary."""
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    return OUT_DIR / f"figure3.3_change_trajectories_by_tasks_{summary.name.split('_', 1)[0]}.png"
+    return OUT_DIR / f"figure12_change_trajectories_by_tasks_{summary.name.split('_', 1)[0]}.png"
 
 
 def draw_panel(ax: plt.Axes, pairs: pd.DataFrame, color: str) -> None:
@@ -175,11 +176,19 @@ def plot(data: pd.DataFrame, humans: list[str], summary: Path) -> None:
     for r, (row, (task, name)) in enumerate(zip(axes, TASKS.items())):
         counts = people[task].value_counts()
         y = row[0].get_position().y1 + ROW_TITLE_CM / HEIGHT_CM
-        fig.text(x, y, name, ha="left", va="bottom", fontsize=FONT, fontweight="bold", color=INK)
+        title = fig.text(x, y, name, ha="left", va="bottom", fontsize=FONT, fontweight="bold", color=INK)
+        if r:
+            # Dashed divider through the vertical centre of the row title, across the panels, in the colour
+            # and width of the gridlines.
+            box = fig.transFigure.inverted().transform(title.get_window_extent(renderer))
+            y_line = (box[0, 1] + box[1, 1]) / 2
+            fig.add_artist(Line2D([row[0].get_position().x0, row[-1].get_position().x1], [y_line, y_line],
+                                  transform=fig.transFigure, color=MUTED, linewidth=0.4, linestyle=(0, (4, 4))))
         for g, (group, (label, color)) in enumerate(GROUPS.items()):
             first, last = row[g * len(caps)].get_position(), row[(g + 1) * len(caps) - 1].get_position()
             centre = (first.x0 + last.x1) / 2
-            fig.text(centre, y, f"n = {counts.get(group, 0)}", ha="center", va="bottom", fontsize=SMALL, color=color)
+            fig.text(centre, row[0].get_position().y1 + N_OFFSET_CM / HEIGHT_CM, f"n = {counts.get(group, 0)}",
+                     ha="center", va="bottom", fontsize=SMALL, color=color)
             if r == 0:
                 fig.text(centre, y + 0.35 / HEIGHT_CM, label, ha="center", va="bottom", fontsize=TITLE_FONT,
                          color=color, fontweight="bold")

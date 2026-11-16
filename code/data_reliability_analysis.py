@@ -4,7 +4,7 @@ Input: data/processed/YYYYMMDD_ratings_summary.xlsx (by default the newest one),
 and capacity (a "unit"), one column per evaluator (H1 ... humans, A1 ...
 LLM agents), levels on the rubric's ordinal 1-5 scale; blank = not rated.
 
-Three indicators, for each group of evaluators (GROUPS) and each scope (all
+Two indicators for each group of evaluators (GROUPS) and each scope (all
 capacities pooled, then each capacity on its own):
 
 (i)  Raw agreement. For every unit with at least two ratings, the share of
@@ -17,16 +17,7 @@ capacities pooled, then each capacity on its own):
      is computed here, since irrCAC does not return the per-unit p_u. The script
      stops if the mean of p_u differs from irrCAC's pa.
 
-(ii) Krippendorff's alpha with the ordinal difference function
-     (Krippendorff, 2019, ch. 12), from the krippendorff package
-     (krippendorff.alpha, level_of_measurement="ordinal"). Units with fewer than
-     two ratings are not pairable and drop out. irrCAC's krippendorff() with
-     "ordinal" weights is NOT this coefficient: it uses Gwet's fixed ordinal
-     weights instead of Krippendorff's ordinal metric, which depends on the
-     observed marginals. As a guard on the input, the nominal and interval
-     alphas of the two libraries must agree (they compute the same thing there).
-
-(iii) Gwet's AC2 (Gwet, 2014, ch. 3 and 5) from irrCAC (CAC(...).gwet()), with
+(ii) Gwet's AC2 (Gwet, 2014, ch. 3 and 5) from irrCAC (CAC(...).gwet()), with
      ordinal weights w_kl = 1 - C(|k - l| + 1, 2) / C(q, 2), q = 5 levels, for any
      number of raters and missing ratings. The chance term uses the full
      five-level scale (categories=LEVELS), not only the levels observed. Set
@@ -34,7 +25,7 @@ capacities pooled, then each capacity on its own):
 
 Libraries: irrCAC (Python port of Gwet's R irrCAC; installed with
 `pip install --no-deps irrCAC` because 0.4.4 pins scipy==1.12.0, which has no
-Python 3.13 build) and krippendorff (Castro). Both versions go into 'settings'.
+Python 3.13 build). Its version goes into 'settings'.
 
 Output: results/tables/YYYYMMDD_reliability_results.xlsx (dated with the run date;
 a second run on the same day overwrites it; sheets 'reliability' and 'settings')
@@ -46,7 +37,6 @@ Usage (from data_analysis/; paths do not depend on the working directory):
 
 References
     Gwet, K. L. (2014). Handbook of inter-rater reliability (4th ed.). Advanced Analytics.
-    Krippendorff, K. (2019). Content analysis: An introduction to its methodology (4th ed.). SAGE.
 """
 import argparse
 import importlib.metadata
@@ -54,7 +44,6 @@ import re
 from datetime import date
 from pathlib import Path
 
-import krippendorff
 import numpy as np
 import pandas as pd
 from irrCAC.raw import CAC
@@ -78,9 +67,9 @@ GROUPS = {
     "All evaluators": r"[AH]\d+",
 }
 EVALUATOR_COLUMN = re.compile(r"[AH]\d+")
-INDICATORS = ("agreement", "agreement_sd", "krippendorff_alpha_ordinal", f"gwet_ac2_{AC2_WEIGHTS}")
+INDICATORS = ("agreement", "agreement_sd", f"gwet_ac2_{AC2_WEIGHTS}")
 DIGITS = 10        # irrCAC rounds its output to this many digits (default 5)
-TOLERANCE = 1e-6   # for the cross-checks between libraries
+TOLERANCE = 1e-6   # for the cross-check against irrCAC's pa
 
 
 # --- counts --------------------------------------------------------------------
@@ -120,24 +109,7 @@ def raw_agreement(ratings: np.ndarray, counts: np.ndarray) -> tuple[float, float
     return float(pa), float(sd)
 
 
-# --- (ii) Krippendorff's alpha ----------------------------------------------------
-
-def krippendorff_alpha_ordinal(ratings: np.ndarray) -> float:
-    data = ratings.T  # the krippendorff package expects raters x units
-    try:
-        alpha = krippendorff.alpha(reliability_data=data, level_of_measurement="ordinal", value_domain=list(LEVELS))
-    except ValueError:
-        return np.nan  # e.g. every pairable value in one level: alpha is undefined
-    # Guard on the input: irrCAC and krippendorff must agree where they compute the same coefficient.
-    for weights, level in (("identity", "nominal"), ("quadratic", "interval")):
-        a_irrcac = cac(ratings, weights).krippendorff()["est"]["coefficient_value"]
-        a_kripp = krippendorff.alpha(reliability_data=data, level_of_measurement=level, value_domain=list(LEVELS))
-        if abs(a_irrcac - a_kripp) > TOLERANCE:
-            raise RuntimeError(f"{level} alpha: irrCAC {a_irrcac} vs krippendorff {a_kripp}")
-    return float(alpha)
-
-
-# --- (iii) Gwet's AC2 -----------------------------------------------------------------
+# --- (ii) Gwet's AC2 -----------------------------------------------------------------
 
 def gwet_ac2(ratings: np.ndarray) -> float:
     return float(cac(ratings, AC2_WEIGHTS).gwet()["est"]["coefficient_value"])
@@ -155,7 +127,6 @@ def reliability_row(ratings: np.ndarray) -> dict:
         "n_ratings": int(r_u[r_u >= 2].sum()),
         "agreement": agreement,
         "agreement_sd": agreement_sd,
-        "krippendorff_alpha_ordinal": krippendorff_alpha_ordinal(ratings) if pairable else np.nan,
         f"gwet_ac2_{AC2_WEIGHTS}": gwet_ac2(ratings) if pairable else np.nan,
     }
 
@@ -197,13 +168,11 @@ def settings_table() -> pd.DataFrame:
         ("agreement", "mean over pairable units of the share of rater pairs with the same level "
                       "(irrCAC gwet() pa, identity weights)"),
         ("agreement_sd", "standard deviation of that share across pairable units (ddof = 1), computed in the script"),
-        ("krippendorff_alpha_ordinal", "Krippendorff's alpha, ordinal difference function "
-                                       "(krippendorff.alpha, level_of_measurement='ordinal')"),
         (f"gwet_ac2_{AC2_WEIGHTS}", f"Gwet's AC2, {AC2_WEIGHTS} weights, chance term over all {len(LEVELS)} levels "
                                     f"(irrCAC gwet())"),
-        ("check", f"nominal and interval alpha agree between irrCAC and krippendorff (tolerance {TOLERANCE})"),
+        ("check", f"mean per-unit agreement equals irrCAC pa (tolerance {TOLERANCE})"),
         *((f"group: {g}", f"evaluator columns matching {p}") for g, p in GROUPS.items()),
-        *((f"library: {lib}", importlib.metadata.version(lib)) for lib in ("irrCAC", "krippendorff")),
+        *((f"library: {lib}", importlib.metadata.version(lib)) for lib in ("irrCAC",)),
     ], columns=["item", "definition"])
 
 

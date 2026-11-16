@@ -1,4 +1,4 @@
-"""Figure 2: level distribution. Pre- and post-workshop appropriation levels by capacity, averaged over the human evaluators.
+"""Figure 11: level distribution. Pre- and post-workshop appropriation levels by capacity, averaged over the human evaluators.
 
 Two diverging stacked bars per capacity: pre-workshop on the left, post-workshop on the right.
 
@@ -15,11 +15,12 @@ LEVELS in plot_shared_config.py.
 The lowest levels (LEVELS_BELOW: Awareness, Absence) stack downwards from the zero line, the others upwards.
 
 Input: data/processed/YYYYMMDD_ratings_summary.xlsx (sheet 'results_vertical'), the newest one
-unless --date is given. Output: results/figures/figure2_level_distribution_YYYYMMDD.png (16 cm wide, 300 dpi).
+unless --date is given. Output: results/figures/figure11_level_distribution_YYYYMMDD.png (16 x 6.1 cm, 300 dpi).
+No title or caption is drawn (they go in the manuscript); both are printed to the console.
 
 Usage (from data_analysis/):
-    python code/figure2_level_distribution.py
-    python code/figure2_level_distribution.py --date 20261106
+    python code/figure11_level_distribution.py
+    python code/figure11_level_distribution.py --date 20261106
 """
 import argparse
 import io
@@ -51,9 +52,10 @@ OFFSET = 0.19  # distance of the pre and post bar centres from the capacity's ce
 WIDTH = 0.34  # bar width, in capacity steps
 MIN_LABEL = 8  # % of a bar below which a segment gets no label
 TICK_STEP = 20  # % between gridlines
-# Layout in cm, top to bottom: header (title and caption), plot area, capacity labels and legend.
-WIDTH_CM, HEADER_CM, PLOT_CM, BOTTOM_CM = 16, 1.05, 4.5, 1.35
-LEFT = 0.13  # left edge of the plot area, as a fraction of the width; the right margin mirrors the left one
+# Layout in cm, top to bottom: top margin, plot area, capacity labels and legend.
+WIDTH_CM, HEADER_CM, PLOT_CM, BOTTOM_CM = 16, 0.25, 4.5, 1.35
+LEFT = 0.13  # first guess at the left edge of the plot area; moved so the level names touch the margin
+MARGIN_CM = 0.05  # space left and right of the chart
 CM = 1 / 2.54
 FONT, SMALL, TITLE_FONT = 6.5, 5.5, 8  # points
 
@@ -126,15 +128,13 @@ def plot(ratings: pd.DataFrame, humans: list[str], summary: Path) -> None:
     ax.tick_params(axis="y", labelsize=FONT, pad=2)
 
     fig.subplots_adjust(left=LEFT, top=1 - HEADER_CM / height_cm, bottom=BOTTOM_CM / height_cm)
-    # Title, caption and legend at the left edge of the whole chart: the share labels.
+    # Legend at the left edge of the whole chart: the share labels.
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     left = min(t.get_window_extent(renderer).x0 for t in ax.get_yticklabels())
-    x = fig.transFigure.inverted().transform((left, 0))[0]
-    # Right margin as wide as the left one, so the chart sits centred on the page.
-    fig.subplots_adjust(right=1 - x)
-    fig.text(x, 1 - 0.15 / height_cm, TITLE, ha="left", va="top", fontsize=TITLE_FONT, fontweight="bold", color=INK)
-    fig.text(x, 1 - 0.55 / height_cm, CAPTION, ha="left", va="top", fontsize=FONT, color=MUTED)
+    # Shift the plot left until the y labels sit at the margin, and stretch it to the right margin.
+    x = MARGIN_CM / WIDTH_CM
+    fig.subplots_adjust(left=LEFT - fig.transFigure.inverted().transform((left, 0))[0] + x, right=1 - x)
 
     fig.legend(
         [plt.Rectangle((0, 0), 1, 1, color=STYLES[lv][1]) for lv in sorted(LEVELS)],
@@ -145,7 +145,7 @@ def plot(ratings: pd.DataFrame, humans: list[str], summary: Path) -> None:
     )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / f"figure2_level_distribution_{summary.name.split('_', 1)[0]}.png"
+    out = OUT_DIR / f"figure11_level_distribution_{summary.name.split('_', 1)[0]}.png"
     # Render to memory first: OneDrive briefly locks a file it is syncing, so the write is retried.
     buffer = io.BytesIO()
     fig.savefig(buffer, format="png", facecolor="white")
